@@ -3,8 +3,16 @@
   "version": "0.0.1",
   "description": "CSS and stuff",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss -c postcss.config.js"
   },
   "author": "ndla@knowit.no",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "postcss": "^5.0.12",
+    "postcss-cli": "^2.3.2",
+    "postcss-cssnext": "^2.3.0",
+    "postcss-import": "^7.1.3",
+    "postcss-reporter": "^1.3.0"
+  }
 }

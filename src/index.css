@@ -1,0 +1,5 @@
+:root {
+  --darkBlue: #20588f;
+}
+
+@import 'atoms/*.css';
