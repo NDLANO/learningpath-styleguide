@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "description": "CSS and stuff",
   "scripts": {
-    "build": "postcss -c postcss.config.js"
+    "build": "npm run build:css && npm run build:html",
+    "build:css": "postcss -c postcss.config.js",
+    "build:html": "jade --pretty --out public docs/index.jade"
   },
   "author": "ndla@knowit.no",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.1.2",
+    "jade": "^1.11.0",
+    "jstransformer-example": "git+ssh://git@stash.knowit.no:7999/~kw_knowit.no/jstransformer-example.git#0.0.1",
     "postcss": "^5.0.12",
     "postcss-cli": "^2.3.2",
     "postcss-cssnext": "^2.3.0",
