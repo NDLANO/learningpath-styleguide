@@ -4,19 +4,25 @@
   "description": "CSS and stuff",
   "scripts": {
     "build": "npm run build:css && npm run build:html",
-    "build:css": "postcss -c postcss.config.js",
+    "build:css": "webpack --progress",
     "build:html": "jade --pretty --out public docs/index.jade"
   },
   "author": "ndla@knowit.no",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.1.2",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.0",
     "jade": "^1.11.0",
     "jstransformer-example": "git+ssh://git@stash.knowit.no:7999/~kw_knowit.no/jstransformer-example.git#0.0.1",
     "postcss": "^5.0.12",
-    "postcss-cli": "^2.3.2",
     "postcss-cssnext": "^2.3.0",
     "postcss-import": "^7.1.3",
-    "postcss-reporter": "^1.3.0"
+    "postcss-loader": "^0.8.0",
+    "postcss-reporter": "^1.3.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-sources": "^0.1.0"
   }
 }
