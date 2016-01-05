@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "CSS and stuff",
   "scripts": {
-    "build": "npm run build:css && npm run build:html",
-    "build:css": "webpack --progress",
-    "build:html": "jade --pretty --out public docs/index.jade"
+    "build": "webpack --progress"
   },
   "author": "ndla@knowit.no",
   "license": "ISC",
@@ -13,7 +11,9 @@
     "autoprefixer": "^6.1.2",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.0",
+    "file-loader": "^0.8.5",
     "jade": "^1.11.0",
+    "jade-html-loader": "0.0.3",
     "jstransformer-example": "git+ssh://git@stash.knowit.no:7999/~kw_knowit.no/jstransformer-example.git#0.0.1",
     "postcss": "^5.0.12",
     "postcss-cssnext": "^2.3.0",

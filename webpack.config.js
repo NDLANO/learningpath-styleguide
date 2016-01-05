@@ -18,6 +18,10 @@ module.exports = {
       {
         test: /.css$/,
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader')
+      },
+      {
+        test: /.jade$/,
+        loader: 'file-loader?name=[name].html!jade-html-loader?'+JSON.stringify({pretty:true})
       }
     ]
   },
