@@ -6,5 +6,6 @@ css and stuff
 
 ```
 $ npm install
+$ npm start
 $ npm run build
 ```

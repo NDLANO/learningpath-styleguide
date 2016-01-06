@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "CSS and stuff",
   "scripts": {
-    "build": "webpack --progress"
+    "build": "webpack --progress",
+    "start": "webpack-dev-server --config webpack-dev-server.config.js --inline --watch"
   },
   "author": "ndla@knowit.no",
   "license": "ISC",
