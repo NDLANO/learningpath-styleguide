@@ -1,7 +1,14 @@
 {
-  "name": "styleguide",
+  "name": "ndla-styleguide",
   "version": "0.0.1",
   "description": "CSS and stuff",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.knowit.no:7999/ndla/ndla-styleguide.git"
+  },
+  "engines": {
+    "node": "~4.2"
+  },
   "scripts": {
     "build": "webpack --progress",
     "start": "webpack-dev-server --config webpack-dev-server.config.js --inline --watch"
