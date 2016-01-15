@@ -1,4 +1,21 @@
-button {
-  color: white;
-  background-color: var(--darkBlue);
+button, input[type=submit], input[type=button]{
+  padding: 1.1em;
+  border: none;
+  border-radius: .5em;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: .8em;
+}
+
+button:hover, input[type=submit]:hover, input[type=button]:hover{
+	background-color: color(var(--defultNDLA) blackness(+ 20%));
+	color: white;
+}
+
+button{
+	background-color: var(--darkBlue) !important;
+}
+
+button:hover{
+	background-color: color(var(--darkBlue) blackness(+ 20%));
+	color: white;
 }

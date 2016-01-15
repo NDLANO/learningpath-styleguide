@@ -4,10 +4,24 @@ html(lang='no_SV')
     meta(charset='utf-8')
     link(rel='stylesheet' href='style.css')
     link(rel='stylesheet' href='highlight/default.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300italic,300|Signika:400,600,300,700);')
     title
       block title
         | NDLA styleguide
 
   body
+    nav
+      img.logo(src= "http://cdn-b.ndlap3.seria.net/sites/all/themes/ndla2010/logo.png")
+      ul
+        li 
+          a(href='#') Atoms
+        li
+          a(href='#') Moleculses
+        li
+          a(href='#') Organisms
+        li
+          a(href='#') Templates
+        li
+          a(href='#') Pages   
     block content
       h2 This page probably unintentionally left blank

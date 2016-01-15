@@ -1,0 +1,46 @@
+input[type=text], select {
+  border: 1px solid #e6e6e6;
+  border-radius: .313em;
+  background: #ffffff;
+  min-height: 1.5em;
+  font-size: 1em;
+}
+
+input[type=text]:focus, select:focus {
+  outline: none;
+}
+
+input[type=text] {
+  padding: .6em 1em;
+  box-shadow: inset 1px 1px rgba(0, 0, 0, 0.03);
+}
+
+input[type=text].success {w
+  border-color: #6fce72;
+  box-shadow: 0 0 6px rgba(111, 206, 114, 0.2);
+}
+
+input[type=text].alert {
+  border-color: #e4655f;
+  box-shadow: 0 0 6px rgba(228, 101, 95, 0.2);
+}
+
+input[type=text]:focus {
+  border-color: #20588F;
+  box-shadow: 0 0 6px rgba(95, 142, 228, 0.2);
+}
+
+input[type=radio],
+input[type=checkbox] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label{
+  display: block;
+  margin: 1em 0em .5em 0em;
+}

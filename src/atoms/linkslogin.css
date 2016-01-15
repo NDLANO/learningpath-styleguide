@@ -1,0 +1,23 @@
+.ctaGl{
+	background-color: #F44336;
+}
+
+.ctaGl:hover{
+	background-color: color(#F44336 blackness(+ 20%));
+}
+
+.ctaFb{
+	background-color: #3b5998 ;
+}
+
+.ctaFb:hover{
+	background-color: color(#3b5998 blackness(+ 20%));
+}
+
+.ctaTw{
+	background-color: #0084b4;
+}
+
+.ctaTw:hover{
+	background-color: color(#0084b4 blackness(+ 20%));
+}

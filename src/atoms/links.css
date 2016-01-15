@@ -1,0 +1,29 @@
+a{
+	color: #20588f;
+	font-size: 1em;
+}
+
+.cta {
+	background-color:#20588f;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+.cta_negative {
+	background-color: white;
+	color: #20588f;
+}
+
+.cta_secondary{
+	background-color: transparent;
+	color: #20588f;
+	border: 2px solid #20588f;
+}
+
+.cta_secondary_negative{
+	border: 2px solid white;
+	color: white;
+}
