@@ -1,29 +1,28 @@
 :root {
   --darkBlue: #20588f;
   --defultNDLA: #555555;
+}
 
+.shadow{
+    box-shadow: 0 2px 4px #cdcdcd;
 }
 
 body{
 	color: #222222;
 	font-family: 'Open Sans', helvetica, arial, sans-serif;
+	margin: 0px;
+}
+
+content{
 	max-width: 900px;
 	margin: 0 auto;
+	display: block;
 }
 
 p{
 	font-family: 'Open Sans', helvetica, arial, sans-serif;
 	font-size: .8em;
 	font-weight: normal;
-}
-
-nav{
-  padding: 1em;
-}
-
-nav ul li{
-  display: inline;
-  padding-right: 1em;
 }
 
 .logo{
