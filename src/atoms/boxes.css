@@ -1,0 +1,20 @@
+.row{
+	display: block;
+	float: left;
+	background-color: #f3f3f3;
+	padding: 3em 3em 3em 3em;
+	margin-bottom: 3em;
+}
+
+.box{
+	width: 31.8%;
+	float: left;
+	margin-right: 1em;
+	padding: 1em 2.5em 3.5em 2.5em;
+	background-color: white;
+	margin-bottom: 1em;
+}
+
+.box:last-child{
+	margin-right: 0px;
+}

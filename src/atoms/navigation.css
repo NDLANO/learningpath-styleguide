@@ -1,5 +1,9 @@
 nav{
-  padding: 1em;
+  padding: 1em 2em;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  top: 0;
 }
 
 nav ul{

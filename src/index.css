@@ -3,6 +3,10 @@
   --defultNDLA: #555555;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .shadow{
     box-shadow: 0 2px 4px #cdcdcd;
 }
@@ -11,10 +15,11 @@ body{
 	color: #222222;
 	font-family: 'Open Sans', helvetica, arial, sans-serif;
 	margin: 0px;
+	margin-top: 140px;
 }
 
 content{
-	max-width: 900px;
+	max-width: 1200px;
 	margin: 0 auto;
 	display: block;
 }
@@ -33,8 +38,9 @@ p{
 }
 
 .negative{
-  background-color: var(--darkBlue);
+  background-color: #20588f;
   padding: 2em;
+  margin-top: 1em;
 }
 
 @import 'atoms/*.css';
