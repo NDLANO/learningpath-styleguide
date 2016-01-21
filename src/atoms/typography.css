@@ -6,3 +6,6 @@ h1, h2, h3{
   font-family: 'signika', helvetica, arial, sans-serif;
 }
 
+.negative_text{
+	color: white;
+}
