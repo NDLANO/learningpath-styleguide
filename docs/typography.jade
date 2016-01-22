@@ -1,0 +1,36 @@
+extends layout
+
+block append title
+  | - typography
+block content
+  h3 Typography
+
+  h1 Headline 1
+  h2 Headline 2
+  h3 Headline 3
+  h4 Headline 4
+  h5 Headline 5
+  h6 Headline 6
+
+  - var n = 0
+  while n++ < 3
+    p
+      | Sriracha fixie 3 wolf moon before they sold out disrupt, plaid pinterest
+      | gastropub tousled austin. Freegan sustainable occupy cronut. Pickled kogi
+      | microdosing, vice master cleanse banh mi trust fund tousled godard kale
+      | chips narwhal. Williamsburg direct trade synth, flexitarian ennui hoodie
+      | authentic try-hard gochujang affogato literally VHS celiac. Health goth
+      | next level mixtape offal, pabst portland kickstarter crucifix austin marfa
+      | vice pork belly fanny pack. Brunch four dollar toast synth lumbersexual
+      | fixie roof party. Craft beer forage bicycle rights umami twee, migas
+      | typewriter flexitarian pickled actually semiotics chia.
+
+  - var i = 0
+  ul
+    while i < 5
+      li List item #{++i}
+
+  - var j = 0
+  ol
+    while j < 5
+      li List item #{++j}
