@@ -1,0 +1,12 @@
+extends pages-layout
+
+block append title
+  | - login
+
+block content
+  span Logg inn i NDLA med
+  ul
+    li: a.cta.ctaGl(href='/auth/login/google') Google
+    li: a.cta.ctaFb(href='/auth/login/facebook') Facebook
+    li: a.cta.ctaTw(href='/auth/login/twitter') Twitter
+
