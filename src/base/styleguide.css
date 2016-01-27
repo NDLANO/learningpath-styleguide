@@ -1,0 +1,35 @@
+.logo{
+  height: 20px;
+  float: left;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.negative{
+  background-color: #20588f;
+  padding: 2em;
+  margin-top: 1em;
+}
+
+content{
+	max-width: 900px;
+	margin: 0 auto;
+	display: block;
+	padding: 1em;
+}
+
+.note{
+	background-color: #fbf9e3;
+	border: 1px solid #f4eea4;
+	padding: 1em;
+	border-radius: 3px;
+}
+
+.note h4{
+	margin: 0em 0em .5em 0em;
+}
+
+.note p{
+	font-size: 0.8em;
+	margin: 0px;
+}

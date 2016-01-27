@@ -1,6 +1,6 @@
 :root {
   --darkBlue: #20588f;
-  --defultNDLA: #555555;
+  --defultNDLA: #888888;
 }
 
 * {
@@ -18,30 +18,7 @@ body{
 	margin-top: 140px;
 }
 
-content{
-	max-width: 1200px;
-	margin: 0 auto;
-	display: block;
-}
-
-p{
-	font-family: 'Open Sans', helvetica, arial, sans-serif;
-	font-size: .8em;
-	font-weight: normal;
-}
-
-.logo{
-  height: 20px;
-  float: left;
-  margin-top: 1em;
-  margin-right: 1em;
-}
-
-.negative{
-  background-color: #20588f;
-  padding: 2em;
-  margin-top: 1em;
-}
-
 @import 'base/*.css';
 @import 'atoms/*.css';
+@import 'molecules/*.css';
+

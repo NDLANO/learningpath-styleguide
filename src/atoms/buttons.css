@@ -1,21 +1,24 @@
 button, input[type=submit], input[type=button]{
+  transition: all 0.3s ease;
   padding: 1.1em;
   border: none;
   border-radius: .5em;
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-size: .8em;
+  color: white;
+  background-color: var(--defultNDLA);
 }
 
 button:hover, input[type=submit]:hover, input[type=button]:hover{
-	background-color: color(var(--defultNDLA) blackness(+ 20%));
+	background-color: color(var(--defultNDLA) blackness(+ 30%));
 	color: white;
 }
 
 button{
-	background-color: var(--darkBlue) !important;
+	background-color: var(--darkBlue);
 }
 
 button:hover{
-	background-color: color(var(--darkBlue) blackness(+ 20%));
+	background-color: color(var(--darkBlue) blackness(+ 30%));
 	color: white;
 }

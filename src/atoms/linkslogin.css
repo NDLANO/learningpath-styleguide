@@ -1,23 +1,29 @@
 .ctaGl{
 	background-color: #F44336;
+	border: none;
 }
 
 .ctaGl:hover{
 	background-color: color(#F44336 blackness(+ 20%));
+	border: none;
 }
 
 .ctaFb{
 	background-color: #3b5998 ;
+	border: none;
 }
 
 .ctaFb:hover{
 	background-color: color(#3b5998 blackness(+ 20%));
+	border: none;
 }
 
 .ctaTw{
 	background-color: #0084b4;
+	border: none;
 }
 
 .ctaTw:hover{
 	background-color: color(#0084b4 blackness(+ 20%));
+	border: none;
 }

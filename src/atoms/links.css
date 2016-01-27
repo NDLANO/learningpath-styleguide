@@ -1,29 +1,49 @@
 a{
-	color: #20588f;
+	transition: all 0.3s ease;
+	color: var(--darkBlue);
 	font-size: 1em;
 }
 
 .cta {
-	background-color:#20588f;
+	transition: all 0.3s ease;
+	background-color: var(--darkBlue);
 	color: white;
 	text-decoration: none;
 	display: inline-block;
 	padding: 1em;
 	border-radius: 5px;
+	border: 2px solid var(--darkBlue);
+}
+
+.cta:hover {
+	background-color: color(var(--darkBlue) blackness(+ 20%));
+	border: 2px solid color(var(--darkBlue) blackness(+ 20%));
 }
 
 .cta_negative {
+	border: 2px solid white;
 	background-color: white;
-	color: #20588f;
+	color: var(--darkBlue);
+}
+
+.cta_negative:hover {
+	color: white;
+	border: 2px solid color(var(--darkBlue) blackness(+ 20%));
+	background-color: color(var(--darkBlue) blackness(+ 20%));
 }
 
 .cta_secondary{
 	background-color: transparent;
-	color: #20588f;
-	border: 2px solid #20588f;
+	color: var(--darkBlue);
 }
 
 .cta_secondary_negative{
 	border: 2px solid white;
 	color: white;
+}
+
+.cta_secondary:hover {
+	color: white;
+	border: 2px solid color(var(--darkBlue) blackness(+ 20%));
+	background-color: color(var(--darkBlue) blackness(+ 20%));
 }

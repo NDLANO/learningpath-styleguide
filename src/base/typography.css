@@ -2,6 +2,11 @@ body{
 	color: #222222;
 }
 
+p{
+	line-height: 1.8em;
+	font-size: 0.9em;
+}
+
 h1, h2, h3{ 
   font-family: 'signika', helvetica, arial, sans-serif;
 }
