@@ -1,3 +1,7 @@
+body{
+	padding-bottom: 8em;
+}
+
 .negative{
   background-color: #20588F;
   padding: 1.4em;
@@ -28,6 +32,14 @@ content div{
 	font-size: 0.8em;
 	margin: 0px;
 }
+
+
+/** Code field **/
+
+.hljs{
+	background-color: #ddd !important;
+}
+
 
 #boxes{
 	max-width: none;
