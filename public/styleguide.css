@@ -13,7 +13,6 @@ content div{
 
 /** Notes field **/
 
-
 .note{
 	background-color: #fbf9e3;
 	border: 1px solid #f4eea4;
@@ -34,4 +33,34 @@ content div{
 	max-width: none;
 	margin: 0px;
 	padding: 0px;
+}
+
+#site-list{
+	padding-top: 2em;
+}
+
+#site-list ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#site-list ul li{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#site-list ul li a{
+	display: block;
+	background-color: #20588F;
+	color: white;
+	padding: 1em 1em;
+	text-decoration: none;
+	margin-bottom: 1em;
+
+}
+
+#site-list ul li a:hover {
+	background-color: #1b4c7b;
 }
