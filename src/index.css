@@ -8,17 +8,17 @@
 }
 
 .shadow{
-    box-shadow: 0 2px 4px #cdcdcd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 body{
 	color: #222222;
 	font-family: 'Open Sans', helvetica, arial, sans-serif;
 	margin: 0px;
-	margin-top: 140px;
+	margin-top: 80px;
 }
 
 @import 'base/*.css';
 @import 'atoms/*.css';
 @import 'molecules/*.css';
-
+@import 'pages/*.css';

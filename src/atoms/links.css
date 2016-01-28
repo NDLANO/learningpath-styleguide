@@ -1,11 +1,11 @@
 a{
-	transition: all 0.3s ease;
+	transition: background-color 0.3s ease;
 	color: var(--darkBlue);
 	font-size: 1em;
 }
 
 .cta {
-	transition: all 0.3s ease;
+	transition: background-color 0.3s ease;
 	background-color: var(--darkBlue);
 	color: white;
 	text-decoration: none;

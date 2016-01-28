@@ -1,5 +1,5 @@
 button, input[type=submit], input[type=button]{
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease;
   padding: 1.1em;
   border: none;
   border-radius: .5em;
