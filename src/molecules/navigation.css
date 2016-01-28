@@ -8,6 +8,7 @@ nav{
 
 nav ul{
 	text-align: right;
+  margin: 0;
 }
 
 nav ul li{
