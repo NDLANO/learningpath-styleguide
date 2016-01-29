@@ -4,10 +4,16 @@ block append title
   | - Mine Læringsstier
 
 block content
+  .site_header
+    h1 Mine læringsstier
+    select(id="xxx", name="xxxyyy")
+      -for(var i = 1;i<10;i++){
+      option(value="#{i}") Some value for #{i}
+      -}
   .container
-    - var n = 0
-    while n++ < 6
-      .box.shadow
-        h1 A learning path
+    - var n = 2
+    while n++ < 20
+      .box
+        h2 A learning path
         p Sriracha fixie 3 wolf moon before they sold out disrupt, plaid pinterest gastropub tousled austin. Freegan sustainable occupy cronut. Pickled kogi microdosing, 
         strong Fact
