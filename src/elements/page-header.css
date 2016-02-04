@@ -1,0 +1,13 @@
+.page-header {
+  color: white;
+  background-color: var(--blue-1);
+  padding: 2em 1em 1.2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.page-header_name {
+  font-weight: normal;
+  font-size: 1.6em;
+}

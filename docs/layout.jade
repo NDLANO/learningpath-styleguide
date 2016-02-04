@@ -11,22 +11,24 @@ html(lang='no_SV')
         | NDLA styleguide
 
   body
-   nav.shadow
-     a(href='index.html')
-      img.logo(src= "http://cdn-b.ndlap3.seria.net/sites/all/themes/ndla2010/logo.png")
-     ul
-      li
-       a(href='index.html') Atoms
-      li
-       a(href='typography.html') Typography
-      li
-       a(href='molecules.html') Molecules
-      li
-       a(href='#organisms') Organisms
-      li
-       a(href='#') Templates
-      li
-       a(href='pages.html') Pages
+   .masthead
+     .masthead_left
+       .logo
+         a.logo_link(href='index.html')
+           img.logo_img(src='assets/logo.png')
+
+     .masthead_center
+       input(type='search' placeholder='Søk')
+
+     .masthead_right
+       .site-nav
+         ul.site-nav_list
+           li.site-nav_item: a.site-nav_link(href='index.html') Atoms
+           li.site-nav_item: a.site-nav_link(href='typography.html') Typography
+           li.site-nav_item: a.site-nav_link(href='molecules.html') Molecules
+           li.site-nav_item: a.site-nav_link(href='#organisms') Organisms
+           li.site-nav_item: a.site-nav_link(href='#') Templates
+           li.site-nav_item: a.site-nav_link(href='pages.html') Pages
    content
     block content
      h2 This page probably unintentionally left blank

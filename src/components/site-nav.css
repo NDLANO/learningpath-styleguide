@@ -1,0 +1,32 @@
+.site-nav_list {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav_item {
+  display: inline-block;
+  margin: 0;
+  padding: 0 .5em;
+}
+
+.site-nav_link {
+  color: var(--gray-3);
+  text-decoration: none;
+}
+
+.site-nav_link:hover, .site-nav_link:active {
+  text-decoration: underline;
+}
+
+.site-nav_bt {
+  padding: .5em;
+}
+
+@media (max-width: 640px) {
+  .site-nav_item {
+  	display: list-item;
+  	padding: 1em;
+  }
+}

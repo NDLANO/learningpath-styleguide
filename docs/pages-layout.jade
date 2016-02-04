@@ -9,14 +9,22 @@ html(lang='no_SV')
         | NDLA
 
   body
-   nav.shadow
-     a(href='index.html')
-       img.logo(src= "assets/logo.png")
-     ul
-      li: a(href='#') Søk
-      li: a(href='#') Min læringsstier
-      li Ola Normann
-      li: button Logg ut
+   .masthead
+     .masthead_left
+       .logo
+         a.logo_link(href='index.html')
+           img.logo_img(src='assets/logo.png')
+
+     .masthead_center
+       input(type='search' placeholder='Søk')
+
+     .masthead_right
+       .site-nav
+         ul.site-nav_list
+          li.site-nav_item: a.site-nav_link(href='#') Søk
+          li.site-nav_item: a.site-nav_link(href='#') Min læringsstier
+          li.site-nav_item Ola Normann
+          li.site-nav_item: button.site-nav_bt Logg ut
    content
-    block content
-     h2 This page probably unintentionally left blank
+     block content
+       h2 This page probably unintentionally left blank

@@ -1,43 +1,16 @@
 :root {
-  --darkBlue: #20588f;
-  --defultNDLA: #888888;
+  --gray-1: #f8f8f8;
+  --gray-2: #888;
+  --gray-3: #222;
+  --blue-1: #20588f;
+
+  --darkBlue: #20588f; /* use --blue-1 */
+  --defultNDLA: #888888; /* use --gray-2 */
 }
 
-* {
-  box-sizing: border-box;
-}
+@import 'base/base.css';
+@import 'elements/*';
+@import 'components/*';
 
-body{
-	font-family: 'Open Sans', helvetica, arial, sans-serif;
-	margin: 0px;
-	margin-top: 4em;
-	background-color: #f8f8f8;
-}
-
-.shadow{
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.site_header{
-	display: block;
-	background-color: var(--darkBlue);
-	padding: 2em 1em 1.2em 1em;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.site_header h1{
-	color: white;
-	font-weight: normal;
-	font-size: 1.6em;
-}
-
-.site_header select{
-	height: 44px;	
-}
-
-@import 'base/*.css';
 @import 'atoms/*.css';
-@import 'molecules/*.css';
 @import 'pages/*.css';

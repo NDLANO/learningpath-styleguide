@@ -1,0 +1,14 @@
+.tiles {
+  display: flex;
+  background-color: transparent;
+  flex-wrap: wrap;
+  padding: 3em 5em;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1450px) {
+  .tiles {
+    padding: 3em 2em;
+  }
+}
