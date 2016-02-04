@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   margin: 4em 0 0;
   color: var(--gray-3);
   background-color: var(--gray-1);
@@ -20,11 +20,12 @@ a:hover, a:active {
 }
 
 p {
-  line-height: 1.8em;
-  font-size: 0.9em;
+  line-height: 1.625em;
+  font-size: 16px;
+  color: #4D4D4D;
 }
 
 h1, h2, h3 {
   font-family: 'Signika', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 800;
 }

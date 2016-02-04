@@ -6,6 +6,10 @@
   border: 2px solid var(--blue-1);
 }
 
+.cta-link--text{
+	color: var(--blue-1);
+}
+
 .cta-link:link, .cta-link:visited {
   background-color: var(--blue-1);
   color: white;
