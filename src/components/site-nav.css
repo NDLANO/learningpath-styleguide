@@ -11,7 +11,7 @@
   padding: 0 .5em;
 }
 
-.site-nav_link {
+.site-nav_link:link, .site-nav_link:visited {
   color: var(--gray-3);
   text-decoration: none;
 }
@@ -26,7 +26,7 @@
 
 @media (max-width: 640px) {
   .site-nav_item {
-  	display: list-item;
-  	padding: 1em;
+    display: list-item;
+    padding: 1em;
   }
 }
