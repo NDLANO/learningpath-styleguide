@@ -9,6 +9,16 @@ body {
   background-color: var(--gray-1);
 }
 
+a:link, a:visited {
+  transition: background-color 0.3s ease;
+  color: var(--blue-1);
+  font-size: 1em;
+}
+
+a:hover, a:active {
+  color: color(var(--blue-1) blackness(+ 30%));
+}
+
 p {
   line-height: 1.8em;
   font-size: 0.9em;
