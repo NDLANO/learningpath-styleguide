@@ -9,8 +9,16 @@ body{
   color: white;
 }
 
+/**
 .content div{
  	display: block;
+	max-width: 900px;
+	margin: 0 auto;
+}
+**/
+
+#buttons, #links, #linkslogin, #form{
+	display: block;
 	max-width: 900px;
 	margin: 0 auto;
 }
