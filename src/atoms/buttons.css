@@ -6,19 +6,19 @@ button, input[type=submit], input[type=button]{
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-size: .8em;
   color: white;
-  background-color: var(--defultNDLA);
+  background-color: var(--gray-2);
 }
 
 button:hover, input[type=submit]:hover, input[type=button]:hover{
-	background-color: color(var(--defultNDLA) blackness(+ 30%));
+	background-color: color(var(--gray-2) blackness(+ 30%));
 	color: white;
 }
 
 button{
-	background-color: var(--darkBlue);
+	background-color: var(--blue-1);
 }
 
 button:hover{
-	background-color: color(var(--darkBlue) blackness(+ 30%));
+	background-color: color(var(--blue-1) blackness(+ 30%));
 	color: white;
 }

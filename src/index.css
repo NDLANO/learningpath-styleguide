@@ -3,9 +3,6 @@
   --gray-2: #888;
   --gray-3: #222;
   --blue-1: #20588f;
-
-  --darkBlue: #20588f; /* use --blue-1 */
-  --defultNDLA: #888888; /* use --gray-2 */
 }
 
 @import 'base/base.css';
