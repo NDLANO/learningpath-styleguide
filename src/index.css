@@ -2,12 +2,16 @@
   --gray-1: #f8f8f8;
   --gray-2: #888;
   --gray-3: #222;
+  --gray-4: #797979;
+  --gray-5: #eaeaea;
+  --gray-6: #4d4d4d;
   --blue-1: #20588f;
 }
 
+@import 'base/normalize.css';
 @import 'base/base.css';
+@import 'base/form.css';
 @import 'elements/*';
 @import 'components/*';
+@import 'layouts/*';
 
-@import 'atoms/*.css';
-@import 'pages/*.css';

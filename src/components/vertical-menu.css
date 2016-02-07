@@ -1,0 +1,10 @@
+.vertical-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.vertical-menu_item {
+  margin: .5em;
+  padding: 0;
+}

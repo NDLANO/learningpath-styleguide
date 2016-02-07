@@ -1,0 +1,28 @@
+.two-column {
+  display: flex;
+  min-height: 100vh;
+}
+
+.two-column_col {
+  flex-direction: column;
+}
+
+.two-column_col:nth-child(1) {
+  flex-basis: 300px;
+  flex-grow: 0;
+  background-color: var(--gray-1);
+  padding-top: 40px;
+  position: relative;
+  height: 100%;
+}
+
+
+.two-column_col:nth-child(2) {
+  flex-basis: 800px;
+  flex-grow: 2;
+  flex-shrink: 7;
+  padding: 4% 10%;
+  background-color: white;
+  display: flex;
+  height: 100vh;
+}

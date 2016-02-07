@@ -40,7 +40,33 @@ input[type=checkbox] {
   opacity: 0;
 }
 
-label{
+label {
   display: block;
-  margin: 1em 0em .5em 0em;
+  margin: 1em 0 .5em 0em;
+}
+
+button, input[type=submit], input[type=button] {
+  transition: background-color 0.3s ease;
+  padding: 1.1em;
+  border: none;
+  border-radius: .5em;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: .8em;
+  color: white;
+  background-color: var(--gray-2);
+  cursor: pointer;
+}
+
+button:hover, input[type=submit]:hover, input[type=button]:hover {
+  background-color: color(var(--gray-2) blackness(+ 30%));
+  color: white;
+}
+
+button {
+  background-color: var(--blue-1);
+}
+
+button:hover {
+  background-color: color(var(--blue-1) blackness(+ 30%));
+  color: white;
 }

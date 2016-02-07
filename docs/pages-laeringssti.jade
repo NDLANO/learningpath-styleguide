@@ -4,17 +4,18 @@ block append title
   | - Læringssti
 
 block content
-  .learning-path-wrapper
-    aside.learning-path-primary-nav
-      h3 Bottom Hole Assembly
-      ul
-        li: a(href='#') Introdukjson
-        - var i = 0
-        while i++ < 7
-          li: a(href='#') Bruksområde
+  .two-column
+    aside.two-column_col
+      .tba
+        h3.tba_h Bottom Hole Assembly
+        ul.tba_list
+          li.tba_item: a.tba_link(href='#') Introdukjson
+          - var i = 0
+          while i++ < 7
+            li.tba_item: a.tba_link(href='#') Bruksområde
 
-        li: a(href='#') Prøve
-    main.learning-path-content
+          li.tba_item: a.tba_link(href='#') Prøve
+    main.two-column_col
       .learning-path_hd
         h1.learning-path_title Bottom Hole Assembly
         .learning-path_meta
@@ -26,5 +27,6 @@ block content
         p Uttrykket Bottom Hole Assembly (BHA) omfatter alt utstyr som brukes i en arbeidsstreng i brønnen. Det kan være både for vertikal boring, retningsboring, logging, brønntesting, komplettering og brønnservice. Felles for BHA er at det er den delen av arbeidsstrengen som har andre funksjoner enn bare å lede utstyr inn og ut av brønnen, slik som f.eks. borerør (Drillpipe), kabel (Wireline) eller kveilerør (Coiled Tubing). I emnet Bottom Hole Assembly – BHA ser vi nærmere på utstyr som brukes til boring, både vanlig boring og retningsboring.
 
         p Forkortelsen BHA er vanlig å bruke i skriftlig form og er allment kjent i oljeindustrien over hele verden. Det er vanligere å uttale BHA som "Bottom Hole Assembly".
-        
-        a.cta-link.cta-link--secondary.cta-link--text Start læringsstien »
+
+      .learning-path_ft
+        a.cta-link.cta-link--secondary.cta-link--text(href='#') Start læringsstien »

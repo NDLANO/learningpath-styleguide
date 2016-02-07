@@ -4,10 +4,13 @@ block append title
   | - login
 
 block content
- #login
-  h3 Logg inn i NDLA med
-  ul
-    li: a.cta-link.cta-link--gl(href='/auth/login/google') Google
-    li: a.cta-link.cta-link--fb(href='/auth/login/facebook') Facebook
-    li: a.cta-link.cta-link--tw(href='/auth/login/twitter') Twitter
+ .one-column.one-column--narrow
+   h3 Logg inn i NDLA med
+   ul.vertical-menu
+     li.vertical-menu_item
+       a.cta-link.cta-link--block.cta-link--gl(href='/auth/login/google') Google
+     li.vertical-menu_item
+       a.cta-link.cta-link--block.cta-link--fb(href='/auth/login/facebook') Facebook
+     li.vertical-menu_item
+       a.cta-link.cta-link--block.cta-link--tw(href='/auth/login/twitter') Twitter
 

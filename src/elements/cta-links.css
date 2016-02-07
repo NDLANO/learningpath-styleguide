@@ -50,6 +50,11 @@
 }
 
 
+.cta-link--block {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
 
 .cta-link--gl:link, .cta-link--gl:visited {
 	background-color: #F44336;
