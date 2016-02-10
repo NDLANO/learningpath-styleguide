@@ -6,15 +6,8 @@ block append title
 block content
   .two-column
     aside.two-column_col
-      .tba
-        h3.tba_h Bottom Hole Assembly
-        ul.tba_list
-          li.tba_item: a.tba_link(href='#') Introdukjson
-          - var i = 0
-          while i++ < 7
-            li.tba_item(class=i == 3 ? 'tba_item--active' : ''): a.tba_link(href='#') Bruksområde
+      include ./contents/molecules/step-nav.jade
 
-          li.tba_item: a.tba_link(href='#') Prøve
     main.two-column_col
       .learning-path_hd
         h1.learning-path_title Bottom Hole Assembly
