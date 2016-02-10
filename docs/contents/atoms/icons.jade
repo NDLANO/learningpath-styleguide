@@ -1,0 +1,30 @@
+h3 SVG icons
+
+:example
+  <svg class="icon icon--contacts">
+    <use xlink:href="assets/symbol-defs.svg#icon-contacts"></use>
+  </svg>
+
+  <svg class="icon icon--memory icon--m">
+    <use xlink:href="assets/symbol-defs.svg#icon-memory"></use>
+  </svg>
+
+  <svg class="icon icon--flip icon--l">
+    <use xlink:href="assets/symbol-defs.svg#icon-flip"></use>
+  </svg>
+
+- var ids = ['icon-av_timer', 'icon-hearing', 'icon-play_circle_outline', 'icon-volume_up', 'icon-contacts', 'icon-forum', 'icon-swap_calls', 'icon-content_paste', 'icon-create', 'icon-insert_link', 'icon-keyboard_arrow_down', 'icon-keyboard_arrow_up', 'icon-memory', 'icon-flare', 'icon-flip', 'icon-arrow_back', 'icon-arrow_forward', 'icon-check', 'icon-fullscreen_exit', 'icon-school', 'icon-check_box'];
+
+table
+  thead
+    tr
+      th icon
+      th href id
+      th class name
+  tbody
+    each id in ids
+      - cn = id.replace(/-/g, '--').replace(/_/g, '-')
+      tr
+        td: svg.icon(class=cn): use(xlink:href='assets/symbol-defs.svg#'+id)
+        td= '#' + id
+        td= '.' + cn

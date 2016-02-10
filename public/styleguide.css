@@ -17,10 +17,14 @@ body{
 }
 **/
 
-#buttons, #links, #linkslogin, #form{
+.styleguide-atoms, .styleguide-molecules, .styleguide-typography, .styleguide-pages {
 	display: block;
 	max-width: 900px;
 	margin: 0 auto;
+}
+
+.styleguide-molecules {
+	max-width: 1500px;
 }
 
 /** Notes field **/
