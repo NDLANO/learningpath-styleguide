@@ -1,3 +1,7 @@
+.site-nav{
+	margin-right: 1em;
+}
+
 .site-nav_list {
   display: inline;
   list-style: none;
