@@ -1,6 +1,7 @@
 .two-column {
   display: flex;
   min-height: 100vh;
+  align-items: stretch;
 }
 
 .two-column_col {
@@ -8,21 +9,18 @@
 }
 
 .two-column_col:nth-child(1) {
-  flex-basis: 300px;
+  flex-basis: 330px;
   flex-grow: 0;
-  background-color: var(--gray-1);
+  background: linear-gradient(to left, white 0, white 2em, transparent 2em, transparent 100%);
   padding-top: 40px;
   position: relative;
-  height: 100%;
 }
 
 
 .two-column_col:nth-child(2) {
-  flex-basis: 800px;
+  flex-basis: 770px;
   flex-grow: 2;
   flex-shrink: 7;
   padding: 4% 10%;
   background-color: white;
-  display: flex;
-  height: 100vh;
 }

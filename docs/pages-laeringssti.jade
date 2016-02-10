@@ -12,7 +12,7 @@ block content
           li.tba_item: a.tba_link(href='#') Introdukjson
           - var i = 0
           while i++ < 7
-            li.tba_item: a.tba_link(href='#') Bruksområde
+            li.tba_item(class=i == 3 ? 'tba_item--active' : ''): a.tba_link(href='#') Bruksområde
 
           li.tba_item: a.tba_link(href='#') Prøve
     main.two-column_col
