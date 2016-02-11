@@ -1,0 +1,37 @@
+.tile-vertical{
+  width: 100%;
+  margin: 1em 1em 1em 0em;
+  padding: 0em 0em 3em 0em;
+  min-height: 23em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  min-height: auto;
+}
+
+.title-vertical__title{
+	margin-bottom: .2em
+}
+
+.tile-vertical:first-child{
+	margin-top: 2em;
+}
+
+.tile-vertical:last-child{
+	margin-bottom: 10em;
+}
+
+
+.tile-vertical--shadowbox{
+	border-bottom: 1px solid #ddd;
+}
+
+.tile-vertical__sorting{
+	padding: 0.5em 2em;
+	height: auto;
+}
+
+.tile-vertical__img{
+	margin-top: 1.5em;
+	max-height: 200px;
+}

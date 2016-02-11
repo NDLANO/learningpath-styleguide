@@ -14,6 +14,15 @@
   font-size: 2em;
 }
 
+.icon--gray{
+	color: gray;
+}
+
+.icon__offsett{
+	margin: 0em 0em 0em .5em;
+	margin-bottom: -.25em;
+}
+
 /* =======================================================================================
 Example showing how to change the color/size of the icons:
 .icon-name {

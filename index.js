@@ -8,4 +8,5 @@ require('./docs/pages-title-empty.jade');
 require('./docs/pages-login.jade');
 require('./docs/pages-minestier.jade');
 require('./docs/pages-laeringssti.jade');
+require('./docs/pages-search.jade');
 

@@ -7,3 +7,16 @@
   max-width: 300px;
   margin: 0 auto;
 }
+
+.one-column--third{
+  max-width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.one-column__center{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}

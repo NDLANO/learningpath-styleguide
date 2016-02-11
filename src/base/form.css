@@ -4,6 +4,7 @@ input[type=text], select {
   background: #ffffff;
   min-height: 1.5em;
   font-size: 1em;
+  color: #444444;
 }
 
 input[type=text]:focus, select:focus {
