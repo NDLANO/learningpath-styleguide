@@ -1,15 +1,12 @@
 .masthead {
-  padding: 1em 2em 0;
-  width: 100%;
-  padding: 10px 0;
-  border-bottom: 1px solid #d8d8d8;
-  background-color: #fff;
-  padding: 10px 0;
-  border-bottom: 1px solid #d8d8d8;
-  background-color: #fff;
   position: fixed;
   top: 0;
   z-index: 999;
+  width: 100%;
+  height: var(--masthead-height);
+  padding: 10px 0 0;
+  border-bottom: 1px solid var(--gray-7);
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
