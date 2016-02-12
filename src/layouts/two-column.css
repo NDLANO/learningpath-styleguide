@@ -12,7 +12,6 @@
   flex-basis: 330px;
   flex-grow: 0;
   background: linear-gradient(to left, white 0, white 2em, transparent 2em, transparent 100%);
-  padding-top: 40px;
   position: relative;
 }
 

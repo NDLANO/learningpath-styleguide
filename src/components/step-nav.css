@@ -3,8 +3,22 @@
   --step-nav-arrow-w: 2em;
 }
 
+.step-nav_learningpath-general-info{
+  background-color: white;
+  padding: 2em 1em 2em 0.5em;
+  text-align: center;
+  margin-right: 1.9em;
+  background-color: #eee;
+}
+
+
 .step-nav_h {
-  margin-left: 35px;
+  margin-bottom: .5em;
+}
+
+.step-nav_meta{
+  color: gray;
+  font-size: 0.8em;
 }
 
 .step-nav_list {
