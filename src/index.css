@@ -6,7 +6,16 @@
   --gray-5: #eaeaea;
   --gray-6: #4d4d4d;
   --gray-7: #d8d8d8;
+  --gray-8: #666;
+  --gray-9: #eee;
+  --gray-10: #ddd;
+  --gray-11: #e6e6e6;
+  --gray-12: #444;
+
   --blue-1: #20588f;
+
+  --red-1: #e4655f;
+  --green-1: #6fce72;
 
   --masthead-height: 3.125em;
 }

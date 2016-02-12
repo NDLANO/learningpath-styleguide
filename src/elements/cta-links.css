@@ -57,12 +57,12 @@
 }
 
 .cta-link--gl:link, .cta-link--gl:visited {
-	background-color: #F44336;
+	background-color: #f44336;
 	border: none;
 }
 
 .cta-link--gl:hover, .cta-link--gl:active {
-	background-color: color(#F44336 blackness(+ 20%));
+	background-color: color(#f44336 blackness(+ 20%));
 	border: none;
 }
 

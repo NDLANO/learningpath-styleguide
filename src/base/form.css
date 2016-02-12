@@ -1,10 +1,10 @@
 input[type=text], select {
-  border: 1px solid #e6e6e6;
+  border: 1px solid var(--gray-11);
   border-radius: .313em;
-  background: #ffffff;
+  background: white;
   min-height: 1.5em;
   font-size: 1em;
-  color: #444444;
+  color: var(--gray-12);
 }
 
 input[type=text]:focus, select:focus {
@@ -13,22 +13,22 @@ input[type=text]:focus, select:focus {
 
 input[type=text] {
   padding: .6em 1em;
-  box-shadow: inset 1px 1px rgba(0, 0, 0, 0.03);
+  box-shadow: inset 1px 1px color(black alpha(3%));
 }
 
 input[type=text].success {
-  border-color: #6fce72;
-  box-shadow: 0 0 6px rgba(111, 206, 114, 0.2);
+  border-color: var(--green-1);
+  box-shadow: 0 0 6px color(var(--green-1) alpha(.2));
 }
 
 input[type=text].alert {
-  border-color: #e4655f;
-  box-shadow: 0 0 6px rgba(228, 101, 95, 0.2);
+  border-color: var(--red-1);
+  box-shadow: 0 0 6px color(var(--red-1) alpha(.2));
 }
 
 input[type=text]:focus {
-  border-color: #20588F;
-  box-shadow: 0 0 6px rgba(95, 142, 228, 0.2);
+  border-color: var(--blue-1);
+  box-shadow: 0 0 6px color(var(--blue-1) alpha(.2));
 }
 
 input[type=radio],

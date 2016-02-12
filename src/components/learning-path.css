@@ -5,5 +5,5 @@
 .learning-path_meta {
   font-size: 0.7em;
   line-height: 1.6em;
-  color: #666;
+  color: var(--gray-8);
 }

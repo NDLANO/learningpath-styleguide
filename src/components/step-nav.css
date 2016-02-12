@@ -8,7 +8,7 @@
   padding: 2em 1em 2em 0.5em;
   text-align: center;
   margin-right: 1.9em;
-  background-color: #eee;
+  background-color: var(--gray-9);
 }
 
 

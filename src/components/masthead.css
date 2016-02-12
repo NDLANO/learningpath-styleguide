@@ -6,7 +6,7 @@
   height: var(--masthead-height);
   padding: 10px 0 0;
   border-bottom: 1px solid var(--gray-7);
-  background-color: #fff;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
