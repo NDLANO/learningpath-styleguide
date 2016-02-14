@@ -23,7 +23,7 @@
 
 
 .tile-vertical--shadowbox{
-	border-bottom: 1px solid var(--gray-10);
+	border-bottom: 1px solid var(--gray-8);
 }
 
 .tile-vertical__sorting{

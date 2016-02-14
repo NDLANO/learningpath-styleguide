@@ -16,7 +16,7 @@
 }
 
 .site-nav_link:link, .site-nav_link:visited {
-  color: var(--gray-3);
+  color: var(--gray-1);
   text-decoration: none;
 }
 

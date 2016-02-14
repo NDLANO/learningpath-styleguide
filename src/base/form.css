@@ -1,10 +1,10 @@
 input[type=text], select {
-  border: 1px solid var(--gray-11);
+  border: 1px solid var(--gray-9);
   border-radius: .313em;
   background: white;
   min-height: 1.5em;
   font-size: 1em;
-  color: var(--gray-12);
+  color: var(--gray-2);
 }
 
 input[type=text]:focus, select:focus {
@@ -54,12 +54,12 @@ button, input[type=submit], input[type=button] {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: .8em;
   color: white;
-  background-color: var(--gray-2);
+  background-color: var(--gray-6);
   cursor: pointer;
 }
 
 button:hover, input[type=submit]:hover, input[type=button]:hover {
-  background-color: color(var(--gray-2) blackness(+ 30%));
+  background-color: color(var(--gray-6) blackness(+ 30%));
   color: white;
 }
 

@@ -5,8 +5,8 @@
 body {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   margin: var(--masthead-height) 0 0;
-  color: var(--gray-3);
-  background-color: var(--gray-1);
+  color: var(--gray-1);
+  background-color: var(--gray-12);
 }
 
 a:link, a:visited {
@@ -22,7 +22,7 @@ a:hover, a:active {
 p {
   line-height: 1.625em;
   font-size: 16px;
-  color: var(--gray-6);
+  color: var(--gray-3);
 }
 
 h1, h2, h3 {

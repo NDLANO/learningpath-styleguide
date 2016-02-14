@@ -8,7 +8,7 @@
   padding: 2em 1em 2em 0.5em;
   text-align: center;
   margin-right: 1.9em;
-  background-color: var(--gray-9);
+  background-color: var(--gray-11);
 }
 
 
@@ -57,7 +57,7 @@
 
 .step-nav_link:link, .step-nav_link:visited {
   text-decoration: none;
-  color: var(--gray-4);
+  color: var(--gray-5);
 }
 
 .step-nav_link:hover, .step-nav_link:active {
@@ -66,9 +66,9 @@
 
 
 .step-nav_item.step-nav_item--active:after {
-  border-left-color: var(--gray-5);
+  border-left-color: var(--gray-10);
 }
 
 .step-nav_item--active .step-nav_link {
-  background-color: var(--gray-5);
+  background-color: var(--gray-10);
 }
