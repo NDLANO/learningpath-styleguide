@@ -1,0 +1,14 @@
+extends pages-layout
+
+block append title
+  | - Læringssteg
+
+block content
+  .two-column
+    aside.two-column_col
+      - var STEP_NAV_ACTIVE_INDEX = 3;
+      include ./contents/molecules/step-nav.jade
+
+    main.two-column_col
+      .learning-step
+        iframe.learning-step_embeded(src='http://www.knowit.no/Kundecaser/Oslo-kommune1/Oslo-kommune/')

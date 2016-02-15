@@ -1,6 +1,7 @@
+- var active_index = STEP_NAV_ACTIVE_INDEX || 0;
 .step-nav
   .step-nav_learningpath-general-info
-    h3.step-nav_h Bottom Hole Assembly
+    h3.step-nav_h Bottom Hole Assembly #{active_index}
     .step-nav_meta
       span.step-nav_author
         svg.icon.icon--person.icon--gray: use(xlink:href="assets/symbol-defs.svg#icon-person")
@@ -12,9 +13,9 @@
         svg.icon.icon--query-builder.icon--gray: use(xlink:href="assets/symbol-defs.svg#icon-query_builder")
         time 10 t
   ul.step-nav_list
-    li.step-nav_item: a.step-nav_link(href='#') Introdukjson
-    - var i = 0
-    while i++ < 7
-      li.step-nav_item(class=i == 3 ? 'step-nav_item--active' : ''): a.step-nav_link(href='#') Bruksområde
+    li.step-nav_item(class=active_index == 0 ? 'step-nav_item--active' : ''): a.step-nav_link(href='#') Introdukjson
+    - var i = 1
+    while i++ < 8
+      li.step-nav_item(class=i == active_index ? 'step-nav_item--active' : ''): a.step-nav_link(href='#') Bruksområde
 
     li.step-nav_item: a.step-nav_link(href='#') Prøve
