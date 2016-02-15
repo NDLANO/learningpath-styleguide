@@ -1,37 +1,12 @@
 extends pages-layout
 
 block append title
-  | - Mine Læringsstier
+  | - Søk læringssti
 
 block content
   .page-header
-    form.one-column--third.one-column__center.search--layout
-      input.input-search(
-        type='text' placeholder='Søk etter læringsstier'
-      )
-      button.btn-search.btn-search--negative Søk
-      select.search-filter
-        option Relevans
-        option Nyeste
-        option Eldste
-        option Lengste
-        option Korteste
-        option Alfabetisk
-  .one-column--third
+    include contents/molecules/search-form.jade
+  .search-results
     - var n = 2
     while n++ < 10
-      .tile-vertical.tile-vertical--shadowbox
-        img.tile-vertical__img(src='http://placehold.it/600x600')
-        .tile-vertical__sorting
-          h2.title-vertical__title En læringssti
-          .search-list--meta
-            svg.icon.icon--person.icon--gray.icon__offsett
-              use(xlink:href="assets/symbol-defs.svg#icon-person")
-            a(href="#" rel="author") Hans Hansen
-            svg.icon.icon--today.icon--gray.icon__offsett
-              use(xlink:href="assets/symbol-defs.svg#icon-today")
-            time 01.01.16
-            svg.icon.icon--query-builder.icon--gray.icon__offsett
-              use(xlink:href="assets/symbol-defs.svg#icon-query_builder")
-            time 10 timer
-          p Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.
+      include contents/molecules/search-result.jade

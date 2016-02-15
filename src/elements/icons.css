@@ -4,6 +4,7 @@
   height: 1em;
   fill: currentColor;
   font-size: 1em;
+  vertical-align: bottom;
 }
 
 .icon--m {
@@ -14,13 +15,8 @@
   font-size: 2em;
 }
 
-.icon--gray{
-	color: gray;
-}
-
-.icon__offsett{
-	margin: 0em 0em 0em .5em;
-	margin-bottom: -.25em;
+.icon--gray {
+  color: var(--gray-6);
 }
 
 /* =======================================================================================

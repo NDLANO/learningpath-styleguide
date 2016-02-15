@@ -1,0 +1,35 @@
+.search-results {
+  padding: 2em 0 10em;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.search-result {
+  display: flex;
+  margin: 1em 1em 1em 0;
+  padding: 0 0 3em 0;
+  border-bottom: 1px solid var(--gray-8);
+}
+
+.search-result_img {
+  margin-top: 1.5em;
+  max-height: 200px;
+}
+
+.search-result_bd {
+  padding: .5em 2em;
+}
+
+.search-result_title {
+  margin-bottom: .2em
+}
+
+.search-result_meta {
+  font-size: .9em;
+}
+
+.search-result_author, .search-result_changed-date, .search-result_duration {
+  display: inline-block;
+  margin-right: .5em;
+}
+

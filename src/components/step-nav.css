@@ -16,9 +16,14 @@
   margin-bottom: .5em;
 }
 
-.step-nav_meta{
-  color: gray;
-  font-size: 0.8em;
+.step-nav_meta {
+  color: var(--gray-6);
+  font-size: 0.9em;
+}
+
+.step-nav_author, .step-nav_changed-date, .step-nav_duration {
+  display: inline-block;
+  margin-right: .5em;
 }
 
 .step-nav_list {
