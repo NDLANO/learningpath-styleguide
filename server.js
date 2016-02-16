@@ -2,8 +2,13 @@ var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
+var livereload = require('livereload');
 
 var app = express();
+
+app.locals.LRScript = "<script>document.write('<script src=\"http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js\"></' + 'script>')</script>"; // eslint-disable-line
+var lrServer = livereload.createServer({ exts: ['css', 'jade'] });
+lrServer.watch(['docs', 'src'].map(function (d) { return path.join(__dirname, d); }));
 
 app.set('views', path.join(__dirname, 'docs'));
 app.set('view engine', 'jade');

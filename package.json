@@ -23,6 +23,7 @@
     "extract-text-webpack-plugin": "^1.0.0",
     "jade": "^1.11.0",
     "jstransformer-example": "kwltrs/jstransformer-example.git#0.0.1",
+    "livereload": "^0.4.1",
     "morgan": "~1.6.1",
     "postcss": "^5.0.12",
     "postcss-cssnext": "^2.3.0",
