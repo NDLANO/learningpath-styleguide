@@ -1,4 +1,5 @@
 require('./src/index.css');
+/*
 require('./docs/index.jade');
 require('./docs/typography.jade');
 require('./docs/molecules.jade');
@@ -10,4 +11,4 @@ require('./docs/pages-minestier.jade');
 require('./docs/pages-laeringssti.jade');
 require('./docs/pages-laeringssteg.jade');
 require('./docs/pages-search.jade');
-
+*/

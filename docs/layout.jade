@@ -2,9 +2,9 @@ doctype html
 html(lang='no_NB')
   head
     meta(charset='utf-8')
-    link(rel='stylesheet' href='style.css')
-    link(rel='stylesheet' href='styleguide.css')
-    link(rel='stylesheet' href='highlight/default.css')
+    link(rel='stylesheet' href='/style.css')
+    link(rel='stylesheet' href='/styleguide.css')
+    link(rel='stylesheet' href='/highlight/default.css')
     link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300italic,300|Signika:400,600,300,700')
     title
       block title
@@ -14,17 +14,17 @@ html(lang='no_NB')
    .masthead
      .masthead_left
        .logo
-         a.logo_link(href='index.html')
-           img.logo_img(src='assets/logo.png')
+         a.logo_link(href='/')
+           img.logo_img(src='/assets/logo.png')
 
      .masthead_right
        .site-nav
          ul.site-nav_list
-           li.site-nav_item: a.site-nav_link(href='index.html') Atoms
-           li.site-nav_item: a.site-nav_link(href='typography.html') Typography
-           li.site-nav_item: a.site-nav_link(href='molecules.html') Molecules
+           li.site-nav_item: a.site-nav_link(href='/') Atoms
+           li.site-nav_item: a.site-nav_link(href='/typography') Typography
+           li.site-nav_item: a.site-nav_link(href='/molecules') Molecules
            li.site-nav_item Organisms
-           li.site-nav_item: a.site-nav_link(href='pages.html') Pages
+           li.site-nav_item: a.site-nav_link(href='/pages') Pages
    .content
      block content
        h2 This page probably unintentionally left blank
