@@ -7,13 +7,13 @@ input[type=text], select {
   color: var(--gray-2);
 }
 
-input[type=text]:focus, select:focus {
-  outline: none;
-}
-
 input[type=text] {
   padding: .6em 1em;
   box-shadow: inset 1px 1px color(black alpha(3%));
+}
+
+input[type=text]:focus, select:focus {
+  outline: none;
 }
 
 input[type=text].success {
@@ -43,7 +43,7 @@ input[type=checkbox] {
 
 label {
   display: block;
-  margin: 1em 0 .5em 0em;
+  margin: 1em 0 .5em 0;
 }
 
 button, input[type=submit], input[type=button] {
@@ -58,7 +58,7 @@ button, input[type=submit], input[type=button] {
   cursor: pointer;
 }
 
-button:hover, input[type=submit]:hover, input[type=button]:hover {
+input[type=submit]:hover, input[type=button]:hover {
   background-color: color(var(--gray-6) blackness(+ 30%));
   color: white;
 }

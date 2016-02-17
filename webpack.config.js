@@ -3,6 +3,7 @@ var postcssImport = require('postcss-import');
 var autoprefixer = require('autoprefixer');
 var cssNext = require('postcss-cssnext');
 var postcssReporter = require('postcss-reporter');
+var stylelint = require('stylelint');
 
 module.exports = {
   entry: './index.js',
@@ -30,6 +31,7 @@ module.exports = {
         glob: true,
         addDependencyTo: this
       }),
+      stylelint,
       autoprefixer,
       cssNext,
       postcssReporter

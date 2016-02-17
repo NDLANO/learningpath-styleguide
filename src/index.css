@@ -1,13 +1,17 @@
+@import 'base/normalize.css';
+
+/*! NDLA stylesheet - GPL-3.0 License  */
+
 :root {
-  --gray-1:  gray(34);
-  --gray-2:  gray(68);
-  --gray-3:  gray(77);
-  --gray-4:  gray(102);
-  --gray-5:  gray(121);
-  --gray-6:  gray(136);
-  --gray-7:  gray(216);
-  --gray-8:  gray(221);
-  --gray-9:  gray(230);
+  --gray-1: gray(34);
+  --gray-2: gray(68);
+  --gray-3: gray(77);
+  --gray-4: gray(102);
+  --gray-5: gray(121);
+  --gray-6: gray(136);
+  --gray-7: gray(216);
+  --gray-8: gray(221);
+  --gray-9: gray(230);
   --gray-10: gray(234);
   --gray-11: gray(238);
   --gray-12: gray(248);
@@ -21,6 +25,7 @@
   --masthead-height: 3.125em;
 }
 
+/* stylelint-disable */
 .ex-gray { padding: 5px; margin: 0; }
 .ex-gray-1  { color: color(var(--gray-1)  contrast(50%)); background-color: var(--gray-1); }
 .ex-gray-2  { color: color(var(--gray-2)  contrast(50%)); background-color: var(--gray-2); }
@@ -34,12 +39,10 @@
 .ex-gray-10 { color: color(var(--gray-10) contrast(50%)); background-color: var(--gray-10); }
 .ex-gray-11 { color: color(var(--gray-11) contrast(50%)); background-color: var(--gray-11); }
 .ex-gray-12 { color: color(var(--gray-12) contrast(50%)); background-color: var(--gray-12); }
+/* stylelint-enable */
 
-
-@import 'base/normalize.css';
 @import 'base/base.css';
 @import 'base/form.css';
 @import 'elements/*';
 @import 'components/*';
 @import 'layouts/*';
-
