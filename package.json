@@ -14,7 +14,7 @@
     "start": "node ./bin/www"
   },
   "author": "ndla@knowit.no",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "devDependencies": {
     "autoprefixer": "^6.1.2",
     "css-loader": "^0.23.1",
