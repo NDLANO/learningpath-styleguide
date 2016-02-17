@@ -1,9 +1,28 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var postcss = require('postcss');
 var postcssImport = require('postcss-import');
 var autoprefixer = require('autoprefixer');
 var cssNext = require('postcss-cssnext');
 var postcssReporter = require('postcss-reporter');
 var stylelint = require('stylelint');
+var pkginfo = require('pkginfo');
+
+
+var pkgInfoPlugin = postcss.plugin('pkginfo', function () {
+  var pkg = pkginfo.read(module).package;
+  var pkgKeys = Object.keys(pkg).filter(function (k) { return typeof pkg[k] === 'string'; });
+
+  return function (css) {
+    css.walkComments(function (comment) {
+      if (/^!/.test(comment.text)) {
+        comment.text = pkgKeys.reduce(
+            function reducer (str, key) { return str.replace('pkg.'+key, pkg[key]); },
+            comment.text);
+      }
+    });
+  };
+});
+
 
 module.exports = {
   entry: './index.js',
@@ -34,6 +53,7 @@ module.exports = {
       stylelint,
       autoprefixer,
       cssNext,
+      pkgInfoPlugin,
       postcssReporter
     ];
   }

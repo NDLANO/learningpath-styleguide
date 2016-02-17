@@ -25,6 +25,7 @@
     "jstransformer-example": "kwltrs/jstransformer-example.git#0.0.1",
     "livereload": "^0.4.1",
     "morgan": "~1.6.1",
+    "pkginfo": "^0.3.1",
     "postcss": "^5.0.12",
     "postcss-cssnext": "^2.3.0",
     "postcss-import": "^7.1.3",
