@@ -3,4 +3,20 @@ extends layout
 block append title
   | - molecules
 block content
-  include ./contents/molecules.jade
+  h1.styleguide-title Molecules
+
+  main.styleguide-main.styleguide-main--molecules
+    #boxes
+      include ./molecules/boxes.jade
+    h2 Step navigation
+    div(style='max-width:400px')
+      include ./molecules/step-nav.jade
+
+    h2 Search form
+    div(style='max-width:920px')
+      include ./molecules/search-form.jade
+      include ./molecules/search-form--dark.jade
+
+    h2 Search result
+    div(style='max-width:920px')
+      include ./molecules/search-result.jade

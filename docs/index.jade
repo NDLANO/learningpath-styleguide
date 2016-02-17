@@ -1,6 +1,85 @@
 extends layout
 
-block append title
-  | - atoms
 block content
-  include ./contents/atoms.jade
+  h1.styleguide-title NDLA Styleguide
+
+  main.styleguide-main.styleguide-main--welcome
+    h2 Atomic Design
+
+    ul
+      li atoms
+      li molecules
+      li organisms
+      li templates
+
+    h2 SMACSS
+
+    P Structure of SMACSS (more or less):
+
+    ul
+      li basics
+      li elements
+      li components
+      li layout
+
+
+    h2 Mapping Atomic Design to SMACSS
+
+    table
+      thead
+        tr
+          th Atomic Design
+          th SMACSS
+      tbody
+        tr
+          td atoms
+          td base tags or elements
+        tr
+          td molecules
+          td elements or components
+        tr
+          td organisms
+          td single components or combined components
+        tr
+          td templates
+          td layouts with multiple components
+
+    h2 BEM
+
+    p Naming convention system for css to put an end to specificity wars.
+
+    ul
+      li block
+      li element
+      li modifier
+
+    h3 Examples
+
+    pre: code.
+      .block
+      .block_element
+      .block--modifier
+      .block_element--modifier
+
+
+    h2 PostCSS
+
+    p The stylesheets are processed with PostCSS (webpack build).
+
+    p Does this:
+
+    ul
+      li CSSNext: transforms latest CSS syntax to syntax more compatible with current browsers.
+      li Autoprefixer: adds vendor prefixes where needed.
+      li Include all @imports to single file.
+      li Minification.
+
+    h2 Stylelint
+
+    p Stylelint enforces consistent code style.
+
+    p <a href="http://stylelint.io/">stylelint.io</a>
+
+    h2 Jade
+
+    p HTML templating

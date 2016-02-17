@@ -1,90 +1,82 @@
 body{
-	padding-bottom: 8em;
+  padding-bottom: 8em;
 }
 
-.negative{
-  background-color: #20588F;
+.styleguide-title {
+  background-color: #20588f;
   padding: 1.4em;
   margin-top: 1em;
   color: white;
 }
 
-/**
-.content div{
- 	display: block;
-	max-width: 900px;
-	margin: 0 auto;
-}
-**/
-
-.styleguide-atoms, .styleguide-molecules, .styleguide-typography, .styleguide-pages {
-	display: block;
-	max-width: 900px;
-	margin: 0 auto;
+.styleguide-main {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.styleguide-molecules {
-	max-width: 1500px;
+.styleguide-main--molecules {
+  max-width: 1500px;
 }
 
 /** Notes field **/
 
 .note{
-	background-color: #fbf9e3;
-	border: 1px solid #f4eea4;
-	padding: 1em;
-	border-radius: 3px;
+  background-color: #fbf9e3;
+  border: 1px solid #f4eea4;
+  padding: 1em;
+  border-radius: 3px;
 }
 
 .note h4{
-	margin: 0em 0em .5em 0em;
+  margin: 0em 0em .5em 0em;
 }
 
 .note p{
-	font-size: 0.8em;
-	margin: 0px;
+  font-size: 0.8em;
+  margin: 0px;
 }
 
 
 /** Code field **/
 
 .hljs{
-	background-color: #ddd !important;
+  background-color: #ddd !important;
 }
 
 
 #boxes{
-	max-width: none;
-	margin: 0px;
-	padding: 0px;
+  max-width: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 #site-list{
-	padding-top: 2em;
+  padding-top: 2em;
 }
 
 #site-list ul{
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 #site-list ul li{
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 #site-list ul li a{
-	display: block;
-	background-color: #20588F;
-	color: white;
-	padding: 1em 1em;
-	text-decoration: none;
-	margin-bottom: 1em;
+  display: block;
+  background-color: #20588F;
+  color: white;
+  padding: 1em 1em;
+  text-decoration: none;
+  margin-bottom: 1em;
 
 }
 
 #site-list ul li a:hover {
-	background-color: #1b4c7b;
+  background-color: #1b4c7b;
 }

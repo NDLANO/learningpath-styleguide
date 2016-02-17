@@ -1,0 +1,24 @@
+extends layout
+
+block append title
+  | - atoms
+block content
+  h1.styleguide-title Atoms
+
+  main.styleguide-main.styleguide-main--atoms
+    #buttons
+      include ./atoms/buttons.jade
+    #links
+      include ./atoms/links.jade
+    #form
+      include ./atoms/form.jade
+    #icons
+      include ./atoms/icons.jade
+    #grays
+      h3 Grays
+      pre.ex-gray(style='color:white;background-color:black;') black
+      each v, k in [34, 68, 77, 102, 121, 136, 216, 221, 230, 234, 238, 248]
+        - var i = k + 1
+        pre.ex-gray(class='ex-gray-'+i).
+          --gray-#{i}: gray(#{v}) - #{Math.round(((v/255)*100)*1000)/1000}%
+      pre.ex-gray(style='color:black;background-color:white;') white
