@@ -1,0 +1,39 @@
+extends layout
+
+block append title
+  | - Læringssti
+
+block content
+  .two-column
+    aside.two-column_col
+        include ../molecules/edit-step-nav.jade
+    main.two-column_col
+      .learning-path_hd
+        h1(contenteditable="true").learning-path_title Learning step one
+      .learning-path_bd
+        p(contenteditable="true") You can edit this text inline. This is a introduction text. Please edit it as you see fit. This is not the real text meant to be here, remove this and add some new text that actually makes som sense.
+      .wrapper.wrapper_gray
+        form
+          h4 Legg til innhold 
+          p Lim in lenke (URL) fra ndla.no eller youtube.com
+          input.cta-link--block(style="text-align: left;" type="url" placeholder="Lim in lenke" autofocus)
+      .wrapper.wrapper_gray
+        form
+          h4 Innholdstype
+          select
+            option Tekst
+            option Test
+            option Oppgave
+            option Multimedia
+            option Prøve
+      .wrapper.wrapper_gray
+        form
+          h4 Opphavs- og bruksrett
+          select
+            option Navngivelse
+            option Navngivelse-DelPåSammeVilkår 
+            option Navngivelse-IngenBearbeidelse
+            option Navngivelse-IkkeKommersiell
+            option Navngivelse-IkkeKommersiell-DelPåSammeVilkår
+            option Navngivelse-IkkeKommersiell-IngenBearbeidelser
+

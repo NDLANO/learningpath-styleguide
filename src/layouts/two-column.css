@@ -2,16 +2,17 @@
   display: flex;
   min-height: 100vh;
   align-items: stretch;
+  background-color: var(--gray-13);
 }
 
 .two-column_col {
   flex-direction: column;
+  border-right: 1px solid var(--gray-8)
 }
 
 .two-column_col:nth-child(1) {
   flex-basis: 330px;
   flex-grow: 0;
-  background: linear-gradient(to left, white 0, white 2em, transparent 2em, transparent 100%);
   position: relative;
 }
 

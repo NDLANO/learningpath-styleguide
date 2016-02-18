@@ -1,0 +1,16 @@
+- var active_index = STEP_NAV_ACTIVE_INDEX || 0;
+.step-nav
+  .step-nav_learningpath-general-info
+    h2(contenteditable="true").step-nav_h Learning path title
+  ul.step-nav_list
+    li.step-nav_itema.step-nav_link(href='#') Introdukjson
+    li.step-nav_item(class=active_index == 0 ? 'step-nav_item--active' : ''): a.step-nav_link(href='#') Learning step one
+    li.step-nav_itema.step-nav_link(href='#') Learning step two
+    li.step-nav_itema.step-nav_link(href='#') Learning step three
+  ul.vertical-menu.learningpath-
+    li.vertical-menu_item
+      a.cta-link.cta-link--block.cta-link--gl(href="#") Legg til læringssteg
+    li.vertical-menu_item
+      a.cta-link.cta-link--block.cta(href="#") Lagre
+    li.vertical-menu_item
+      a.cta-link.cta-link--block.cta(href="#") Publiser

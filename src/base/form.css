@@ -1,4 +1,4 @@
-input[type=text], select {
+input, select {
   border: 1px solid var(--gray-9);
   border-radius: .313em;
   background: white;
@@ -7,26 +7,26 @@ input[type=text], select {
   color: var(--gray-2);
 }
 
-input[type=text] {
+input{
   padding: .6em 1em;
   box-shadow: inset 1px 1px color(black alpha(3%));
 }
 
-input[type=text]:focus, select:focus {
+input:focus, select:focus {
   outline: none;
 }
 
-input[type=text].success {
+input.success {
   border-color: var(--green-1);
   box-shadow: 0 0 6px color(var(--green-1) alpha(.2));
 }
 
-input[type=text].alert {
+input.alert {
   border-color: var(--red-1);
   box-shadow: 0 0 6px color(var(--red-1) alpha(.2));
 }
 
-input[type=text]:focus {
+input:focus {
   border-color: var(--blue-1);
   box-shadow: 0 0 6px color(var(--blue-1) alpha(.2));
 }
