@@ -21,6 +21,6 @@
   flex-basis: 770px;
   flex-grow: 2;
   flex-shrink: 7;
-  padding: 4% 10%;
+  padding: 0 10% 2em;
   background-color: white;
 }
