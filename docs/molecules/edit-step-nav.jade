@@ -7,10 +7,7 @@
     li.step-nav_item(class=active_index == 0 ? 'step-nav_item--active' : ''): a.step-nav_link(href='#') Learning step one
     li.step-nav_item: a.step-nav_link(href='#') Learning step two
     li.step-nav_item: a.step-nav_link(href='#') Learning step three
-  ul.vertical-menu
-    li.vertical-menu_item
-      a.cta-link.cta-link--block.cta-link--gl(href="#") Legg til læringssteg
-    li.vertical-menu_item
-      a.cta-link.cta-link--block.cta(href="#") Lagre
-    li.vertical-menu_item
-      a.cta-link.cta-link--block.cta(href="#") Publiser
+  .vertical-menu
+      a.cta-link.cta-link--block.cta(href="#")
+        svg.icon.icon--save: use(xlink:href="/assets/symbol-defs.svg#icon-save")
+        span.icon--space Lagre og lukk

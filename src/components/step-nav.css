@@ -7,7 +7,7 @@
   padding: 2em 1em 3em 0.5em;
   text-align: center;
   background-color: white;
-  border-bottom: 1px solid var(--gray-9)
+  border-bottom: 1px solid var(--gray-9);
 }
 
 
@@ -58,10 +58,9 @@
 }
 
 .step-nav_link:hover{
-  color: white;
-  background-color: var(--blue-1);
+  color: var(--gray-3);
+  background-color: var(--gray-7);
   transition: all 0s;
-
 }
 
 

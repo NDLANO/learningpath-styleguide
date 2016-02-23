@@ -1,14 +1,15 @@
 .add-learting-step{
-	margin-top: 2em;
-	background-color: var(--gray-9);
-	text-align: center;
-	padding: 4em 2em;
-	width: 100%;
-	display: block;
-	text-decoration: none;
-	border-radius: 5px;
+  margin-top: 2em;
+  background-color: black;
+  text-align: center;
+  padding: 1.5em 3em;
+  text-decoration: none;
+  border-radius: 90px;
+  display: flex;
+  justify-content: center;
+  color: white !important;
 }
 
 .add-learting-step:hover{
-	background-color: var(--gray-7)
+  background-color: whie;
 }

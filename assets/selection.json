@@ -20,7 +20,8 @@
 				"ligatures": "error_outline",
 				"prevSize": 24,
 				"name": "error_outline",
-				"id": 1
+				"id": 1,
+				"code": 57345
 			},
 			"setIdx": 0,
 			"setId": 2,
@@ -45,7 +46,8 @@
 				"ligatures": "sort_by_alpha",
 				"prevSize": 24,
 				"name": "sort_by_alpha",
-				"id": 54
+				"id": 54,
+				"code": 57427
 			},
 			"setIdx": 0,
 			"setId": 2,
@@ -70,11 +72,37 @@
 				"ligatures": "import_export",
 				"prevSize": 24,
 				"name": "import_export",
-				"id": 93
+				"id": 93,
+				"code": 57539
 			},
 			"setIdx": 0,
 			"setId": 2,
 			"iconIdx": 93
+		},
+		{
+			"icon": {
+				"paths": [
+					"M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM554 298v172h172v84h-172v172h-84v-172h-172v-84h172v-172h84z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"add_circle_outline"
+				],
+				"defaultCode": 57672,
+				"grid": 24
+			},
+			"attrs": [],
+			"properties": {
+				"order": 55,
+				"prevSize": 24,
+				"name": "add_circle_outline",
+				"ligatures": "add_circle_outline",
+				"id": 129
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 129
 		},
 		{
 			"icon": {
@@ -95,11 +123,37 @@
 				"prevSize": 24,
 				"name": "clear",
 				"ligatures": "clear",
-				"id": 133
+				"id": 133,
+				"code": 57676
 			},
 			"setIdx": 0,
 			"setId": 2,
 			"iconIdx": 133
+		},
+		{
+			"icon": {
+				"paths": [
+					"M640 384v-170h-426v170h426zM512 810q52 0 90-38t38-90-38-90-90-38-90 38-38 90 38 90 90 38zM726 128l170 170v512q0 34-26 60t-60 26h-596q-36 0-61-26t-25-60v-596q0-34 25-60t61-26h512z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"save"
+				],
+				"defaultCode": 57697,
+				"grid": 24
+			},
+			"attrs": [],
+			"properties": {
+				"order": 57,
+				"ligatures": "save",
+				"prevSize": 24,
+				"name": "save",
+				"id": 154
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 154
 		},
 		{
 			"icon": {
@@ -120,11 +174,37 @@
 				"ligatures": "attach_file",
 				"prevSize": 24,
 				"name": "attach_file",
-				"id": 217
+				"id": 217,
+				"code": 57894
 			},
 			"setIdx": 0,
 			"setId": 2,
 			"iconIdx": 217
+		},
+		{
+			"icon": {
+				"paths": [
+					"M86 256h84v598h598v84h-598q-34 0-59-25t-25-59v-598zM470 512l-128 170h512l-172-212-126 158zM938 682q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h512q34 0 59 25t25 59v512z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"collections"
+				],
+				"defaultCode": 58294,
+				"grid": 24
+			},
+			"attrs": [],
+			"properties": {
+				"order": 56,
+				"prevSize": 24,
+				"name": "collections",
+				"ligatures": "collections",
+				"id": 365
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 365
 		},
 		{
 			"icon": {
@@ -145,7 +225,8 @@
 				"ligatures": "apps",
 				"prevSize": 24,
 				"name": "apps",
-				"id": 555
+				"id": 555,
+				"code": 58819
 			},
 			"setIdx": 0,
 			"setId": 2,
@@ -170,7 +251,8 @@
 				"ligatures": "menu",
 				"prevSize": 24,
 				"name": "menu",
-				"id": 570
+				"id": 570,
+				"code": 58834
 			},
 			"setIdx": 0,
 			"setId": 2,
@@ -195,7 +277,8 @@
 				"ligatures": "more_vert",
 				"prevSize": 24,
 				"name": "more_vert",
-				"id": 572
+				"id": 572,
+				"code": 58836
 			},
 			"setIdx": 0,
 			"setId": 2,
@@ -220,7 +303,8 @@
 				"ligatures": "person",
 				"prevSize": 24,
 				"name": "person",
-				"id": 647
+				"id": 647,
+				"code": 59389
 			},
 			"setIdx": 0,
 			"setId": 2,
@@ -245,7 +329,8 @@
 				"prevSize": 24,
 				"name": "query_builder",
 				"ligatures": "query_builder",
-				"id": 758
+				"id": 758,
+				"code": 59566
 			},
 			"setIdx": 0,
 			"setId": 2,
@@ -270,7 +355,8 @@
 				"ligatures": "today",
 				"prevSize": 24,
 				"name": "today",
-				"id": 805
+				"id": 805,
+				"code": 59615
 			},
 			"setIdx": 0,
 			"setId": 2,
@@ -295,7 +381,8 @@
 				"ligatures": "help_outline",
 				"prevSize": 24,
 				"name": "help_outline",
-				"id": 835
+				"id": 835,
+				"code": 59645
 			},
 			"setIdx": 0,
 			"setId": 2,
@@ -320,7 +407,8 @@
 				"ligatures": "copyright",
 				"prevSize": 24,
 				"name": "copyright",
-				"id": 848
+				"id": 848,
+				"code": 59660
 			},
 			"setIdx": 0,
 			"setId": 2,
@@ -345,7 +433,8 @@
 				"order": 4,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "av_timer"
+				"name": "av_timer",
+				"code": 57371
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -370,7 +459,8 @@
 				"order": 5,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "hearing"
+				"name": "hearing",
+				"code": 57379
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -395,7 +485,8 @@
 				"order": 6,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "play_circle_outline"
+				"name": "play_circle_outline",
+				"code": 57401
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -420,7 +511,8 @@
 				"order": 7,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "volume_up"
+				"name": "volume_up",
+				"code": 57424
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -445,7 +537,8 @@
 				"order": 8,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "contacts"
+				"name": "contacts",
+				"code": 57530
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -470,7 +563,8 @@
 				"order": 9,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "forum"
+				"name": "forum",
+				"code": 57535
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -495,7 +589,8 @@
 				"order": 10,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "swap_calls"
+				"name": "swap_calls",
+				"code": 57559
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -520,7 +615,8 @@
 				"order": 11,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "content_paste"
+				"name": "content_paste",
+				"code": 57679
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -545,7 +641,8 @@
 				"order": 12,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "create"
+				"name": "create",
+				"code": 57680
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -570,7 +667,8 @@
 				"order": 13,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "insert_link"
+				"name": "insert_link",
+				"code": 57936
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -595,7 +693,8 @@
 				"order": 14,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "keyboard_arrow_down"
+				"name": "keyboard_arrow_down",
+				"code": 58131
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -620,7 +719,8 @@
 				"order": 15,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "keyboard_arrow_up"
+				"name": "keyboard_arrow_up",
+				"code": 58134
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -645,7 +745,8 @@
 				"order": 16,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "memory"
+				"name": "memory",
+				"code": 58146
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -670,7 +771,8 @@
 				"order": 17,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "flare"
+				"name": "flare",
+				"code": 58340
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -695,7 +797,8 @@
 				"order": 18,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "flip"
+				"name": "flip",
+				"code": 58344
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -720,7 +823,8 @@
 				"order": 24,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "arrow_back"
+				"name": "arrow_back",
+				"code": 58820
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -745,7 +849,8 @@
 				"order": 23,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "arrow_forward"
+				"name": "arrow_forward",
+				"code": 58824
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -770,7 +875,8 @@
 				"order": 22,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "check"
+				"name": "check",
+				"code": 58826
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -795,7 +901,8 @@
 				"order": 21,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "fullscreen_exit"
+				"name": "fullscreen_exit",
+				"code": 58833
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -820,7 +927,8 @@
 				"order": 20,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "school"
+				"name": "school",
+				"code": 59404
 			},
 			"setIdx": 1,
 			"setId": 1,
@@ -845,7 +953,8 @@
 				"order": 19,
 				"ligatures": "",
 				"prevSize": 32,
-				"name": "check_box"
+				"name": "check_box",
+				"code": 59444
 			},
 			"setIdx": 1,
 			"setId": 1,

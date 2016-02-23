@@ -1,9 +1,9 @@
 .wrapper{
-	margin-top: 3em;
-	margin-bottom: 1em;
-	padding: 1.8em 2em 0em 0em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  padding: 1.8em 2em 0em 0em;
 }
 
 .wrapper_gray{
-	border-top: 1px solid var(--gray-8);
+  border-top: 1px solid var(--gray-8);
 }

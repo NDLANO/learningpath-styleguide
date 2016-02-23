@@ -1,12 +1,14 @@
+
 body{
   padding-bottom: 8em;
 }
 
 .styleguide-title {
   background-color: #20588f;
-  padding: 1.4em;
-  margin-top: 1em;
+  padding: 1em;
   color: white;
+  margin-top: 0px;
+  margin-bottom: 2em; 
 }
 
 .styleguide-main {
@@ -37,6 +39,10 @@ body{
   margin: 0px;
 }
 
+.negative{
+  background-color: black;
+  padding: 1em;
+}
 
 /** Code field **/
 
@@ -74,7 +80,6 @@ body{
   padding: 1em 1em;
   text-decoration: none;
   margin-bottom: 1em;
-
 }
 
 #site-list ul li a:hover {

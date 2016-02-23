@@ -53,8 +53,7 @@ button, input[type=submit], input[type=button] {
   padding: 1.1em;
   border: none;
   border-radius: .5em;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-size: .8em;
+  font-size: 1em;
   color: white;
   background-color: var(--gray-6);
   cursor: pointer;
@@ -65,11 +64,29 @@ input[type=submit]:hover, input[type=button]:hover {
   color: white;
 }
 
-button {
-  background-color: var(--blue-1);
+.button{
+  transition: background-color 0.3s ease;
+  padding: 1.1em;
+  border: none;
+  border-radius: .5em;
+  font-size: 1em;
+  color: white;
+  background-color: var(--gray-6);
+  cursor: pointer;
+  text-decoration: none;
 }
 
-button:hover {
-  background-color: color(var(--blue-1) blackness(+ 30%));
-  color: white;
+.button:hover {
+  background-color: color(var(--gray-3) blackness(+ 100%));
+}
+
+.button--outline{
+  background-color: white;
+  border: 3px solid var(--gray-3);
+  color: var(--gray-3);
+}
+
+.button--outline:hover{
+  background-color: var(--gray-10);
+  color: var(--gray-3) !important;
 }
