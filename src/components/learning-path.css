@@ -1,5 +1,12 @@
+.learning-path_hd {
+
+}
+
+
 .learning-path_bd {
-  max-width: 700px;
+  border-bottom: 2px solid var(--gray-9);
+  padding-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .learning-path_meta {

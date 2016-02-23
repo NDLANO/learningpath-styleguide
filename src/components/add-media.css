@@ -1,0 +1,14 @@
+.add-learting-step{
+	margin-top: 2em;
+	background-color: var(--gray-9);
+	text-align: center;
+	padding: 4em 2em;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.add-learting-step:hover{
+	background-color: var(--gray-7)
+}

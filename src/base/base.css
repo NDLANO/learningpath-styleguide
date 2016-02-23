@@ -22,9 +22,25 @@ p {
   line-height: 1.625em;
   font-size: 16px;
   color: var(--gray-3);
+  max-width: 700px;
 }
 
 h1, h2, h3 {
   font-family: 'Signika', Helvetica, Arial, sans-serif;
   font-weight: 800;
+}
+
+li{
+  margin-bottom: 1em;
+}
+
+/* NORMALIZE UL-BUG */
+ul{
+	padding: 0px;
+	margin: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
 }

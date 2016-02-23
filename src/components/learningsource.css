@@ -1,0 +1,41 @@
+.learningsource--wrapper{
+	margin-top: 2em;
+	border: 2px solid var(--gray-11);
+	position: relative;
+	background-color: white;
+}
+
+.learningsource__frame{
+	border: none;
+	padding-top: 2em;
+	width: 100%;
+}
+
+.learningsource__expand{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 40px 0 100px 0;
+    background-image: -moz-linear-gradient(top, transparent, white);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(100, var(--blue-1)));
+}
+
+.learningsourde-from{
+	border-radius: 5px;
+	padding: 2em;
+	background-color: var(--gray-12)
+}
+
+.mediatype-menu__label{
+	margin-top: 1em;
+}
+
+.learningsource-showhide{
+	border-radius: 5px;
+	
+	background-color: white;
+	padding: 1em;
+}
