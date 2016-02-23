@@ -31,6 +31,7 @@ input:focus {
   box-shadow: 0 0 6px color(var(--blue-1) alpha(.2));
 }
 
+/*
 input[type=radio],
 input[type=checkbox] {
   position: absolute;
@@ -40,6 +41,7 @@ input[type=checkbox] {
   padding: 0;
   opacity: 0;
 }
+*/
 
 label {
   display: block;
