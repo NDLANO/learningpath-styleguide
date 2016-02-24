@@ -1,7 +1,7 @@
 .page-header {
   color: white;
   background-color: var(--blue-1);
-  padding: 2em 1em 1.2em;
+  padding: .5em 1em .5em 3em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

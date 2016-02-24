@@ -10,8 +10,8 @@ body {
 
 a:link, a:visited {
   transition: background-color 0.3s ease;
-  color: var(--blue-1);
   font-size: 1em;
+  color: var(--gray-1);
 }
 
 a:hover, a:active {

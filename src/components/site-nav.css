@@ -12,12 +12,13 @@
 .site-nav_item {
   display: inline-block;
   margin: 0;
-  padding: 0 .5em;
 }
 
 .site-nav_link:link, .site-nav_link:visited {
   color: var(--gray-1);
   text-decoration: none;
+  padding: .7em;
+  display: block;
 }
 
 .site-nav_link:hover, .site-nav_link:active {
@@ -26,6 +27,13 @@
 
 .site-nav_bt {
   padding: .5em;
+}
+
+.site-nav__logout{
+  color: gray;
+  display: block;
+  padding-left: 10em;
+  border-left: 1px solid var(--gray-8);
 }
 
 @media (max-width: 640px) {
