@@ -8,15 +8,14 @@ block content
     h2.page-header_name Mine læringsstier
 
     .page-header_ctrls
-      .sorting-menu
         a.sorting-button(href="#")
-          svg.icon.icon--sort-by-alpha: use(xlink:href="/assets/symbol-defs.svg#icon-sort_by_alpha")
+          svg.icon.icon--sort-by-alpha.icon--white: use(xlink:href="/assets/symbol-defs.svg#icon-sort_by_alpha")
         a.sorting-button(href="#")
-          svg.icon.icon--list: use(xlink:href="/assets/symbol-defs.svg#icon-list")
-      select
-        - var i = 0;
-        while i++ < 10
-          option(value="#{i}") Some value for #{i}
+          svg.icon.icon--list.icon--white: use(xlink:href="/assets/symbol-defs.svg#icon-list")
+        select
+          - var i = 0;
+          while i++ < 10
+            option(value="#{i}") Sortering #{i}
   .tiles
     - var n = 2
     while n++ < 20
@@ -26,3 +25,6 @@ block content
           p Sriracha fixie 3 wolf moon before they sold out disrupt, plaid pinterest gastropub tousled austin. Freegan sustainable occupy cronut. Pickled kogi microdosing,
         .tile_ft
           strong Fact
+  a.cta-link.new-learningpath-button(href="#")
+    svg.icon.icon--add-circle-outline.icon--white: use(xlink:href="/assets/symbol-defs.svg#icon-add_circle_outline")
+    span.icon--space Opprett ny læringssti

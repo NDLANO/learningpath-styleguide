@@ -15,6 +15,10 @@
   font-size: 2em;
 }
 
+.icon--white {
+  color: white;
+}
+
 .icon--gray {
   color: var(--gray-6);
 }

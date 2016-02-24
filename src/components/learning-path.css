@@ -14,3 +14,17 @@
   line-height: 1.6em;
   color: var(--gray-4);
 }
+
+.new-learningpath-button{
+  color: white;
+  position: fixed;
+  padding: 1em 2em 1em 2em;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.new-learningpath-button:hover{
+  color: white;
+}
