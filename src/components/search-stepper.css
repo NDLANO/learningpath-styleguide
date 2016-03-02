@@ -8,7 +8,7 @@
   display: inline;
   border: 2px solid var(--gray-7);
   padding: 1em 1.45em;
-  margin: 1em .3em 0em .3em;
+  margin: 1em .3em 0 .3em;
   border-radius: 5px;
   text-decoration: none;
 }

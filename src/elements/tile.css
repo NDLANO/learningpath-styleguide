@@ -10,7 +10,6 @@
 }
 
 @media (max-width: 1450px) {
-
   .tile{
     width: 30%;
     margin: 1.655555%;
@@ -20,7 +19,6 @@
 
 
 @media (max-width: 900px) {
-  
   .tile{
     width: 46%;
     margin: 2%;
@@ -32,7 +30,6 @@
 }
 
 @media (max-width: 650px) {
-  
   .tile{
     width: 98%;
     margin: 2%;

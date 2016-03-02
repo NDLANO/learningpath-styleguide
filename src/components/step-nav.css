@@ -49,7 +49,7 @@
   display: block;
   line-height: 1.2em;
   min-height: var(--step-nav-link-h);
-  padding: 1.5em 0em 1.7em calc(5em - var(--step-nav-arrow-w));
+  padding: 1.5em 0 1.7em calc(5em - var(--step-nav-arrow-w));
 }
 
 .step-nav_link:link, .step-nav_link:visited {
