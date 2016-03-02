@@ -2,40 +2,38 @@ doctype html
 html(lang='no_NB')
   head
     meta(charset='utf-8')
-    link(rel='stylesheet' href='/style.css')
+    link(rel='stylesheet' href=STYLESHEET_PATH)
     link(rel='stylesheet' href='/styleguide.css')
     link(rel='stylesheet' href='/highlight/default.css')
     link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300italic,300|Signika:400,600,300,700')
     != LRScript
-    title
-      block title
-        | NDLA Læringsstier
+    title NDLA Læringsstier - Forside
 
-body
-  .hero
-    .nav 
-      .home--logo
-        img(src='/assets/ndla-logo-white.png') 
-      .home--login
-        a(href='#') Ny bruker
-        a(href='#') Logg inn
-    h1.hero--title Læringsstider
-    h3.hero--title Nasjonal digital læringsarena
-    form.search-form
-      input.search-form_query(type='text' placeholder='Søk etter læringsstier')
-      button.search-form_btn.button Søk
-    .cta-link.cta-link--negative Hva er en læringssti?
-    .cta-link.cta-link--secondary.cta-link--secondary-negative.cta--spacer Lag din egen læringgsti »
+  body
+    .hero
+      .nav
+        .home--logo
+          img(src='/assets/ndla-logo-white.png')
+        .home--login
+          a(href='#') Ny bruker
+          a(href='#') Logg inn
+      h1.hero--title Læringsstider
+      h3.hero--title Nasjonal digital læringsarena
+      form.search-form
+        input.search-form_query(type='text' placeholder='Søk etter læringsstier')
+        button.search-form_btn.button Søk
+      .cta-link.cta-link--negative Hva er en læringssti?
+      .cta-link.cta-link--secondary.cta-link--secondary-negative.cta--spacer Lag din egen læringgsti »
 
-  .infoblock
     .infoblock
-      .infoblock--text
-        h2 Enklere å følge
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
-      img.infoblock--img(src='http://placehold.it/300x200')
-  .infoblock
+      .infoblock
+        .infoblock--text
+          h2 Enklere å følge
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
+        img.infoblock--img(src='http://placehold.it/300x200')
     .infoblock
-      .infoblock--text.infoblock--text-left
-        h2 Enklere å følge
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
-      img.infoblock--img.infoblock--img-left(src='http://placehold.it/300x200')
+      .infoblock
+        .infoblock--text.infoblock--text-left
+          h2 Enklere å følge
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
+        img.infoblock--img.infoblock--img-left(src='http://placehold.it/300x200')

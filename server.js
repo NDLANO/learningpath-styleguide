@@ -2,24 +2,22 @@ var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
-var livereload = require('livereload');
 
 var app = express();
 
-app.locals.LRScript = "<script>document.write('<script src=\"http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js\"></' + 'script>')</script>"; // eslint-disable-line
-var lrServer = livereload.createServer({ exts: ['css', 'jade'] });
-lrServer.watch(['docs', 'src'].map(function (d) { return path.join(__dirname, d); }));
+if (app.get('env') === 'development') {
+  var livereload = require('livereload');
+  app.locals.LRScript = "<script>document.write('<script src=\"http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js\"></' + 'script>')</script>"; // eslint-disable-line
+  var lrServer = livereload.createServer({ exts: ['css', 'jade'] });
+  lrServer.watch(['docs', 'src'].map(function (d) { return path.join(__dirname, d); }));
+} else {
+  app.locals.LRScript = '';
+}
+
+app.locals.STYLESHEET_PATH = (app.get('env') === 'development') ? '/style.css' : '/assets/style.css';
 
 app.set('views', path.join(__dirname, 'docs'));
 app.set('view engine', 'jade');
-
-
-var webpackMiddleware = require('webpack-dev-middleware');
-var webpack = require('webpack');
-var webpackConfig = require('./webpack.config');
-webpackConfig.output.path = '/';
-var compiler = webpack(webpackConfig);
-
 
 var router = express.Router();
 router.get('/', function (req, res) { res.render('index'); });
@@ -33,7 +31,16 @@ router.get('/pages', function (req, res) { res.render('pages'); });
 app.use(favicon(path.join(__dirname, 'assets', 'favicon.ico')));
 app.use(logger('dev'));
 
-app.use(webpackMiddleware(compiler, { lazy: true }));
+if (app.get('env') === 'development') {
+  var webpackMiddleware = require('webpack-dev-middleware');
+  var webpack = require('webpack');
+  var webpackConfig = require('./webpack.config');
+  webpackConfig.output.path = '/';
+  var compiler = webpack(webpackConfig);
+
+  app.use(webpackMiddleware(compiler, { lazy: true }));
+}
+
 app.use(router);
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
