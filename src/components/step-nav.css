@@ -3,7 +3,7 @@
   --step-nav-arrow-w: 2em;
 }
 
-.step-nav_learningpath-general-info{
+.step-nav_learningpath-general-info {
   padding: 2em 1em 3em 0.5em;
   text-align: center;
   background-color: white;
@@ -57,7 +57,7 @@
   color: var(--gray-5);
 }
 
-.step-nav_link:hover{
+.step-nav_link:hover {
   color: var(--gray-3);
   background-color: var(--gray-7);
   transition: all 0s;
@@ -74,6 +74,6 @@
   border-right: solid 4px var(--blue-1);
 }
 
-.step-nav_item--active:hover{
+.step-nav_item--active:hover {
   background-color: var(--blue-1);
 }

@@ -1,4 +1,4 @@
-.site-nav{
+.site-nav {
   margin-right: 1em;
 }
 
@@ -29,7 +29,7 @@
   padding: .5em;
 }
 
-.site-nav__logout{
+.site-nav__logout {
   color: gray;
   display: block;
   padding-left: 10em;

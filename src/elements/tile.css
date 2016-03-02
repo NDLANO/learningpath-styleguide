@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 1450px) {
-  .tile{
+  .tile {
     width: 30%;
     margin: 1.655555%;
     margin-bottom: 1em;
@@ -19,23 +19,23 @@
 
 
 @media (max-width: 900px) {
-  .tile{
+  .tile {
     width: 46%;
     margin: 2%;
     margin-bottom: 1em;
   }
-  .tile:last-child{
+  .tile:last-child {
     margin-right: 5%;
   }
 }
 
 @media (max-width: 650px) {
-  .tile{
+  .tile {
     width: 98%;
     margin: 2%;
     margin-bottom: 1em;
   }
-  .tile:last-child{
+  .tile:last-child {
     margin-right: 5%;
   }
 }

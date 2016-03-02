@@ -65,7 +65,7 @@ input[type=submit]:disabled, input[type=button]:disabled {
   cursor: not-allowed;
 }
 
-.button{
+.button {
   transition: background-color 0.3s ease;
   padding: 1.1em;
   border: none;
@@ -81,13 +81,13 @@ input[type=submit]:disabled, input[type=button]:disabled {
   background-color: color(var(--gray-3) blackness(+ 100%));
 }
 
-.button--outline{
+.button--outline {
   background-color: white;
   border: 3px solid var(--gray-3);
   color: var(--gray-3);
 }
 
-.button--outline:hover{
+.button--outline:hover {
   background-color: var(--gray-10);
   color: var(--gray-3);
 }

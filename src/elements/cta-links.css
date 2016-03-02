@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-.cta-link__top-spacing{
+.cta-link__top-spacing {
   margin-top: 1em;
 }
 
@@ -58,12 +58,12 @@
   border: none;
 }
 
-.cta-link--negative:any-link{
+.cta-link--negative:any-link {
   background-color: white;
   border-color: white;
   color: var(--blue-1);
 }
-.cta-link--negative:any-link:hover{
+.cta-link--negative:any-link:hover {
   background-color: red;
   border-color: white;
   color: var(--blue-1);
