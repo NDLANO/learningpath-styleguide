@@ -13,6 +13,10 @@
   padding: 12px 0 0 1em;
 }
 
+.masthead_right {
+  padding: 0 1em 0 0;
+}
+
 @media (max-width: 640px) {
   .masthead {
     flex-direction: column;

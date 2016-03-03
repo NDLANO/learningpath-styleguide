@@ -8,6 +8,15 @@ block content
   main.styleguide-main.styleguide-main--molecules
     #boxes
       include ./molecules/boxes.jade
+
+    h2 Site navigation
+
+    include ./molecules/site-nav.jade
+    include ./molecules/site-nav--logged-out.jade
+
+    div(style='background-color:#20588f')
+      include ./molecules/site-nav--on-dark.jade
+
     h2 Step navigation
     div(style='max-width:400px')
       include ./molecules/step-nav.jade
