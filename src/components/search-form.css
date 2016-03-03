@@ -9,7 +9,6 @@
 
 .search-form--dark {
   color: white;
-  background-color: var(--blue-1);
 }
 
 input[type=text].search-form_query {
