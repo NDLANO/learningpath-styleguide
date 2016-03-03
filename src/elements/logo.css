@@ -1,9 +1,34 @@
-
 .logo {
-  margin-left: 1em;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 15px;
+  width: 48px;
 }
 
-.logo_img {
-  padding-top: 12px;
-  height: 27px;
+.logo_link {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding-left: 100%;
+  overflow: hidden;
+  background: url('/assets/logo.png') no-repeat;
+  background-size: contain;
+  vertical-align: top;
+
+  &:any-link {
+    text-decoration: none;
+  }
+}
+
+.logo--on-dark {
+  height: 23px;
+  width: 60px;
+
+  & .logo_link {
+    background-image: url('/assets/ndla-logo-white.png');
+  }
+  & .logo_link:any-link {
+    color: white;
+  }
 }

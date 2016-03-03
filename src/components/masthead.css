@@ -9,6 +9,10 @@
   align-items: flex-start;
 }
 
+.masthead_left {
+  padding: 12px 0 0 1em;
+}
+
 @media (max-width: 640px) {
   .masthead {
     flex-direction: column;

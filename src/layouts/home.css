@@ -7,7 +7,7 @@
   height: 600px;
   background-image: url("/assets/hero-img.jpg");
   background-size: cover;
-  padding: 0% 20% 0% 20%;
+  padding: 0 20% 0 20%;
   text-align: center;
   color: white;
 }
@@ -25,9 +25,8 @@
   margin-left: 1em;
 }
 
-.home--logo img {
+.home--logo {
   float: left;
-  max-width: 60px;
 }
 
 .cta--spacer {
