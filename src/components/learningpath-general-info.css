@@ -1,0 +1,14 @@
+.learningpath-general-info {
+  padding: 2em 1em 3em 0.5em;
+  text-align: center;
+  background-color: white;
+}
+
+.learningpath-general-info_h {
+  margin-bottom: .5em;
+}
+
+.learningpath-general-info_b {
+  color: var(--gray-6);
+  font-size: 0.9em;
+}

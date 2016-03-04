@@ -1,28 +1,5 @@
-:root {
-  --step-nav-link-h: calc(1.2em * 2 + 1.5em);
-  --step-nav-arrow-w: 2em;
-}
-
-.step-nav_learningpath-general-info {
-  padding: 2em 1em 3em 0.5em;
-  text-align: center;
-  background-color: white;
-  border-bottom: 1px solid var(--gray-9);
-}
-
-
-.step-nav_h {
-  margin-bottom: .5em;
-}
-
-.step-nav_meta {
-  color: var(--gray-6);
-  font-size: 0.9em;
-}
-
-.step-nav_author, .step-nav_changed-date, .step-nav_duration {
-  display: inline-block;
-  margin-right: .5em;
+.step-nav {
+  border-top: 1px solid var(--gray-9);
 }
 
 .step-nav_list {
@@ -36,44 +13,26 @@
   margin: 0;
 }
 
-.step-nav_item::after {
-  display: block;
-  content: '';
-  width: 0;
-  height: 0;
-  position: absolute;
-  right: 0;
-}
-
 .step-nav_link {
   display: block;
   line-height: 1.2em;
-  min-height: var(--step-nav-link-h);
-  padding: 1.5em 0 1.7em calc(5em - var(--step-nav-arrow-w));
+  padding: 1.5em 0 1.7em 3em;
+  border-right: solid 4px transparent;
 }
 
-.step-nav_link:link, .step-nav_link:visited {
+.step-nav_link:any-link {
   text-decoration: none;
   color: var(--gray-5);
+  transition: background-color 0s;
 }
 
 .step-nav_link:hover {
   color: var(--gray-3);
   background-color: var(--gray-7);
-  transition: all 0s;
 }
 
-
-.step-nav_item.step-nav_item--active:after {
-  border-left-color: var(--gray-10);
-}
-
-.step-nav_item--active .step-nav_link {
+.step-nav_item--active .step-nav_link:any-link {
   color: black;
   background-color: var(--gray-10);
-  border-right: solid 4px var(--blue-1);
-}
-
-.step-nav_item--active:hover {
-  background-color: var(--blue-1);
+  border-right-color: var(--blue-1);
 }

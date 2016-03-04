@@ -11,23 +11,30 @@ block content
 
     h2 Site navigation
 
-    include ./molecules/site-nav.jade
-    include ./molecules/site-nav--logged-out.jade
+    div(style='border:1px dotted grey; margin:1em 0;')
+      include ./molecules/site-nav.jade
+    div(style='border:1px dotted grey; margin:1em 0;')
+      include ./molecules/site-nav--logged-out.jade
 
-    div(style='background-color:#20588f')
+    div(style='background-color:#20588f;')
       include ./molecules/site-nav--on-dark.jade
 
     h2 Step navigation
-    div(style='max-width:400px')
+    div(style='max-width:400px;border:1px dotted grey;')
       include ./molecules/step-nav.jade
 
     h2 Search form
-    div(style='max-width:920px')
+    div(style='max-width:920px;margin:1em 0; padding:0 1em; border:1px dotted grey;')
       include ./molecules/search-form.jade
     div(style='max-width:920px;background-color:#20588f;margin:1em 0; padding:0 1em;')
       include ./molecules/search-form--dark.jade
     div(style='max-width:920px;background-color:#20588f;margin:1em 0; padding:0 1em;')
       include ./molecules/search-form--dark-wo-sort.jade
+
+    h2 Learningpath information
+
+    div(style='max-width:300px;')
+      include ./molecules/learningpath-general-info.jade
 
     h2 Icon select
     form
