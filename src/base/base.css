@@ -8,7 +8,7 @@ body {
   background-color: var(--gray-12);
 }
 
-a:link, a:visited {
+a:any-link {
   transition: background-color 0.3s ease;
   font-size: 1em;
   color: var(--gray-1);

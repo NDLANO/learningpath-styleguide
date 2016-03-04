@@ -7,7 +7,7 @@
   background-color: var(--blue-1);
 }
 
-.cta-link:link, .cta-link:visited {
+.cta-link:any-link {
   background-color: var(--blue-1);
   color: white;
   text-decoration: none;
@@ -28,7 +28,7 @@
   margin-top: 1em;
 }
 
-.cta-link--gl:link, .cta-link--gl:visited {
+.cta-link--gl:any-link {
   background-color: #f44336;
   border: none;
 }
@@ -38,7 +38,7 @@
   border: none;
 }
 
-.cta-link--fb:link, .cta-link--fb:visited {
+.cta-link--fb:any-link {
   background-color: #3b5998 ;
   border: none;
 }
@@ -48,7 +48,7 @@
   border: none;
 }
 
-.cta-link--tw:link, .cta-link--tw:visited {
+.cta-link--tw:any-link {
   background-color: #0084b4;
   border: none;
 }
@@ -63,7 +63,7 @@
   border-color: white;
   color: var(--blue-1);
 }
-.cta-link--negative:any-link:hover {
+.cta-link--negative:hover, .cta-link--negative:active {
   background-color: red;
   border-color: white;
   color: var(--blue-1);
