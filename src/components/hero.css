@@ -1,0 +1,17 @@
+.hero {
+  height: 600px;
+  background-image: url("/assets/hero-img.jpg");
+  background-size: cover;
+  padding: 0 20% 0 20%;
+  text-align: center;
+  color: white;
+}
+
+.hero_title {
+  font-weight: normal;
+  text-align: center;
+}
+
+.hero_link {
+  margin: 0 .5em;
+}

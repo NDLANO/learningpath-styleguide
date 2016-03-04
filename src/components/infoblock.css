@@ -1,0 +1,29 @@
+.infoblock {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 5% 5% 0;
+}
+
+.infoblock_text {
+  flex: 1;
+  margin-right: 10%;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.infoblock_img {
+  max-height: 300px;
+  margin-top: 2em;
+}
+
+.infoblock_img--left {
+  order: -2;
+  margin-right: 10%;
+}
+
+
+.infoblock_text--left {
+  margin-right: 0;
+}
+

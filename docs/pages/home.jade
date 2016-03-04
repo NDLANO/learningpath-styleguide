@@ -12,29 +12,28 @@ html(lang='no_NB')
 
   body
     .hero
-      .nav
-        .home--logo
+      .frontpage-masthead
+        .frontpage-masthead_left
           h1.logo.logo--on-dark: a.logo_link(href='/pages') Nasjonal digital læringsarena
-        .home--login
-          a(href='#') Ny bruker
-          a(href='#') Logg inn
-      h1.hero--title Læringsstier
-      h3.hero--title Nasjonal digital læringsarena
+        .frontpage-masthead_right
+          include ../molecules/site-nav--on-dark.jade
+      h1.hero_title Læringsstier
+      h3.hero_title Nasjonal digital læringsarena
 
       include ../molecules/search-form--dark-wo-sort.jade
 
-      .cta-link.cta-link--negative Hva er en læringssti?
-      .cta-link.cta-link--secondary.cta-link--secondary-negative.cta--spacer Lag din egen læringgsti »
+      a(href='#').hero_link.cta-link.cta-link--negative Hva er en læringssti?
+      a(href='#').hero_link.cta-link.cta-link--secondary.cta-link--secondary-negative Lag din egen læringgsti »
 
     .infoblock
       .infoblock
-        .infoblock--text
+        .infoblock_text
           h2 Enklere å følge
           p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
-        img.infoblock--img(src='http://placehold.it/300x200')
+        img.infoblock_img(src='http://placehold.it/300x200')
     .infoblock
       .infoblock
-        .infoblock--text.infoblock--text-left
+        .infoblock_text.infoblock_text--left
           h2 Enklere å følge
           p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
-        img.infoblock--img.infoblock--img-left(src='http://placehold.it/300x200')
+        img.infoblock_img.infoblock_img--left(src='http://placehold.it/300x200')
