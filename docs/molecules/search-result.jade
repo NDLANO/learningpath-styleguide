@@ -3,15 +3,15 @@
   .search-result_bd
     h2.search-result_title En læringssti
     .search-result_meta
-      span.search-result_author
-        svg.icon.icon--gray.icon--person: use(xlink:href="/assets/symbol-defs.svg#icon-person")
-        a(href="#" rel="author") Hans Hansen
-      span.search-result_changed-date
-        svg.icon.icon--gray.icon--today: use(xlink:href="/assets/symbol-defs.svg#icon-today")
-        time 01.01.16
-      span.search-result_duration
-        svg.icon.icon--gray.icon--query-builder: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
-        time 10 timer
+      span.labeled-icon
+        svg.icon.icon--person.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-person")
+        span.labeled-icon_text Hans Hansen
+      span.labeled-icon
+        svg.icon.icon--today.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-today")
+        time.labeled-icon_text 01.01.16
+      span.labeled-icon
+        svg.icon.icon--query-builder.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
+        time.labeled-icon_text 10 timer
 
     .search-result_description
       p Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.
