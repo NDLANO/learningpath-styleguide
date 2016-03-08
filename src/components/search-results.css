@@ -21,15 +21,9 @@
 }
 
 .search-result_title {
-  margin-bottom: .2em
+  margin-bottom: .2em;
 }
 
 .search-result_meta {
   font-size: .9em;
 }
-
-.search-result_author, .search-result_changed-date, .search-result_duration {
-  display: inline-block;
-  margin-right: .5em;
-}
-

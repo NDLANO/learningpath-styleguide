@@ -1,69 +1,69 @@
 .nav{
-	padding-top: 1em ;
-	padding-bottom: 5em;
+  padding-top: 1em ;
+  padding-bottom: 5em;
 }
 
 .hero{
-	height: 600px;
-	background-image: url("/assets/hero-img.jpg");
-	background-size: cover;
-	padding: 0% 20% 0% 20%;
-	text-align: center;
-	color: white;
+  height: 600px;
+  background-image: url("/assets/hero-img.jpg");
+  background-size: cover;
+  padding: 0% 20% 0% 20%;
+  text-align: center;
+  color: white;
 }
 
 .hero--title{
-	color: white;
-	font-weight: normal;
-	text-align: center;
-	clear: both;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  clear: both;
 }
 
 .home--login a{
-	color: white !important;
-	float: right;
-	margin-left: 1em;
+  color: white !important;
+  float: right;
+  margin-left: 1em;
 }
 
 .home--logo img{
-	float: left;
-	max-width: 60px;
+  float: left;
+  max-width: 60px;
 }
 
 .cta--spacer{
-	margin-left: 1em;
+  margin-left: 1em;
 }
 
 .infoblock{
-	margin: 0 5%;
+  margin: 0 5%;
 }
 
 
 .infoblock{
-	display: flex;
-	justify-content: space-around;
-	flex-flow: row wrap;
-	margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin-top: 5%;
 }
 
 .infoblock--text{
-	flex: 1;
-	margin-right: 10%;
-	max-width: 600px;
-	min-width: 300px;
+  flex: 1;
+  margin-right: 10%;
+  max-width: 600px;
+  min-width: 300px;
 }
 
 .infoblock--img{
-	max-height: 300px;
-	margin-top: 2em;
+  max-height: 300px;
+  margin-top: 2em;
 }
 
 .infoblock--img-left{
-	order: -2;
-	margin-right: 10%;
+  order: -2;
+  margin-right: 10%;
 }
 
 
 .infoblock--text-left{
-	margin-right: 0%;
+  margin-right: 0%;
 }

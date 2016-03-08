@@ -1,5 +1,6 @@
 {
   "rules": {
+    "block-opening-brace-space-before": "always",
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always",
     "block-opening-brace-newline-after": "always",

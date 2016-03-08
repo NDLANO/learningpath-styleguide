@@ -16,7 +16,6 @@
   position: relative;
 }
 
-
 .two-column_col:nth-child(2) {
   flex-basis: 770px;
   flex-grow: 2;

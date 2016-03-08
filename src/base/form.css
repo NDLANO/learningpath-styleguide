@@ -1,4 +1,4 @@
-input, select {
+select {
   border: 1px solid var(--gray-9);
   border-radius: .313em;
   background: white;
@@ -7,13 +7,25 @@ input, select {
   color: var(--gray-2);
 }
 
-input{
-  padding: .6em 1em;
-  box-shadow: inset 1px 1px color(black alpha(3%));
+select:focus {
+  outline: none;
 }
 
-input:focus, select:focus {
+input {
+  padding: .6em 1em;
+  box-shadow: inset 1px 1px color(black alpha(3%));
+  border: 1px solid var(--gray-9);
+  border-radius: .313em;
+  background: white;
+  min-height: 1.5em;
+  font-size: 1em;
+  color: var(--gray-2);
+}
+
+input:focus {
   outline: none;
+  border-color: var(--blue-1);
+  box-shadow: 0 0 6px color(var(--blue-1) alpha(.2));
 }
 
 input.success {
@@ -26,22 +38,6 @@ input.alert {
   box-shadow: 0 0 6px color(var(--red-1) alpha(.2));
 }
 
-input:focus {
-  border-color: var(--blue-1);
-  box-shadow: 0 0 6px color(var(--blue-1) alpha(.2));
-}
-
-/*
-input[type=radio],
-input[type=checkbox] {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  opacity: 0;
-}
-*/
 
 label {
   display: block;
@@ -69,7 +65,7 @@ input[type=submit]:disabled, input[type=button]:disabled {
   cursor: not-allowed;
 }
 
-.button{
+.button {
   transition: background-color 0.3s ease;
   padding: 1.1em;
   border: none;
@@ -85,13 +81,13 @@ input[type=submit]:disabled, input[type=button]:disabled {
   background-color: color(var(--gray-3) blackness(+ 100%));
 }
 
-.button--outline{
+.button--outline {
   background-color: white;
   border: 3px solid var(--gray-3);
   color: var(--gray-3);
 }
 
-.button--outline:hover{
+.button--outline:hover {
   background-color: var(--gray-10);
-  color: var(--gray-3) !important;
+  color: var(--gray-3);
 }

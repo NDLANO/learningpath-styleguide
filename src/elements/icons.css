@@ -23,12 +23,20 @@
   color: var(--gray-6);
 }
 
-.icon--space{
+.icon--space {
   padding-left: 5px;
 }
 
-.icon--space-after{
+.icon--space-after {
   padding-right: 5px;
+}
+
+.icon--with-label {
+  vertical-align: middle;
+}
+
+.labeled-icon_text {
+  padding: 0 .2em;
 }
 
 /* =======================================================================================

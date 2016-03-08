@@ -1,17 +1,17 @@
-.learningsource--wrapper{
+.learningsource--wrapper {
   margin-top: 2em;
   border: 2px solid var(--gray-11);
   position: relative;
   background-color: white;
 }
 
-.learningsource__frame{
+.learningsource__frame {
   border: none;
   padding-top: 2em;
   width: 100%;
 }
 
-.learningsource__expand{
+.learningsource__expand {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -20,17 +20,16 @@
   margin: 0;
   padding: 90px 0 50px 0;
   text-decoration: none;
-  background-image: -moz-linear-gradient(top, transparent, white);
-  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(100, white));
+  background-image: linear-gradient(to top, white, transparent);
 }
 
-.learningsourde-from{
+.learningsource-form {
   border-radius: 5px;
   padding: 2em;
-  background-color: var(--gray-12)
+  background-color: var(--gray-12);
 }
 
-.learningsource-showhide{
+.learningsource-showhide {
   border-radius: 5px;
   background-color: white;
   padding: 1em;

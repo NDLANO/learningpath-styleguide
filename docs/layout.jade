@@ -2,7 +2,8 @@ doctype html
 html(lang='no_NB')
   head
     meta(charset='utf-8')
-    link(rel='stylesheet' href='/style.css')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel='stylesheet' href=STYLESHEET_PATH)
     link(rel='stylesheet' href='/styleguide.css')
     link(rel='stylesheet' href='/highlight/default.css')
     link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300italic,300|Signika:400,600,300,700')
@@ -14,9 +15,7 @@ html(lang='no_NB')
   body
    .masthead
      .masthead_left
-       .logo
-         a.logo_link(href='/')
-           img.logo_img(src='/assets/logo.png')
+       h1.logo: a.logo_link(href='/') Nasjonal digital læringsarena
 
      .masthead_right
        .site-nav

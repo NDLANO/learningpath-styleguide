@@ -35,3 +35,31 @@ table
         td: svg.icon(class=cn): use(xlink:href='/assets/symbol-defs.svg#'+id)
         td= '#' + id
         td= '.' + cn
+
+h3 Icon with label
+
+:example
+  <span class="labeled-icon">
+    <svg class="icon icon--person icon--with-label">
+      <use xlink:href="/assets/symbol-defs.svg#icon-person"></use>
+    </svg>
+    <span class="labeled-icon_text">Remy Løvik</span>
+  </span>
+
+  <a href="#" class="labeled-icon"><svg class="icon icon--apps icon--with-label">
+      <use xlink:href="/assets/symbol-defs.svg#icon-apps"></use>
+    </svg><span class="labeled-icon_text">Min læringsstier</span></a>
+
+  <a href="#" class="labeled-icon><span class="labeled-icon_text">
+      Logg ut
+    </span><svg class="icon icon--exit-to-app icon--with-label">
+      <use xlink:href="/assets/symbol-defs.svg#icon-exit_to_app"></use>
+    </svg></a>
+
+:example
+  <h3 style="color:maroon" class="labeled-icon">
+    <svg class="icon icon--save icon--with-label">
+      <use xlink:href="/assets/symbol-defs.svg#icon-save"></use>
+    </svg>
+    <span class="labeled-icon_text">A:\</span>
+  </h3>

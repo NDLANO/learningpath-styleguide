@@ -2,7 +2,8 @@ doctype html
 html(lang='no_NB')
   head
     meta(charset='utf-8')
-    link(rel='stylesheet' href='/style.css')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel='stylesheet' href=STYLESHEET_PATH)
     link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300italic,300|Signika:400,600,300,700')
     != LRScript
     title
@@ -12,24 +13,11 @@ html(lang='no_NB')
   body
    .masthead
      .masthead_left
-       .logo
-         a.logo_link(href='/pages')
-           img.logo_img(src='/assets/logo.png')
+       h1.logo: a.logo_link(href='/pages') Nasjonal digital læringsarena
 
      .masthead_right
-       .site-nav
-         ul.site-nav_list
-          li.site-nav_item
-            a.site-nav_link(href='#')
-              svg.icon.icon--search: use(xlink:href="/assets/symbol-defs.svg#icon-search")
-              span.icon--space Finn læringssti
-          li.site-nav_item 
-            a.site-nav_link(href='#')
-              svg.icon.icon--apps: use(xlink:href="/assets/symbol-defs.svg#icon-apps")
-              span.icon--space Min læringsstier
-          li.site-nav_item: a.site-nav_link.site-nav__logout(href='#') 
-            span.icon--space-after Logg ut: Ola Normann
-            svg.icon.icon--gray.icon--exit_to_app: use(xlink:href="/assets/symbol-defs.svg#icon-exit_to_app")
+        include ../molecules/site-nav.jade
+
    .content
      block content
        h2 This page probably unintentionally left blank
