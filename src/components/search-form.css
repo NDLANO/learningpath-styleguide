@@ -29,10 +29,10 @@ input[type=text].search-form_query {
   margin-left: -3.7em;
   background-color: var(--blue-1);
   padding: 1em;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
 
   @nest .search-form--on-dark & {
-    border: 3px solid white;
+    border: 2px solid white;
   }
 }
 
