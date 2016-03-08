@@ -23,14 +23,6 @@
   color: var(--gray-6);
 }
 
-.icon--space {
-  padding-left: 5px;
-}
-
-.icon--space-after {
-  padding-right: 5px;
-}
-
 .icon--with-label {
   vertical-align: middle;
 }
