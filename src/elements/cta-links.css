@@ -18,6 +18,18 @@
   border: 2px solid color(var(--blue-1) blackness(+ 20%));
 }
 
+.cta-link--secondary:any-link{
+  background-color: transparent;
+  border-color: var(--blue-1);
+  color: var(--blue-1);  
+}
+
+.cta-link--secondary:any-link:hover{
+  background-color: var(--blue-1);
+  border-color: var(--blue-1);
+  color: white;  
+}
+
 .cta-link--block {
   display: inline-block;
   width: 100%;
@@ -64,9 +76,20 @@
   color: var(--blue-1);
 }
 .cta-link--negative:any-link:hover{
-  background-color: red;
+  background-color: var(--blue-1);
+  border-color: white;
+  color: white;
+}
+
+.cta-link--secondary-negative:any-link{
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+.cta-link--secondary-negative:any-link:hover{
+  background-color: var(--gray-10);
   border-color: white;
   color: var(--blue-1);
 }
-
 

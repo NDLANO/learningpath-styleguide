@@ -27,7 +27,10 @@ input[type=text].search-form_query {
 }
 
 .search-form_btn {
-  margin-left: -4.5em;
+  margin-left: -3.7em;
+  background-color: var(--blue-1);
+  padding: 1em;
+  border-radius: 5px;
 
   @nest .search-form--dark & {
     border: 3px solid white;
