@@ -11,13 +11,14 @@ html(lang='no_NB')
         | NDLA
 
   body
-   .masthead
-     .masthead_left
-       h1.logo: a.logo_link(href='/pages') Nasjonal digital læringsarena
+   block body
+     .masthead
+       .masthead_left
+         h1.logo: a.logo_link(href='/pages') Nasjonal digital læringsarena
 
-     .masthead_right
-        include ../molecules/site-nav.jade
+       .masthead_right
+          include ../molecules/site-nav.jade
 
-   .content
-     block content
-       h2 This page probably unintentionally left blank
+     .content
+       block content
+         h2 This page probably unintentionally left blank

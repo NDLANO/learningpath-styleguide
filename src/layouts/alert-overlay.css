@@ -1,0 +1,10 @@
+.alert-overlay {
+  position: fixed;
+  width: 38%;
+  top: 5px;
+  left: 31%;
+}
+
+.alert-overlay--hidden {
+  display: none;
+}

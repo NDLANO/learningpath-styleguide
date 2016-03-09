@@ -1,0 +1,38 @@
+extends layout
+
+block append title
+  | - Alert overlay
+
+block content
+  .page-header
+    h2.page-header_name This page intentionally left blank
+
+  .one-column
+    div(style='height:5000px')
+      button#toggleOverlay Toggle alert
+
+    div That's all, folks.
+
+block append body
+  #overlay.alert-overlay
+    .alert.alert--success
+      button#closeOverlay.un-button.alert_dismiss
+        svg.icon.icon--clear: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
+      .alert_msg Well done! You successfully read this important alert message.
+
+  script.
+    (function () {
+      var overlay = document.getElementById('overlay');
+      var closeBt = document.getElementById('closeOverlay');
+
+      var toggleBt = document.getElementById('toggleOverlay');
+
+      toggleBt.addEventListener('click', function () {
+        overlay.classList.toggle('alert-overlay--hidden');
+      }, false);
+      closeBt.addEventListener('click', function () {
+        overlay.classList.add('alert-overlay--hidden');
+        console.log(overlay);
+      }, false);
+    }());
+
