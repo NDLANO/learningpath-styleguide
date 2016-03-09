@@ -91,3 +91,12 @@ input[type=submit]:disabled, input[type=button]:disabled {
   background-color: var(--gray-10);
   color: var(--gray-3);
 }
+
+.un-button {
+  transition: background-color none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 1em;
+  color: inherit;
+  background-color: transparent;
+}
