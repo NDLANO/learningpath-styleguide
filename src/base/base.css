@@ -21,7 +21,6 @@ a:hover, a:active {
 p {
   line-height: 1.625em;
   font-size: 16px;
-  color: var(--gray-3);
   max-width: 700px;
 }
 
