@@ -3,28 +3,32 @@
   border: 1px solid;
   border-radius: 5px;
   margin: 1em;
+  font-family: 'Signika', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 
 .alert--success {
   background-color: color(var(--green-1) lightness(+ 30%));
   border-color: color(var(--green-1) lightness(+ 20%));
+  color: color(var(--gray-1) blend(var(--green-1) 40%));
 }
 
 .alert--info {
   background-color: color(var(--blue-1) lightness(+ 60%));
   border-color: color(var(--blue-1) lightness(+ 55%));
+  color: color(var(--gray-1) blend(var(--blue-1) 40%));
 }
 
 .alert--warning {
   background-color: color(var(--yellow-1) lightness(+ 20%));
   border-color: color(var(--yellow-1) lightness(+ 0%));
+  color: color(var(--gray-1) blend(var(--yellow-1) 40%));
 }
 
 .alert--danger {
   background-color: color(var(--red-1) lightness(+ 22%));
   border-color: color(var(--red-1) lightness(+ 5%));
-  color: var(--red-2);
+  color: color(var(--gray-1) blend(var(--red-1) 40%));
 }
 
 .alert_msg {
