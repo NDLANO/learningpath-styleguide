@@ -1,7 +1,6 @@
 .hero {
   height: 600px;
-  background-image: url("/assets/hero-img.jpg");
-  background-size: cover;
+  background: var(--blue-1);
   padding: 0 20% 0 20%;
   text-align: center;
   color: white;
