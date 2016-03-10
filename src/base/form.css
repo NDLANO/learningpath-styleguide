@@ -28,12 +28,12 @@ input:focus {
   box-shadow: 0 0 6px color(var(--blue-1) alpha(.2));
 }
 
-input.success {
+.input--success {
   border-color: var(--green-1);
   box-shadow: 0 0 6px color(var(--green-1) alpha(.2));
 }
 
-input.alert {
+.input--alert {
   border-color: var(--red-1);
   box-shadow: 0 0 6px color(var(--red-1) alpha(.2));
 }
