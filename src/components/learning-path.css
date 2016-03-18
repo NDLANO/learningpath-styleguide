@@ -28,3 +28,25 @@
 .new-learningpath-button:hover {
   color: white;
 }
+
+.learning-path_editable-hinttext{
+  color: var(--gray-7);
+  contenteditable: true;
+}
+
+.learning-path_editable-hinttext:hover:before{
+  content: '';
+  background: url("/assets/editable.png") 4px no-repeat transparent;
+  display: block;
+  font-size: 10px;
+  padding: 1.2em;
+  margin-left: -4em;
+  margin-bottom: -3.3em;
+  margin-top: 3.06em;
+  transform: ;
+}
+
+.learning-path_editable-hinttext:focus{
+	outline-style: none;
+	color: black;
+}

@@ -1,0 +1,12 @@
+.stepper-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--blue-1);
+  color: white;
+  padding: 1.5em;
+}
+
+.stepper-nav-btn{
+	display: block;
+}
