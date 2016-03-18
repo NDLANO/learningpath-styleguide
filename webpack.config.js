@@ -1,7 +1,6 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var postcss = require('postcss');
-var postcssImport = require('postcss-import');
-var autoprefixer = require('autoprefixer');
+var postcssImport = require('postcss-easy-import');
 var cssNext = require('postcss-cssnext');
 var postcssReporter = require('postcss-reporter');
 var stylelint = require('stylelint');
@@ -46,15 +45,17 @@ module.exports = {
 
   postcss: function () {
     return [
+      stylelint,
       postcssImport({
         glob: true,
-        addDependencyTo: this
+        addDependencyTo: this,
+        plugins: [
+          stylelint
+        ]
       }),
-      stylelint,
-      autoprefixer,
       cssNext,
       pkgInfoPlugin,
-      postcssReporter
+      postcssReporter({ clearMessages: true })
     ];
   }
 };
