@@ -1,4 +1,4 @@
-.stepper-nav{
+.stepper-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,6 +7,6 @@
   padding: 1.5em;
 }
 
-.stepper-nav-btn{
-	display: block;
+.stepper-nav-btn {
+  display: block;
 }

@@ -29,12 +29,12 @@
   color: white;
 }
 
-.learning-path_editable-hinttext{
+.learning-path_editable-hinttext {
   color: var(--gray-7);
   contenteditable: true;
 }
 
-.learning-path_editable-hinttext:hover:before{
+.learning-path_editable-hinttext:hover:before {
   content: '';
   background: url("/assets/editable.png") 4px no-repeat transparent;
   display: block;
@@ -46,7 +46,7 @@
   transform: ;
 }
 
-.learning-path_editable-hinttext:focus{
-	outline-style: none;
-	color: black;
+.learning-path_editable-hinttext:focus {
+  outline-style: none;
+  color: black;
 }
