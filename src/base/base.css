@@ -43,3 +43,7 @@ ul {
   -webkit-margin-end: 0;
   -webkit-padding-start: 0;
 }
+
+.learning-step_embeded{
+	padding-top: 1em;
+}

@@ -1,0 +1,43 @@
+extends layout
+
+block append title
+  | - Læringssti
+
+block content
+  .two-column
+    aside.two-column_col
+      .learningpath-general-info
+        h2(contenteditable="true").learningpath-general-info_h Learning path title
+
+      include ../molecules/step-nav.jade
+
+      include ../molecules/vertical-menu.jade
+
+    main.two-column_col
+      .learning-path_hd
+        h1(contenteditable="true").learning-path_title.learning-path_editable-hinttext Læringssteg tittel
+      .learning-path_bd
+        p(contenteditable="true").learning-path_editable-hinttext Lag en beskrivelse av hva du ønsker at brukeren skal oppnå. 
+        .mediatype-wrapper
+          .mediatype-menu
+              h3.mediatype-menu__title Legg til innhold
+              ul.mediatype-menu__wrapper
+                 li.mediatype-menu__item
+                   a.mediatype-menu__button(href="#")
+                     svg.icon.icon--menu: use(xlink:href="/assets/symbol-defs.svg#icon-menu")
+                     span.mediatype-menu__text Teori
+                 li.mediatype-menu__item
+                   a.mediatype-menu__button(href="#")
+                     svg.icon.icon--play-circle-outline: use(xlink:href="/assets/symbol-defs.svg#icon-play_circle_outline")
+                     span.mediatype-menu__text Video
+                 li.mediatype-menu__item
+                   a.mediatype-menu__button(href="#")
+                     svg.icon.icon--contacts: use(xlink:href="/assets/symbol-defs.svg#icon-contacts")
+                     span.mediatype-menu__text Quiz
+                 li.mediatype-menu__item
+                   a.mediatype-menu__button(href="#")
+                     svg.icon.icon--today: use(xlink:href="/assets/symbol-defs.svg#icon-menu")
+                     span.mediatype-menu__text Oppgave
+
+
+
