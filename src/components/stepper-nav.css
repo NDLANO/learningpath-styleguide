@@ -4,7 +4,7 @@
   justify-content: space-between;
   background-color: white;
   color: var(--blue-1);
-  border-top: 1px solid var(--gray-7)
+  border-top: 1px solid var(--gray-7);
 }
 
 .stepper-nav-btn {
@@ -15,41 +15,39 @@
   text-decoration: none;
 }
 
-.stepper-nav-btn:hover{
-	background-color: var(--blue-1);
-	color: white;
+.stepper-nav-btn:hover {
+  background-color: var(--blue-1);
+  color: white;
 }
 
-.stepper-nav-stepp{
-	padding: 1em;
-	border-radius: 3em;
-	background-color: var(--gray-8);
+.stepper-nav-stepp {
+  padding: 1em;
+  border-radius: 3em;
+  background-color: var(--gray-8);
 }
 
-.stepper-nav-stepp:hover{
-	padding: 1em;
-	border-radius: 3em;
-	background-color: var(--blue-1);
-	transition: all .2s ease-in-out;
+.stepper-nav-stepp:hover {
+  padding: 1em;
+  border-radius: 3em;
+  background-color: var(--blue-1);
+  transition: all .2s ease-in-out;
 }
 
-.stepper-nav-stepp:before{
-	content: 'Læringssteg';
-	padding: .4em .8em;
-	border-radius: 1em;
-	background-color: var(--gray-6);
-	position: absolute;
-	margin-top: -60px;
-	margin-left: -55px;
-	border-radius: 0.331em;
-	opacity: 0;
-	color: white;
-	background-color: var(--blue-1);
-	transition: all .2s ease-in-out;
+.stepper-nav-stepp:before {
+  content: 'Læringssteg';
+  padding: .4em .8em;
+  position: absolute;
+  margin-top: -60px;
+  margin-left: -55px;
+  border-radius: 0.331em;
+  opacity: 0;
+  color: white;
+  background-color: var(--blue-1);
+  transition: all .2s ease-in-out;
 }
 
-.stepper-nav-stepp:hover:before{
-	opacity: 1;
-	transition: all .2s ease-in-out;
-	transform: scale(1.1);
+.stepper-nav-stepp:hover:before {
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
 }

@@ -101,12 +101,12 @@ input[type=submit]:disabled, input[type=button]:disabled {
   background-color: transparent;
 }
 
-select{
-	border-left: 15px solid white;
-	border-right: 15px solid white;
+select {
+  border-left: 15px solid white;
+  border-right: 15px solid white;
 }
 
-.textarea{
+.textarea {
   padding: .6em 1em;
   box-shadow: inset 1px 1px color(black alpha(3%));
   border: 1px solid var(--gray-9);

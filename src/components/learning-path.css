@@ -49,7 +49,7 @@
   opacity: 1;
 }
 
-.learning-path_editable-hinttext:focus{
+.learning-path_editable-hinttext:focus {
   outline-style: none;
   color: black;
 }
