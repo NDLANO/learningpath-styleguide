@@ -34,7 +34,7 @@
 }
 
 .stepper-nav-stepp:before {
-  content: 'Læringssteg';
+  content: attr(data-value);
   padding: .4em .8em;
   position: absolute;
   margin-top: -60px;
