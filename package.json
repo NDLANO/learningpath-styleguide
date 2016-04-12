@@ -11,6 +11,7 @@
   },
   "scripts": {
     "build": "webpack -p && cp ./dist/style.css ./assets/",
+    "devbuild": "webpack --watch  --output-path ../learningpath-frontend/htdocs/assets/",
     "start": "node ./bin/www"
   },
   "files": [ "assets" ],
