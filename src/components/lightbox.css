@@ -1,4 +1,4 @@
-.lightbox-new-learningpath {
+.lightbox {
   position: fixed;
   top: 0;
   left: 0;
@@ -7,7 +7,7 @@
   background-color: rgba(0,0,0,0.8);
 }
 
-.lightbox-new-learningpath-content {
+.lightbox_content {
   background-color: white;
   margin: 0 auto;
   margin-top: 3%;
