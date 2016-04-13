@@ -1,6 +1,6 @@
 {
   "name": "ndla-styleguide",
-  "version": "0.0.2",
+  "version": "0.0.3-0",
   "description": "CSS and stuff",
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   "publishConfig": {
     "registry": "https://nexus.knowit.no/nexus/content/repositories/ndla-npm/"
   },
-  "files": [ "assets" ],
+  "files": [
+    "assets"
+  ],
   "author": "ndla@knowit.no",
   "license": "GPL-3.0",
   "devDependencies": {
