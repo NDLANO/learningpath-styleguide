@@ -11,8 +11,13 @@
   },
   "scripts": {
     "build": "webpack -p && cp ./dist/style.css ./assets/",
+    "prepublish": "webpack -p && cp ./dist/style.css ./assets/",
+    "postpublish": "rm ./assets/style.css",
     "devbuild": "webpack --watch  --output-path ../learningpath-frontend/htdocs/assets/",
     "start": "node ./bin/www"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.knowit.no/nexus/content/repositories/ndla-npm/"
   },
   "files": [ "assets" ],
   "author": "ndla@knowit.no",
