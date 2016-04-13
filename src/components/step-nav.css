@@ -30,9 +30,8 @@
 }
 
 .step-nav_link:hover {
-  color: var(--gray-3);
-  background-color: white;
   color: var(--blue-1);
+  background-color: white;
 }
 
 .step-nav_item--active .step-nav_link:any-link {
