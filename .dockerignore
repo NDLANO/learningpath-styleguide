@@ -9,3 +9,4 @@ webpack.config.js
 .*rc.json
 build.properties
 *.sh
+.DS_Store
