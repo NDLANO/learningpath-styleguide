@@ -8,7 +8,7 @@
 }
 
 .dropdown-menu a {
-  color: #919191;
+  color: var(--gray-6);
 }
 
 .dropdown-menu > ul > li {
@@ -32,7 +32,7 @@ div.dropdown-menu > ul > li > ul.dropdown-items:after {
   content: '';
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #ffffff;
+  border-bottom: 10px solid white;
 }
 
 .dropdown-menu li:hover .dropdown-items {
@@ -46,7 +46,7 @@ div.dropdown-menu > ul > li > ul.dropdown-items:after {
   left: 0;
   opacity: 0;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  background: #ffffff;
+  background: white;
 }
 
 .dropdown-items li a {
