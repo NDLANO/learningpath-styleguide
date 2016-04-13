@@ -31,7 +31,8 @@
 
 .step-nav_link:hover {
   color: var(--gray-3);
-  background-color: var(--gray-9);
+  background-color: white;
+  color: var(--blue-1);
 }
 
 .step-nav_item--active .step-nav_link:any-link {
