@@ -3,3 +3,4 @@ min/
 dist/
 assets/style.css
 .DS_Store
+*.iml
