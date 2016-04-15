@@ -1,0 +1,31 @@
+.img-cropper{
+  position: relative;
+  width: 200px;
+  height: 180px;
+  overflow: hidden;
+  margin-top: 1em;
+}
+
+.img-cropper img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.img-cropper img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.img-cropper-tile{
+  position: relative;
+  width: 600px;
+  height: 180px;
+  overflow: hidden;
+  margin-top: 1em;
+}
