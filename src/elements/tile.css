@@ -39,3 +39,7 @@
     margin-right: 5%;
   }
 }
+
+.tile_context-menu {
+  float: right;
+}
