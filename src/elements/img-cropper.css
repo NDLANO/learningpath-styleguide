@@ -1,4 +1,4 @@
-.img-cropper{
+.img-cropper {
   position: relative;
   width: 200px;
   height: 180px;
@@ -12,9 +12,7 @@
   top: 50%;
   height: 100%;
   width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
 }
 
 .img-cropper img.portrait {
@@ -22,7 +20,7 @@
   height: auto;
 }
 
-.img-cropper-tile{
+.img-cropper-tile {
   position: relative;
   width: 600px;
   height: 180px;
