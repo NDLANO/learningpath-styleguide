@@ -3,7 +3,7 @@
 source ./build.properties
 
 PROJECT="$NDLAOrganization/$NDLAComponentName"
-VER=v0.1
+VER=`node -e "console.log(require('./package.json').version);"`
 GIT_HASH=`git log --pretty=format:%h -n 1`
 
 VERSION=${VER}_${GIT_HASH}

@@ -2,4 +2,6 @@ node_modules/
 min/
 dist/
 assets/style.css
+npm-debug.log
 .DS_Store
+*.iml

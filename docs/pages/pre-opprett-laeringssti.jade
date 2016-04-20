@@ -4,12 +4,14 @@ block append content
   .lightbox
     .lightbox_content
       form
+        a.close-dialog(href="/pages/minestier")
+          svg.icon.icon--clear: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
         h1 Opprett ny læringssti
         label Tittel
         input(type='text' required)
         label Beskrivelse
         textarea.textarea(rows="4" cols="50" placeholder="Skriv en kort beskrivelse av læringsstien." maxlength="150")
         p.hint-text Max 150 tegn
-        button(type='submit') Opprett ny læringssti
+        a.button.cta-link.cta-link--block(href="/pages/opprett-laeringssti") Opprett ny læringssti
 
       
