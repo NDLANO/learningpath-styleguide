@@ -7,6 +7,7 @@ css and stuff
 ```
 $ npm verion patch
 $ git push
+$ git push --tags
 $ npm publish
 ```
 
