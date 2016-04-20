@@ -5,7 +5,7 @@ css and stuff
 ## Publish a new release to our Nexus
 
 ```
-$ npm verion patch
+$ npm version patch
 $ git push
 $ git push --tags
 $ npm publish
