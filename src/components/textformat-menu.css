@@ -1,0 +1,35 @@
+.textformat-menu{
+	margin-bottom: 1em;
+	display: block;
+}
+
+.texformat-menu-item{
+  display: inline;
+  font-size: 1.3em;
+  padding: .2em .5em .4em .5em;
+  background-color: var(--gray-10);
+  border-left: 1px solid var(--gray-7);
+}
+
+.texformat-menu-item:hover{
+	background-color: var(--gray-7)
+}
+
+.texformat-menu-item__selected{
+	background-color: var(--blue-1);
+	color: white;
+}
+
+.texformat-menu-item__selected:hover{
+	background-color: var(--blue-2);
+	color: white;
+}
+
+.texformat-menu-item:first-child{
+	border-radius: 5px 0px 0px 5px; 
+}
+
+
+.texformat-menu-item:last-child{
+	border-radius: 0px 5px 5px 0px; 
+}

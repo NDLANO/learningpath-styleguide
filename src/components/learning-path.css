@@ -36,6 +36,7 @@
   padding: 0px;
   width: 100%;
   margin-left: 40px;
+  background-color: transparent;
 }
 
 .learning-path-input:focus {
@@ -89,8 +90,3 @@
   border-radius: 40px;  
 }
 
-.learningsource-form--save-button{
-  margin-left: -4.5em;
-  padding: 1em 1em 1.1em 1em;
-  margin-top: -0.1em;
-}

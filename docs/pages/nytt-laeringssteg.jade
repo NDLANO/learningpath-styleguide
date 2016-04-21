@@ -26,7 +26,16 @@ block content
           svg.icon.icon--create: use(xlink:href="/assets/symbol-defs.svg#icon-create")
         input(placeholder="Tittel på læringssteg").learning-path-input.learning-path-input__title
       //-- Bruk draft.js her, disse input feltene er bare brukt for å simulere.
-      .learning-path_bd 
+      .learning-path_bd
+      ul.textformat-menu
+          li.texformat-menu-item.texformat-menu-item__selected
+            svg.icon.icon--format-bold: use(xlink:href="/assets/symbol-defs.svg#icon-format_bold")
+          li.texformat-menu-item
+            svg.icon.icon--format-italic: use(xlink:href="/assets/symbol-defs.svg#icon-format_italic")
+          li.texformat-menu-item
+            svg.icon.icon--format-list-bulleted: use(xlink:href="/assets/symbol-defs.svg#icon-format_list_bulleted")
+          li.texformat-menu-item
+            svg.icon.icon--format-list-numbered: use(xlink:href="/assets/symbol-defs.svg#icon-format_list_numbered")
         span.editable
           svg.icon.icon--create: use(xlink:href="/assets/symbol-defs.svg#icon-create")
         textarea(placeholder="Lag en beskrivelse av hva leseren skal lære om").learning-path-input.learning-path-input__paragraph
