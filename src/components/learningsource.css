@@ -28,6 +28,10 @@
   padding: 2em;
   background-color: var(--gray-12);
 }
+.learningsource-form input {
+  width: 100%;
+  display: inline-block;
+}
 
 .learningsource-showhide {
   border-radius: 5px;
