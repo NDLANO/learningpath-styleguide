@@ -9,11 +9,12 @@
   border: 0 none;
 }
 
-.learning-step > iframe{
+.learning-step iframe {
   padding-top: 1em;
   border: 0 none;
 }
-.learning-step--without-dimensions > iframe{
+
+.learning-step--without-dimensions iframe {
   width: 100%;
 }
 
