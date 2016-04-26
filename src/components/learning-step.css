@@ -8,3 +8,20 @@
   height: 100%;
   border: 0 none;
 }
+
+.learning-step iframe {
+  padding-top: 1em;
+  border: 0 none;
+}
+
+.learning-step--without-dimensions iframe {
+  width: 100%;
+}
+
+.learning-step_hd {
+  padding-top: 3em;
+}
+
+.learning-step_bd {
+  padding-bottom: 2em;
+}

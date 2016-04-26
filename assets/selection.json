@@ -91,7 +91,7 @@
 			},
 			"attrs": [],
 			"properties": {
-				"order": 77,
+				"order": 79,
 				"ligatures": "format_italic",
 				"id": 331,
 				"prevSize": 24,
@@ -150,6 +150,31 @@
 			"setIdx": 0,
 			"setId": 2,
 			"iconIdx": 334
+		},
+		{
+			"icon": {
+				"paths": [
+					"M214 810h596v86h-596v-86zM512 726c-142 0-256-114-256-256v-342h106v342c0 82 68 148 150 148s150-66 150-148v-342h106v342c0 142-114 256-256 256z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"format_underlined"
+				],
+				"defaultCode": 57929,
+				"grid": 24
+			},
+			"attrs": [],
+			"properties": {
+				"order": 80,
+				"ligatures": "format_underlined",
+				"id": 342,
+				"prevSize": 24,
+				"name": "format_underlined"
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 342
 		},
 		{
 			"icon": {
