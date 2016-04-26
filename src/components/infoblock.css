@@ -27,3 +27,28 @@
   margin-right: 0;
 }
 
+@media (max-width: 640px) {
+  .infoblock_img {
+    order: -1;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2em;
+  }
+
+  .infoblock_text {
+    min-width: none;
+    margin: 0;
+  }
+
+  .hero {
+    padding: 1em;
+    height: auto;
+  }
+
+  .hero_link {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+}
+
