@@ -28,24 +28,24 @@
 }
 
 @media (max-width: 640px) {
-  .infoblock_img{
+  .infoblock_img {
     order: -1;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     margin-bottom: 2em;
   }
 
-  .infoblock_text{
-  min-width: none;
-  margin: 0px;
+  .infoblock_text {
+    min-width: none;
+    margin: 0;
   }
 
-  .hero{
+  .hero {
     padding: 1em;
     height: auto;
   }
 
-  .hero_link{
+  .hero_link {
     display: block;
     margin-bottom: 1em;
   }
