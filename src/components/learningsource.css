@@ -25,8 +25,9 @@
 
 .learningsource-form {
   border-radius: 5px;
-  padding: 2em;
+  padding: 1.5em 2em 2em 2em;
   background-color: var(--gray-12);
+  border: 1px solid var(--gray-8);
 }
 
 .learningsource-form input {
@@ -38,4 +39,10 @@
   border-radius: 5px;
   background-color: white;
   padding: 1em;
+}
+
+.learningsource-form--save-button {
+  margin-left: -4.4em !important;
+  padding: 1em 1em 1.1em 1em !important;
+  margin-top: -0.1em;
 }

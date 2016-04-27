@@ -1,5 +1,5 @@
 .learning-path_hd {
-  padding-top: 3em;
+  padding-top: 5em;
 }
 
 .learning-path_bd {
@@ -25,31 +25,68 @@
 .new-learningpath-button:hover {
   color: white;
 }
-''
+
 .learning-path_editable-hinttext {
   color: var(--gray-7);
 }
 
-.learning-path_editable-hinttext:before {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/7/7e/Edit_icon.svg);
-  display: block;
-  color: var(--gray-10);
-  width: 10px;
-  height: 10px;
-  font-size: 10px;
-  padding: .7em;
-  margin-left: -4em;
-  margin-bottom: -4em;
-  margin-top: 2em;
-  border: 1px solid var(--gray-7);
-  border-radius: 30px;
+.learning-path-input {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  width: 100%;
+  margin-left: 40px;
+  background-color: transparent;
 }
 
-.learning-path_editable-hinttext:hover:before {
-  opacity: 1;
-}
-
-.learning-path_editable-hinttext:focus {
+.learning-path-input:focus {
   outline-style: none;
   color: black;
 }
+
+.learning-path-input__title {
+  font-size: 2.5em;
+  font-weight: 600;
+  font-family: 'Signika', Helvetica, Arial, sans-serif;
+}
+
+.learning-path-input__paragraph {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  font-weight: 200;
+  line-height: 1.6em;
+  height: 90px;
+}
+
+.editable {
+  position: absolute;
+  display: block;
+  margin-top: .7em;
+  background-color: var(--gray-11);
+  padding: 0 6px 9px 6px;
+  color: var(--gray-6);
+  border-radius: 40px;
+}
+
+.editable svg {
+  max-height: 12px;
+}
+
+.mediatype-dd {
+  background-color: var(--gray-12);
+  border: none;
+  height: 44px;
+  border-left: 30px solid var(--gray-12);
+  border-right: 15px solid var(--gray-12);
+  margin-bottom: 1em;
+}
+
+.mediatype-icon {
+  position: absolute;
+  display: block;
+  margin-top: .7em;
+  margin-left: 10px;
+  color: var(--gray-4);
+  border-radius: 40px;
+}
+
