@@ -12,18 +12,7 @@ block content
       include ./atoms/links.jade
     #form
       include ./atoms/form.jade
-    #icons
-      include ./atoms/icons.jade
     #logo
       include ./atoms/logo.jade
-    #grays
-      h3 Grays
-      pre.ex-gray(style='color:white;background-color:black;') black
-      each v, k in [34, 68, 92, 102, 121, 136, 216, 221, 230, 234, 238, 248]
-        - var i = k + 1
-        pre.ex-gray(class='ex-gray-'+i).
-          --gray-#{i}: gray(#{v}) - #{Math.round(((v/255)*100)*1000)/1000}%
-      pre.ex-gray(style='color:black;background-color:white;') white
-
-     #dropdown
-       include ./atoms/dropdown.jade
+    #dropdown
+      include ./atoms/dropdown.jade

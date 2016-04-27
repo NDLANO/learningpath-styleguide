@@ -14,34 +14,39 @@
 
 
   --blue-1: #20588f;
-  --blue-2: #3A72A9;
-  --blue-3: #538BC2;
-  --blue-4: #6DA5DC;
-  --blue-5: #86BEF5;
+  --blue-2: #3a72a9;
+  --blue-3: #538bc2;
+  --blue-4: #6da5dc;
+  --blue-5: #86bef5;
 
   --red-1: #e4655f;
 
   --yellow-1: #efe574;
 
   --green-1: #6fce72;
-
-  --masthead-height: 3.125em;
 }
 
 /* stylelint-disable */
-.ex-gray { padding: 5px; margin: 0; }
-.ex-gray-1  { color: color(var(--gray-1)  contrast(50%)); background-color: var(--gray-1); }
-.ex-gray-2  { color: color(var(--gray-2)  contrast(50%)); background-color: var(--gray-2); }
-.ex-gray-3  { color: color(var(--gray-3)  contrast(50%)); background-color: var(--gray-3); }
-.ex-gray-4  { color: color(var(--gray-4)  contrast(50%)); background-color: var(--gray-4); }
-.ex-gray-5  { color: color(var(--gray-5)  contrast(50%)); background-color: var(--gray-5); }
-.ex-gray-6  { color: color(var(--gray-6)  contrast(50%)); background-color: var(--gray-6); }
-.ex-gray-7  { color: color(var(--gray-7)  contrast(50%)); background-color: var(--gray-7); }
-.ex-gray-8  { color: color(var(--gray-8)  contrast(50%)); background-color: var(--gray-8); }
-.ex-gray-9  { color: color(var(--gray-9)  contrast(50%)); background-color: var(--gray-9); }
-.ex-gray-10 { color: color(var(--gray-10) contrast(50%)); background-color: var(--gray-10); }
-.ex-gray-11 { color: color(var(--gray-11) contrast(50%)); background-color: var(--gray-11); }
-.ex-gray-12 { color: color(var(--gray-12) contrast(50%)); background-color: var(--gray-12); }
+.color-ex { padding: 5px; margin: 0; }
+.color-ex--gray-1  { color: color(var(--gray-1)  contrast(50%)); background-color: var(--gray-1); }
+.color-ex--gray-2  { color: color(var(--gray-2)  contrast(50%)); background-color: var(--gray-2); }
+.color-ex--gray-3  { color: color(var(--gray-3)  contrast(50%)); background-color: var(--gray-3); }
+.color-ex--gray-4  { color: color(var(--gray-4)  contrast(50%)); background-color: var(--gray-4); }
+.color-ex--gray-5  { color: color(var(--gray-5)  contrast(50%)); background-color: var(--gray-5); }
+.color-ex--gray-6  { color: color(var(--gray-6)  contrast(50%)); background-color: var(--gray-6); }
+.color-ex--gray-7  { color: color(var(--gray-7)  contrast(50%)); background-color: var(--gray-7); }
+.color-ex--gray-8  { color: color(var(--gray-8)  contrast(50%)); background-color: var(--gray-8); }
+.color-ex--gray-9  { color: color(var(--gray-9)  contrast(50%)); background-color: var(--gray-9); }
+.color-ex--gray-10 { color: color(var(--gray-10) contrast(50%)); background-color: var(--gray-10); }
+.color-ex--gray-11 { color: color(var(--gray-11) contrast(50%)); background-color: var(--gray-11); }
+.color-ex--gray-12 { color: color(var(--gray-12) contrast(50%)); background-color: var(--gray-12); }
+
+.color-ex--blue-1  { color: color(var(--blue-1)  contrast(50%)); background-color: var(--blue-1); }
+.color-ex--blue-2  { color: color(var(--blue-2)  contrast(50%)); background-color: var(--blue-2); }
+.color-ex--blue-3  { color: color(var(--blue-3)  contrast(50%)); background-color: var(--blue-3); }
+.color-ex--blue-4  { color: color(var(--blue-4)  contrast(50%)); background-color: var(--blue-4); }
+.color-ex--blue-5  { color: color(var(--blue-5)  contrast(50%)); background-color: var(--blue-5); }
+.color-ex--red-1   { color: color(var(--red-1)  contrast(50%)); background-color: var(--red-1); }
+.color-ex--yellow-1 { color: color(var(--yellow-1)  contrast(50%)); background-color: var(--yellow-1); }
+.color-ex--green-1  { color: color(var(--green-1)  contrast(50%)); background-color: var(--green-1); }
 /* stylelint-enable */
-
-

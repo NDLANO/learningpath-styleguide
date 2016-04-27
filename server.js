@@ -25,6 +25,8 @@ app.set('view engine', 'jade');
 var router = express.Router();
 router.get('/', function (req, res) { res.render('index'); });
 router.get('/atoms', function (req, res) { res.render('atoms'); });
+router.get('/icons', function (req, res) { res.render('icons'); });
+router.get('/colors', function (req, res) { res.render('colors'); });
 router.get('/typography', function (req, res) { res.render('typography'); });
 router.get('/molecules', function (req, res) { res.render('molecules'); });
 router.get('/pages/:page', function (req, res) { res.render('pages/'+req.params.page); });
