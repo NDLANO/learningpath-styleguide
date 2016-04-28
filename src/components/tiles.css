@@ -1,4 +1,4 @@
-.tiles {
+.tiles  {
   display: flex;
   background-color: transparent;
   flex-wrap: wrap;
@@ -6,6 +6,7 @@
   max-width: 1700px;
   margin: 0 auto;
 }
+
 
 @media (max-width: 1450px) {
   .tiles {
