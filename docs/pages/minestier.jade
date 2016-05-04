@@ -1,5 +1,19 @@
 extends layout
 
+mixin dropdown-menu
+  .dropdown-menu
+    span.dropdown-menu_icon
+      svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-more_vert")
+    ul.dropdown-menu_items
+      li.dropdown-menu_item
+        a.dropdown-menu_link(href="#")
+          svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-visibility_off")
+          | Gjør privat
+      li.dropdown-menu_item
+        a.dropdown-menu_link(href="#")
+          svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-delete")
+          | Slett
+
 block append title
   | - Mine Læringsstier
 
@@ -13,167 +27,29 @@ block content
         a.sorting-button(href="#")
           svg.icon.icon--list: use(xlink:href="/assets/symbol-defs.svg#icon-list")
         select
-          - var i = 0;
-          while i++ < 10
-            option(value="#{i}") Sortering #{i}
+          each s, i in ['Alfabetisk', 'Nyeste', 'Eldste', 'Publisert']
+            option(value=i)= s
   .tiles
+    each path in learningPaths
       .tile
         .tile_top
           .tile_date
-            p 20.03.15
-          div.tile_context-menu
-            div.dropdown-menu
-              span.dropdown-menu_icon
-                svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-more_vert")
-              ul.dropdown-menu_items
-                li.dropdown-menu_item
-                  a.dropdown-menu_link(href="#")
-                    svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-visibility_off")
-                    | Gjør privat
-                li.dropdown-menu_item
-                  a.dropdown-menu_link(href="#")
-                    svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-delete")
-                    | Slett
-          h3.tile_hd Heltedikt og gudedikt
-          p En læringssti som tar for seg heltedikt og gudedikt i norrøn og europeisk middelalderlitteratur.
+            p= path.updated_at
+          .tile_context-menu
+            +dropdown-menu
+          h3.tile_hd= path.title
+          p= path.description
         .tile_ft
           .tile_property
             .tile_property_icon
               svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
             p.tile_property_description Varighet
-            p 2 timer
+            p= path.duration
           .tile_property
             .tile_property_icon
               svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-remove_red_eye")
             p.tile_property_description Synlighet
-            p Publisert
-      .tile
-        .tile_top
-          .tile_date
-            p 20.03.15
-          div.tile_context-menu
-            div.dropdown-menu
-              span.dropdown-menu_icon
-                svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-more_vert")
-              ul.dropdown-menu_items
-                li.dropdown-menu_item
-                  a.dropdown-menu_link(href="#")
-                    svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-visibility_off")
-                    | Gjør privat
-                li.dropdown-menu_item
-                  a.dropdown-menu_link(href="#")
-                    svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-delete")
-                    | Slett
-        
-          h3.tile_hd Snorres kongesagaer
-          p En læringssti om Snorres kongesagaer med spesiell fordypning i «Olav den helliges saga»
-        .tile_ft
-          .tile_property
-            .tile_property_icon
-              svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
-            p.tile_property_description Varighet
-            p 2 timer
-          .tile_property
-            .tile_property_icon
-              svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-remove_red_eye")
-            p.tile_property_description Synlighet
-            p Publisert
-
-      .tile
-        .tile_top
-          .tile_date
-            p 20.03.15
-          div.tile_context-menu
-            div.dropdown-menu
-              span.dropdown-menu_icon
-                svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-more_vert")
-              ul.dropdown-menu_items
-                li.dropdown-menu_item
-                  a.dropdown-menu_link(href="#")
-                    svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-visibility_off")
-                    | Gjør privat
-                li.dropdown-menu_item
-                  a.dropdown-menu_link(href="#")
-                    svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-delete")
-                    | Slett
-        
-          h3.tile_hd Kontrast og balanse i grafisk design
-          p En innføring i komposisjonsprinsipper i grafisk design med vekt på kontrast og balanse.
-        .tile_ft
-          .tile_property
-            .tile_property_icon
-              svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
-            p.tile_property_description Varighet
-            p 2 timer
-          .tile_property
-            .tile_property_icon
-              svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-remove_red_eye")
-            p.tile_property_description Synlighet
-            p Publisert
-      .tile
-        .tile_top
-          .tile_date
-            p 20.03.15
-          div.tile_context-menu
-            div.dropdown-menu
-              span.dropdown-menu_icon
-                svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-more_vert")
-              ul.dropdown-menu_items
-                li.dropdown-menu_item
-                  a.dropdown-menu_link(href="#")
-                    svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-visibility_off")
-                    | Gjør privat
-                li.dropdown-menu_item
-                  a.dropdown-menu_link(href="#")
-                    svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-delete")
-                    | Slett
-
-          h3.tile_hd Arbeidsoppdrag - PC mappe
-          p Når du skal jobbe med tekstil er det kunn kreativiteten som setter grenser. Her får du et arbeidsoppdrag hvor du skal lage en PC mappe med dekor, ente
-        .tile_ft
-          .tile_property
-            .tile_property_icon
-              svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
-            p.tile_property_description Varighet
-            p 2 timer
-          .tile_property
-            .tile_property_icon
-              svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-remove_red_eye")
-            p.tile_property_description Synlighet
-            p Publisert
-
-
-      .tile
-        .tile_top
-          .tile_date
-            p 20.03.15
-          div.tile_context-menu
-            div.dropdown-menu
-              span.dropdown-menu_icon
-                svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-more_vert")
-              ul.dropdown-menu_items
-                li.dropdown-menu_item
-                  a.dropdown-menu_link(href="#")
-                    svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-visibility_off")
-                    | Gjør privat
-                li.dropdown-menu_item
-                  a.dropdown-menu_link(href="#")
-                    svg.icon.dropdown-menu_item_icon: use(xlink:href="/assets/symbol-defs.svg#icon-delete")
-                    | Slett
-        
-          h3.tile_hd Kontrast og balanse i grafisk design
-          p En innføring i komposisjonsprinsipper i grafisk design med vekt på kontrast og balanse.
-        .tile_ft
-          .tile_property
-            .tile_property_icon
-              svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
-            p.tile_property_description Varighet
-            p 2 timer
-          .tile_property
-            .tile_property_icon
-              svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-remove_red_eye")
-            p.tile_property_description Synlighet
-            p Publisert
+            p= path.status
 
   a.cta-link.labeled-icon.new-learningpath-button(href="/pages/pre-opprett-laeringssti")
     svg.icon.icon--with-label.icon--add-circle-outline: use(xlink:href="/assets/symbol-defs.svg#icon-add_circle_outline")
