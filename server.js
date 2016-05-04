@@ -19,6 +19,8 @@ app.locals.STYLESHEET_PATH = (app.get('env') === 'development') ? '/style.css' :
 app.locals.iconIds = require('./assets/selection.json')
   .icons.map(function (icon) { return 'icon-'+icon.properties.name; }).sort();
 
+Object.assign(app.locals, require('./docs/localData'));
+
 app.set('views', path.join(__dirname, 'docs'));
 app.set('view engine', 'jade');
 
