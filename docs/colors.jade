@@ -1,0 +1,34 @@
+extends layout
+
+block append title
+  | - colors
+block content
+  h1.styleguide-title Colors
+
+  main.styleguide-main.styleguide-main--colors
+    #grays
+      h2 Grays
+      pre.color-ex(style='color:white;background-color:black;') black
+      each v, k in [34, 68, 92, 102, 121, 136, 216, 221, 230, 234, 238, 248]
+        - var i = k + 1
+        pre.color-ex(class='color-ex--gray-'+i).
+          --gray-#{i}: gray(#{v}) - #{Math.round(((v/255)*100)*1000)/1000}%
+      pre.color-ex(style='color:black;background-color:white;') white
+
+
+    #blues
+      h2 Blues
+
+      pre.color-ex.color-ex--blue-1 --blue-1
+      pre.color-ex.color-ex--blue-2 --blue-2
+      pre.color-ex.color-ex--blue-3 --blue-3
+      pre.color-ex.color-ex--blue-4 --blue-4
+      pre.color-ex.color-ex--blue-5 --blue-5
+
+    #colors
+      h2 Other Colors
+
+      pre.color-ex.color-ex--red-1 --red-1
+      pre.color-ex.color-ex--yellow-1 --yellow-1
+      pre.color-ex.color-ex--green-1 --green-1
+
