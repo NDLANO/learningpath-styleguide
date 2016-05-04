@@ -32,23 +32,24 @@ block content
   .tiles
     each path in learningPaths
       .tile
-        .tile_top
-          .tile_date
-            p= path.updated_at
+        .tile_hd
+          .tile_date= path.updated_at
           .tile_context-menu
             +dropdown-menu
-          h3.tile_hd= path.title
+        a.tile_bd(href="/pages/laeringssti")
+          h3.tile_title= path.title
           p= path.description
+
         .tile_ft
           .tile_property
-            .tile_property_icon
+            .tile_property-icon
               svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
-            p.tile_property_description Varighet
+            p.tile_property-description Varighet
             p= path.duration
           .tile_property
-            .tile_property_icon
+            .tile_property-icon
               svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-remove_red_eye")
-            p.tile_property_description Synlighet
+            p.tile_property-description Synlighet
             p= path.status
 
   a.cta-link.labeled-icon.new-learningpath-button(href="/pages/pre-opprett-laeringssti")
