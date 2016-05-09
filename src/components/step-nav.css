@@ -64,3 +64,6 @@
   border-radius: 40px;
   float: left;
 }
+.step-nav_item--active .step-nav_circle{
+  padding: 4px 8px 8px;
+}
