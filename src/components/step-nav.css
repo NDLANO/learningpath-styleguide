@@ -29,6 +29,8 @@
   transition: background-color 0s;
 }
 
+
+
 .step-nav_link:hover {
   color: var(--blue-1);
   background-color: white;
@@ -54,10 +56,11 @@
   border-left: 15px solid var(--blue-1);
 }
 
-.step-nav_item a:before {
-  content: '';
+.step-nav_circle {
   margin-right: 0.7em;
-  background-color: var(--gray-8);
-  padding: .2em .852em;
-  border-radius: 50px;
+  background-color: var(--gray-11);
+  padding: 4px 7px 7px;
+  color: var(--gray-6);
+  border-radius: 40px;
+  float: left;
 }
