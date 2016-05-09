@@ -46,13 +46,14 @@
 
 .learning-path-input__title {
   font-size: 2.5em;
+  margin-top: 0;
   font-weight: 600;
   font-family: 'Signika', Helvetica, Arial, sans-serif;
 }
 
 .learning-path-input__paragraph {
   font-size: 1.2em;
-  margin-top: 0.5em;
+  margin-top: 1em;
   font-weight: 200;
   line-height: 1.6em;
   height: 90px;
@@ -61,7 +62,7 @@
 .editable {
   position: absolute;
   display: block;
-  margin-top: .7em;
+  margin-top: .5em;
   background-color: var(--gray-11);
   padding: 0 6px 9px 6px;
   color: var(--gray-6);
@@ -89,4 +90,3 @@
   color: var(--gray-4);
   border-radius: 40px;
 }
-
