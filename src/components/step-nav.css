@@ -1,7 +1,6 @@
 .step-nav {
-  border-top: 1px solid var(--gray-9);
-  border-bottom: 1px solid var(--gray-9);
-  padding: 0 0 3em;
+  border-top: 1px solid var(--gray-8);
+  border-bottom: 1px solid var(--gray-8);
   margin-bottom: 1em;
 }
 
@@ -14,13 +13,25 @@
 
 .step-nav_item {
   margin: 0;
+  background: linear-gradient(to right, transparent 0, transparent 50px, var(--gray-10) 0px, var(--gray-10) 55px, transparent 10px, transparent 100%);
+}
+
+.step-nav_item:last-child a{
+	border-bottom: 25px solid var(--gray-12);
+	padding-bottom: 0px ;
+}
+
+.step-nav_item:last-child a:hover{
+	border-bottom: 25px solid white;
 }
 
 .step-nav_link {
   display: block;
   line-height: 1.2em;
-  padding: 1.5em 2em 1.7em 2em;
+  padding: 1.6em 2em 1.7em 2em;
   border-right: solid 4px transparent;
+  border: 1px solid transparent;
+  padding-left: 90px;
 }
 
 .step-nav_link:any-link {
@@ -34,6 +45,8 @@
 .step-nav_link:hover {
   color: var(--blue-1);
   background-color: white;
+  border: 1px solid var(--gray-8);
+  border-right: transparent;
 }
 
 .step-nav_item--active .step-nav_link:any-link {
@@ -41,8 +54,9 @@
   position: relative;
   background-color: var(--blue-1);
   font-size: 1.1em;
-  font-weight: 600;
+  border-color: transparent;
 }
+
 .step-nav_item--active:after {
   content: "";
   float: right;
