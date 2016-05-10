@@ -1,5 +1,5 @@
 .textformat-menu {
-  margin-bottom: 1em;
+  margin: 1em 0 0 1em;
   display: block;
 }
 
@@ -8,7 +8,8 @@
   font-size: 1.3em;
   padding: .2em .5em .4em .5em;
   background-color: var(--gray-10);
-  border-left: 1px solid var(--gray-7);
+  border: 1px solid var(--gray-7);
+  border-left: none;
 }
 
 .texformat-menu-item:hover {
@@ -27,6 +28,7 @@
 
 .texformat-menu-item:first-child {
   border-radius: 5px 0 0 5px;
+  border-left: 1px solid var(--gray-7);
 }
 
 

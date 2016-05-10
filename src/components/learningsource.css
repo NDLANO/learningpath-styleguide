@@ -9,6 +9,8 @@
   border: none;
   padding-top: 2em;
   width: 100%;
+  padding-bottom: 5em;
+  text-align: center;
 }
 
 .learningsource__expand {
@@ -28,6 +30,7 @@
   padding: 1.5em 2em 2em 2em;
   background-color: var(--gray-12);
   border: 1px solid var(--gray-8);
+  margin-bottom: 1em;
 }
 
 .learningsource-form input {
