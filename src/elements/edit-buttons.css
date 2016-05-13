@@ -20,7 +20,6 @@
 
 .button-group-last {
   border-radius: 0 10em 10em 0;
-  margin-left: -px;
   box-shadow: none;
   padding-left: 2em;
   margin-left: -3px;
@@ -42,7 +41,7 @@
 	background-color: var(--blue-2);
 	color: white;
 	padding-left: 1.5em;
-	padding-right: 1.2em; 
+	padding-right: 1.2em;
 }
 
 .button-seconday-action:hover{
