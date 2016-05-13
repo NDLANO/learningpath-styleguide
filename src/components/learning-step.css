@@ -1,5 +1,9 @@
 .learning-step {
   height: 100%;
+  text-align: center;
+  padding-bottom: 5em;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .learning-step_embeded {
