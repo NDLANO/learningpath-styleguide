@@ -28,3 +28,9 @@
 .search-result_meta {
   font-size: .9em;
 }
+
+.search-result:hover {
+  transform: scale(1.01);
+  transition: all 0.5s ease;
+  box-shadow: 0 15px 20px rgba(0,0,0,.1),0 3px 10px rgba(0,0,0,.3);
+}
