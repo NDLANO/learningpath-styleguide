@@ -3,7 +3,9 @@
   max-width: 920px;
   margin: 0 auto;
 }
-
+.search-results a {
+  text-decoration: none;
+}
 .search-result {
   display: flex;
   margin: 1em 1em 1em 0;
