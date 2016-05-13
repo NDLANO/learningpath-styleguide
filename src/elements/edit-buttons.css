@@ -38,13 +38,13 @@
 }
 
 .button-seconday-action {
-	background-color: var(--blue-2);
-	color: white;
-	padding-left: 1.5em;
-	padding-right: 1.2em;
+  background-color: var(--blue-2);
+  color: white;
+  padding-left: 1.5em;
+  padding-right: 1.2em;
 }
 
-.button-seconday-action:hover{
-    background-color: color(var(--blue-1) blackness(+ 20%));
-	color: white;
+.button-seconday-action:hover {
+  background-color: color(var(--blue-1) blackness(+ 20%));
+  color: white;
 }
