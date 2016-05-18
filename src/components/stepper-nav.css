@@ -7,7 +7,7 @@
   border-top: 1px solid var(--gray-7);
 }
 
-.stepper-nav_fixed {
+.stepper-nav--fixed {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -26,37 +26,6 @@
   color: white;
 }
 
-.stepper-nav-stepp {
-  padding: 1em;
-  border-radius: 3em;
-  background-color: var(--gray-8);
-}
-
-.stepper-nav-stepp:hover {
-  padding: 1em;
-  border-radius: 3em;
-  background-color: var(--blue-1);
-  transition: all .2s ease-in-out;
-}
-
-.stepper-nav-stepp:before {
-  content: attr(data-value);
-  padding: .4em .8em;
-  position: absolute;
-  margin-top: -60px;
-  margin-left: -55px;
-  border-radius: 0.331em;
-  opacity: 0;
-  color: white;
-  background-color: var(--blue-1);
-  transition: all .2s ease-in-out;
-}
-
-.stepper-nav-stepp:hover:before {
-  opacity: 1;
-  transition: all .2s ease-in-out;
-  transform: scale(1.1);
-}
 .stepper-nav-btn_disabled {
   pointer-events: none;
   background-color: var(--gray-7);
