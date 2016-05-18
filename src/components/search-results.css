@@ -15,12 +15,11 @@
 }
 
 .search-result:hover {
-  background: color(var(--blue-1) a(5%)) 
+  background: color(var(--blue-1) a(5%))
 }
 
 .search-result_img {
   max-width: 100%;
-  margin-top:
 }
 .search-result_img_container{
   margin: 1em;
