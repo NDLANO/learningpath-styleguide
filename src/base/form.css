@@ -37,31 +37,9 @@ input:focus {
   box-shadow: 0 0 6px color(var(--red-1) alpha(.2));
 }
 
-
 label {
   display: block;
   margin: 1em 0 .5em 0;
-}
-
-button, input[type=submit], input[type=button] {
-  transition: background-color 0.3s ease;
-  padding: 1.1em;
-  border: none;
-  border-radius: .5em;
-  font-size: 1em;
-  color: white;
-  background-color: var(--gray-6);
-  cursor: pointer;
-}
-
-input[type=submit]:hover, input[type=button]:hover {
-  background-color: color(var(--gray-6) blackness(+ 30%));
-  color: white;
-}
-
-input[type=submit]:disabled, input[type=button]:disabled {
-  opacity: .3;
-  cursor: not-allowed;
 }
 
 select {
