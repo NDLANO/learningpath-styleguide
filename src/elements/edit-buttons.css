@@ -58,3 +58,26 @@
   background-color: color(var(--blue-1) blackness(+ 20%));
   color: white;
 }
+
+.button-link-group-wrapper {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  display: inline-block;
+  border-radius: 10em;
+}
+
+
+.button-link-group-last {
+  border-radius: 0 10em 10em 0;
+  box-shadow: none;
+  padding-left: 2em;
+  margin-left: -3px;
+}
+
+.button-link-group-first {
+  border-radius: 10em 0 0 10em;
+  box-shadow: none;
+  padding-right: 2em;
+}
+.button-link-group-wrapper > a {
+  display: inline;
+}
