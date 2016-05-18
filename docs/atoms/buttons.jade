@@ -20,21 +20,57 @@ p Button with all styles reset. Usefull for buttons with JavaScript-magic-onclic
 h3 Button, create/edit
 
 :example
-  <button class='button-create-edit'>
-  <svg class="icon icon--with-label icon--add-circle-outline"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-add_circle_outline"></use></svg>
-  Opprett læringssti
+  <button class='button button_primary button--round'>
+    <svg class="icon icon--with-label icon--add-circle-outline"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-add_circle_outline"></use></svg>
+    Opprett læringssti
   </button>
 
 h3 Button, group
 
 :example
   <div class="button-group-wrapper">
-    <button class='button-create-edit button_non-scale button-group-first button-seconday-action'>
-    <svg class="icon icon--with-label icon--clear"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-clear"></use></svg>
-    Avbryt
+    <button class='button button_primary button_non-scale  button-seconday-action'>
+      <svg class="icon icon--with-label icon--clear"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-clear"></use></svg>
+      Avbryt
     </button>
-    <button class='button-create-edit button_non-scale button-group-last'>
-    <svg class="icon icon--with-label icon--save"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-save"></use></svg>
-    Lagre
+    <button class='button button_primary button_non-scale '>
+      <svg class="icon icon--with-label icon--save"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-save"></use></svg>
+      Lagre
+    </button>
+  </div>
+
+h3 Multiple buttons and links, group
+
+:example
+  <div class="button-group-wrapper">
+    <button class='button button_primary button_non-scale  button-seconday-action'>
+      <svg class="icon icon--with-label icon--save"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-save"></use></svg>
+      Link 1
+    </button>
+    <a class='cta-link cta-link_non_scale' href='#'>
+      <svg class="icon icon--with-label icon--clear"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-clear"></use></svg>
+      Link 2
+    </a>
+    <button class='button button_primary button_non-scale button-seconday-action'>
+      <svg class="icon icon--with-label icon--save"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-save"></use></svg>
+      Link 3
+    </button>
+    <a class='cta-link cta-link_non_scale ' href='#'>
+      <svg class="icon icon--with-label icon--clear"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-clear"></use></svg>
+      Link 4
+    </a>
+  </div>
+  
+h3 Button and link, group
+
+:example
+  <div class="button-group-wrapper">
+    <a class='cta-link cta-link_non_scale  cta-link-seconday-action' href='#'>
+      <svg class="icon icon--with-label icon--clear"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-clear"></use></svg>
+      Avbryt
+    </a>
+    <button class='button button_primary button_non-scale'>
+      <svg class="icon icon--with-label icon--save"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/symbol-defs.svg#icon-save"></use></svg>
+      Lagre
     </button>
   </div>
