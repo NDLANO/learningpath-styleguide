@@ -1,5 +1,5 @@
 .search-results {
-  padding: 2em 0 3em;
+  padding: 0 0 3em;
   max-width: 920px;
   margin: 0 auto;
 }
@@ -8,9 +8,14 @@
 }
 .search-result {
   display: flex;
-  margin: 1em 1em 1em 0;
-  padding: 0 0 3em 0;
+  margin: 0 1em 0 0;
+  padding: 3em 5em 3em 2em;
   border-bottom: 1px solid var(--gray-8);
+  transition: all 0.1s;
+}
+
+.search-result:hover {
+  background: color(var(--blue-1) a(5%)) 
 }
 
 .search-result_img {
@@ -38,7 +43,5 @@
 }
 
 .search-result:hover {
-  transform: scale(1.01);
-  transition: all 0.5s ease;
-  box-shadow: 0 15px 20px rgba(0,0,0,.1),0 3px 10px rgba(0,0,0,.3);
+  transition: all 0.25s ease;
 }
