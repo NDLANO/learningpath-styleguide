@@ -14,11 +14,19 @@
 }
 
 .search-result_img {
+  max-width: 100%;
+  margin-top:
+}
+.search-result_img_container{
+  margin: 1em;
+  padding-top: 0.82em;
+  width: 30%;
 }
 
 .search-result_bd {
   padding: .5em 2em;
   flex: 1;
+  width: 70%;
 }
 
 .search-result_title {
