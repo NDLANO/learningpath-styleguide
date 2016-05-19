@@ -1,0 +1,12 @@
+.block-container_fixed {
+  position: fixed;
+}
+
+.block-container_fixed--bottom--right {
+  right: 50px;
+  bottom: 90px;
+}
+.block-container_fixed--bottom--left {
+  left: 50px;
+  bottom: 90px;
+}
