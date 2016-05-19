@@ -4,7 +4,7 @@
   border-radius: 10em;
 }
 
-.button-group > * {
+.button-group > *, .button-group > *:any-link {
   padding: 1.2em 2.5em;
   border-radius: 0;
   float: left;
