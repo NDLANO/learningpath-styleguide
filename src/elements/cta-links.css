@@ -104,10 +104,10 @@
   transform: scale(1);
   box-shadow: none;
 }
-.cta-link-seconday-action:any-link{
+.cta-link-seconday-action:any-link {
   background-color: var(--blue-2);
 
 }
-.cta-link-seconday-action:any-link:hover{
+.cta-link-seconday-action:any-link:hover {
   background-color: color(var(--blue-1) blackness(+ 20%));
 }
