@@ -59,6 +59,8 @@ body{
 
 #site-list{
   padding-top: 2em;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 #site-list ul{
@@ -84,4 +86,8 @@ body{
 
 #site-list ul li a:hover {
   background-color: #1b4c7b;
+}
+
+#site-list h2{
+  margin-top: 3em;
 }

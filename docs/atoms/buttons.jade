@@ -5,14 +5,29 @@ p Button is for clicking, not linking.
 :example
   <button class='button'>click button</button>
   <button class='button button--outline'>click button</button>
-  <input class="button button_primary" type='submit' class='button' value='click submit'>
+  <input class="button button--primary" type='submit' class='button' value='click submit'>
   <input type='button' class='button' value='click input button'>
 
 :example
-  <input type='submit' value='submit disabled' disabled>
-  <input type='button' value='button disabled' disabled>
+  <input class='button' type='submit' value='submit disabled' disabled>
+  <input class='button' type='button' value='button disabled' disabled>
+  
+:example
+  <button class='button button--primary'>button primary</button>
+  <button class='button button--secondary'>button secondary</button>
+  <button class='button button--round'>button round</button>
+  <button class='button button--primary button--round'>button primary round</button>
 
 p Button with all styles reset. Usefull for buttons with JavaScript-magic-onclick.
 
 :example
   Does <button class='un-button'>this</button> look like a button to you?
+
+h2 Button links
+
+p Links styled as buttons
+
+:example
+  <a href="#" class='button button--primary'>button link</a>
+  <a href="#" class='button button--outline'>button link</a>
+  <a href="#" class='button button--secondary'>button link</a>

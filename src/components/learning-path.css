@@ -6,6 +6,10 @@
   padding-bottom: 2em;
 }
 
+.learning-path_margin {
+  height: 76px;
+}
+
 .learning-path_meta {
   font-size: 0.7em;
   line-height: 1.6em;
@@ -56,7 +60,7 @@
   margin-top: 1em;
   font-weight: 200;
   line-height: 1.6em;
-  height: 90px;
+  margin-bottom: 1.5em;
 }
 
 .editable {
