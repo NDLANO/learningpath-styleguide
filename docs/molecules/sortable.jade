@@ -1,0 +1,16 @@
+mixin item(title)
+  li.sortable_item(draggable='true')
+    .sortable_handle
+      svg.icon.icon--import_export.icon--m: use(xlink:href="/assets/symbol-defs.svg#icon-import_export")
+    .sortable_title=title
+    .sortable_action
+      button.un-button
+        svg.icon.icon--clear.icon--m: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
+        
+.sortable
+  ul.sortable_list
+    - var i = 1
+    while i++ < 4
+      +item('Bruksområde')
+    li.sortable_placeholder
+    +item('Bruksområde')
