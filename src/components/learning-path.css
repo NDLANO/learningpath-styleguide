@@ -1,9 +1,14 @@
 .learning-path_hd {
-  padding-top: 5em;
+  padding-top: 3em;
+
+  & > h1 {
+    font-weight: 500;
+  }
 }
 
 .learning-path_bd {
   padding-bottom: 2em;
+  word-break: break-all;
 }
 
 .learning-path_margin {
@@ -39,8 +44,11 @@
   box-shadow: none;
   padding: 0;
   width: 100%;
-  margin-left: 40px;
   background-color: transparent;
+
+  & .error_message {
+    font-size: 1em;
+  }
 }
 
 .learning-path-input:focus {
@@ -49,18 +57,48 @@
 }
 
 .learning-path-input__title {
-  font-size: 2.5em;
-  margin-top: 0;
-  font-weight: 600;
-  font-family: 'Signika', Helvetica, Arial, sans-serif;
+
+
+  & input {
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 0;
+    font-weight: 600;
+    font-family: 'Signika', Helvetica, Arial, sans-serif;
+  }
+
 }
 
 .learning-path-input__paragraph {
-  font-size: 1.2em;
-  margin-top: 1em;
-  font-weight: 200;
-  line-height: 1.6em;
   margin-bottom: 1.5em;
+  margin-top: 1em;
+
+  & textarea {
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.6em;
+  }
+}
+.learning-path_input-information {
+  font-size: 0.9em;
+  color: var(--gray-6);
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.learning-path-image-drop {
+  border: 1px dashed var(--gray-6);
+  border-radius: 5px;
+  min-height: 100px;
+  text-align: center;
+  & > img {
+    height: 70px;
+    margin-top: 10px;
+  }
+  & > h2 {
+    color: var(--gray-7);
+
+  }
 }
 
 .editable {
@@ -93,4 +131,58 @@
   margin-left: 10px;
   color: var(--gray-4);
   border-radius: 40px;
+}
+
+.input-duration {
+  display: inline;
+  width: 6em;
+  margin-right: 10px;
+}
+
+
+.duration-menu {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+.duration-menu-item {
+  display: inline;
+  font-size: 1em;
+  padding: .6em .8em;
+  background-color: var(--gray-10);
+  border: 1px solid var(--gray-7);
+  border-left: none;
+}
+
+.duration-menu-item:hover {
+  background-color: var(--gray-7);
+}
+
+.duration-menu-item__selected {
+  background-color: var(--blue-1);
+  color: white;
+  border: 1px solid var(--blue-1);
+}
+
+.duration-menu-item__selected:hover {
+  background-color: var(--blue-2);
+  color: white;
+  border: 1px solid var(--blue-2);
+}
+
+.duration-menu-item:first-child {
+  border-radius: 5px 0 0 5px;
+  border-left: 1px solid var(--gray-7);
+}
+
+
+.duration-menu-item:last-child {
+  border-radius: 0 5px 5px 0;
+}
+.duration-menu-item__disabled {
+  pointer-events: none;
+  background-color: var(--gray-8);
+  color: var(--gray-3);
+
 }
