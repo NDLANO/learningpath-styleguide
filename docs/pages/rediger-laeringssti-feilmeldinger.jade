@@ -1,0 +1,68 @@
+extends layout
+
+block append title
+  | - Læringssti
+
+block content
+  .two-column
+    aside.two-column_col
+      .learningpath-general-info
+        .learningpath-general-info_h
+          h3 Learning path title
+        .learningpath-general-info_b
+          svg.icon.icon--person.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-person")
+          svg.icon.icon--today.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-today")
+          | 24.05.2015
+          svg.icon.icon--query-builder.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
+          | 4 timer
+        a.cta-link.cta-link--round.edit_learningpath--button(href="/pages/rediger-laeringssti") Endre detaljer
+        
+      include ../molecules/step-nav_no_active.jade
+
+      include ../molecules/vertical-menu.jade
+
+    main.two-column_col.two-column_col--center
+      div
+        form
+          .learning-path_hd
+            h1 Læringstidetaljer
+            label.label--medium-bold.label--medium Tittel på læringssti
+            .learning-path-input.learning-path-input__title
+              input(type='text' value="").input--alert
+              span.error_message.error_message--red Tittel mangler.
+
+
+          .learning-path_bd
+            label.label--medium-bold.label--medium Beskrivelse
+            .learning-path-input.learning-path-input__paragraph
+              textarea.textarea.textarea--resize-vertical.input--alert(rows= "4" cols="50" placeholder="Skriv en kort beskrivelse av læringsstien.")
+              span.error_message.error_message--red Beskrivelse mangler.
+              p.learning-path_input-information Maks 150 tegn og du har 150 igen. Beskrivelsen blir synlig i søk.
+            .block-container_fixed.block-container_fixed--bottom--right
+              .button-group
+                a.button.button--secondary(href='#')
+                  svg.icon.icon--clear.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
+                  |  Avbryt
+                button.button.button--primary
+                  svg.icon.icon--save.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-save")
+                  |  Lagre
+            .learning-path-image
+              label.label--medium-bold.label--medium Illustrerende bilde
+              .learning-path-image-drop
+                img(src="https://d30y9cdsu7xlg0.cloudfront.net/png/49665-200.png")
+                h2 Klikk for å velge
+              p.learning-path_input-information Bildet blir synlig i søk på læringssti.
+            .learning-path-duration
+            label.label--medium-bold.label--medium Varighet
+            div
+              ul.duration-menu
+                li.duration-menu-item 1
+                li.duration-menu-item 2
+                li.duration-menu-item 3
+                li.duration-menu-item 4
+                li.duration-menu-item 5
+              input.input-duration(value="-2")
+              span time(r)
+            span.error_message.error_message--red Varighet må være større en null.
+
+      

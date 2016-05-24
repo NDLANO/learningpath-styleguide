@@ -13,3 +13,17 @@ h2 Form
 	  <label>Alert</label>
 	  <input class="input--alert" type="text" name="lastname">
 	</form>
+
+h2 Form with validations
+:example
+	<form>
+		<label>Label</label>
+		<input class="input--alert" type="text" name="firstname"><br>
+		<span class="error_message error_message--red">Feltet mangler</span>
+		
+		<label>Label</label>
+		<textarea class="textarea textarea--resize-vertical input--alert" 
+		rows= "4" cols="50" placeholder="Skriv en kort beskrivelse av dette feltet">
+		</textarea>
+		<span class="error_message error_message--red">Feltet mangler</span>
+	</form>
