@@ -44,6 +44,12 @@ button, .button, .button:any-link {
   border-radius: 10em;
 }
 
+.button--block {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
 .un-button {
   transition: background-color none;
   padding: 0;
