@@ -1,0 +1,21 @@
+- var active_index = STEP_NAV_ACTIVE_INDEX || 0;
+.step-nav
+  ul.step-nav_list
+    li.step-nav_item: a.step-nav_link(href='#') 
+      .step-nav_line
+      .step-nav_circle
+        svg.icon.icon--with-label.icon--add-circle-outline: use(xlink:href="/assets/symbol-defs.svg#icon-add_circle_outline")
+      .step-nav_title Introdukjson
+    - var i = 1
+    while i++ < 5
+      li.step-nav_item
+        a.step-nav_link(href='#')
+          .step-nav_line
+          .step-nav_circle
+            svg.icon.icon--with-label.icon--add-circle-outline: use(xlink:href="/assets/symbol-defs.svg#icon-add_circle_outline")
+          .step-nav_title Bruksområde
+    li.step-nav_item: a.step-nav_link(href='#')
+      .step-nav_line
+      .step-nav_circle
+        svg.icon.icon--with-label.icon--add-circle-outline: use(xlink:href="/assets/symbol-defs.svg#icon-add_circle_outline")
+      .step-nav_title Prøve
