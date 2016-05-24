@@ -8,6 +8,7 @@
 
 .learning-path_bd {
   padding-bottom: 2em;
+  word-break: break-all;
 }
 
 .learning-path_margin {
@@ -78,14 +79,14 @@
     line-height: 1.6em;
   }
 }
-.learning-path_input-information{
+.learning-path_input-information {
   font-size: 0.9em;
   color: var(--gray-6);
   font-weight: 100;
   margin-top: 0;
 }
 
-.learning-path-image-drop{
+.learning-path-image-drop {
   border: 1px dashed var(--gray-6);
   border-radius: 5px;
   min-height: 100px;
@@ -179,7 +180,7 @@
 .duration-menu-item:last-child {
   border-radius: 0 5px 5px 0;
 }
-.duration-menu-item__disabled{
+.duration-menu-item__disabled {
   pointer-events: none;
   background-color: var(--gray-8);
   color: var(--gray-3);
