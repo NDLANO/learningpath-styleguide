@@ -1,0 +1,20 @@
+div(style='margin-bottom:260px')
+  .rw-widget.rw-multiselect
+    span.rw-sr
+    .rw-multiselect-wrapper
+      ul(role='listbox').rw-multiselect-taglist
+        li(role='option') Franz Ferdinand
+          span(aria-disabled='false')
+            span(aria-hidden='true').rw-tag-btn ×
+      input(role='listbox',value='Ver').rw-input
+    .rw-popup-container.rw-popup-animating(style={display: 'block', overflow: 'visible', height: '115px'})
+      .rw-popup.rw-widget
+        ul(role='listbox').rw-list
+          li(role='option').rw-list-option Andre verdenskrig 
+          li(role='option').rw-list-option.rw-state-focus Første verdenskrig 
+          li(role='option').rw-list-option Verdenskart 
+        ul(role='listbox').rw-list.rw-multiselect-create-tag
+          li(role='option').rw-list-option
+            strong Ver
+            |  (Opprett ny tag)
+    
