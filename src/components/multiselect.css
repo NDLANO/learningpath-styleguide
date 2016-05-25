@@ -35,13 +35,6 @@
   color: #333;
 }
 
-.rw-input {
-  color: var(--gray-2);
-  min-height: 1.5em;
-  padding: .6em 1em;
-  background: white;
-}
-
 .rw-multiselect {
   background-color: #FFFFFF;
 
@@ -54,6 +47,7 @@
   border-radius: 0.331em;
   position: relative;
   cursor: text;
+  padding: 0.6em;
 
   & .rw-input {
     /*@include placeholder();*/
@@ -72,13 +66,12 @@
   margin-top: 5px;
 }
 .rw-multiselect-taglist {
-  padding-right: 0;
   display: inline;
 
   & li {
     display: inline-block;
-    margin: 1px;
-    padding: 0.214em 0.15em 0.214em 0.4em;
+    margin: 0em 0.2em;
+    padding: 0.214em 0.15em 0.214em 0.6em;
     line-height: 1.4em;
     text-align: center;
     white-space: nowrap;
@@ -100,7 +93,7 @@
     }
 
     & .rw-tag-btn {
-      padding: 0 3px 0 3px;
+      padding: 0 0.45em 0 0.45em;
     }
   }
 
@@ -109,7 +102,7 @@
 
 ul.rw-list {
   margin: 0;
-  padding: 5px 0;
+  padding: 0.35em 0.6em;
   overflow: auto;
   outline: 0;
   max-height: 200px;
@@ -126,8 +119,8 @@ ul.rw-list {
 
   & > li.rw-list-option,
   & > li.rw-list-empty {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0.6em 0.6em;
+    margin: 0.2em 0;
   }
 
   & > li.rw-list-option {
