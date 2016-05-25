@@ -6,14 +6,13 @@ block append title
 block content
   .two-column
     aside.two-column_col
-      .learningpath-general-info
-        h2(contenteditable="true").learningpath-general-info_h Learning path title
+      include ../molecules/learningpath-general-info.jade
 
       include ../molecules/step-nav--new-step.jade
 
       include ../molecules/vertical-menu.jade
 
-    main.two-column_col
+    main.two-column_col.two-column_col--white-bg
       //-- Bruk draft.js her, disse input feltene er bare brukt for å simulere.
       .learning-path-step
         .learning-path_hd
@@ -58,3 +57,4 @@ block content
               button.button.button--primary
                 svg.icon.icon--save.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-save")
                 |  Lagre
+  include ../molecules/stepper-nav.jade

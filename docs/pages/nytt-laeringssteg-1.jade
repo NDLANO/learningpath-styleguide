@@ -6,8 +6,8 @@ block append title
 block content
   .two-column
     aside.two-column_col
-      .learningpath-general-info
-        h2(contenteditable="true").learningpath-general-info_h Learning path title
+      include ../molecules/learningpath-general-info.jade
+
 
       include ../molecules/step-nav--new-step.jade
 
@@ -57,7 +57,9 @@ block content
                   label.icon-select_label
                     svg.icon.icon--menu: use(xlink:href="/assets/symbol-defs.svg#icon-menu")
                     .icon-select_label-text Oppsummering
-                            
+  include ../molecules/stepper-nav.jade
+  .learning-path_margin
+        
               
       
           

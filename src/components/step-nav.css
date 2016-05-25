@@ -17,12 +17,11 @@
   background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
 }
 
-.step-nav_item:first-child {
+.step-nav_item:first-child, .step-nav_item:last-child {
   background: none;
-}
-
-.step-nav_item:last-child {
-  background: none;
+  &:hover{
+    background-color: white;
+  }
 }
 
 .step-nav_title {
