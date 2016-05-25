@@ -19,6 +19,7 @@
   font-weight: 600;
   padding: .6em 2.5em;
   background-color: var(--gray-8);
+  border: none;
   color: var(--gray-2);
   &:hover {
     color: white;

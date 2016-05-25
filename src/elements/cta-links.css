@@ -9,12 +9,14 @@
 
 .cta-link:any-link {
   background-color: var(--blue-1);
+  border: 2px solid var(--blue-1);
   color: white;
   text-decoration: none;
 }
 
 .cta-link:hover, .cta-link:active {
   background-color: color(var(--blue-1) blackness(+ 20%));
+  border: 2px solid color(var(--blue-1) blackness(+ 20%));
 }
 
 .cta-link--secondary:any-link {
