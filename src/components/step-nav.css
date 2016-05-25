@@ -19,10 +19,16 @@
 
 .step-nav_item:first-child {
   background: none;
+  &:hover{
+    background-color: white;
+  }
 }
 
 .step-nav_item:last-child {
   background: none;
+  &:hover{
+    background-color: white;
+  }
 }
 
 .step-nav_title {

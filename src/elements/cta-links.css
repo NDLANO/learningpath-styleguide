@@ -15,7 +15,6 @@
 
 .cta-link:hover, .cta-link:active {
   background-color: color(var(--blue-1) blackness(+ 20%));
-  border: 2px solid color(var(--blue-1) blackness(+ 20%));
 }
 
 .cta-link--secondary:any-link {
