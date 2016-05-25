@@ -1,6 +1,5 @@
 .learning-step {
   height: 100%;
-  text-align: center;
   padding-bottom: 5em;
   max-width: 900px;
   margin: 0 auto;
@@ -62,4 +61,17 @@
   margin-bottom: 1.5em;
   margin-left: 40px;
   width: 50%;
+}
+.editable {
+  position: absolute;
+  display: block;
+  margin-top: 1em;
+  background-color: var(--gray-11);
+  padding: 0 6px 9px 6px;
+  color: var(--gray-6);
+  border-radius: 40px;
+}
+
+.editable svg {
+  max-height: 12px;
 }

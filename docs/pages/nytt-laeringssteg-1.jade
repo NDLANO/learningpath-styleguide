@@ -1,0 +1,63 @@
+extends layout
+
+block append title
+  | - Læringssti
+
+block content
+  .two-column
+    aside.two-column_col
+      .learningpath-general-info
+        h2(contenteditable="true").learningpath-general-info_h Learning path title
+
+      include ../molecules/step-nav--new-step.jade
+
+      include ../molecules/vertical-menu.jade
+
+    main.two-column_col.two-column_col--white-bg
+      .learning-path-step
+        .mediatype-wrapper
+          h1 Velg innholdstype
+          p Hvilket type innhold skal læringssteget inneholde?
+          .icon-select
+            div
+              a(href="/pages/nytt-laeringssteg-2")
+                .icon-select_item
+                  input.icon-select_input(type="radio")
+                  label.icon-select_label
+                    svg.icon.icon--menu: use(xlink:href="/assets/symbol-defs.svg#icon-menu")
+                    .icon-select_label-text Tekst
+              a(href="/pages/nytt-laeringssteg-2")
+                .icon-select_item
+                  input.icon-select_input(type="radio")
+                  label.icon-select_label
+                    svg.icon.icon--menu: use(xlink:href="/assets/symbol-defs.svg#icon-menu")
+                    .icon-select_label-text Introduksjon
+              a(href="/pages/nytt-laeringssteg-2")
+                .icon-select_item
+                  input.icon-select_input(type="radio")
+                  label.icon-select_label
+                    svg.icon.icon--play-circle-outline: use(xlink:href="/assets/symbol-defs.svg#icon-play_circle_outline")
+                    .icon-select_label-text Multimedia
+            div
+              a(href="/pages/nytt-laeringssteg-2")
+                .icon-select_item
+                  input.icon-select_input(type="radio")
+                  label.icon-select_label
+                    svg.icon.icon--contacts: use(xlink:href="/assets/symbol-defs.svg#icon-contacts")
+                    .icon-select_label-text Quiz
+              a(href="/pages/nytt-laeringssteg-2")
+                .icon-select_item
+                  input.icon-select_input(type="radio")
+                  label.icon-select_label
+                    svg.icon.icon--menu: use(xlink:href="/assets/symbol-defs.svg#icon-menu")
+                    .icon-select_label-text Oppgave
+              a(href="/pages/nytt-laeringssteg-2")
+                .icon-select_item
+                  input.icon-select_input(type="radio")
+                  label.icon-select_label
+                    svg.icon.icon--menu: use(xlink:href="/assets/symbol-defs.svg#icon-menu")
+                    .icon-select_label-text Oppsummering
+                            
+              
+      
+          

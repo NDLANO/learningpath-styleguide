@@ -5,6 +5,7 @@
   background-color: white;
   color: var(--blue-1);
   border-top: 1px solid var(--gray-7);
+  z-index: 10;
 }
 
 .stepper-nav--fixed {

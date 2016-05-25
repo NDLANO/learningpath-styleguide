@@ -5,6 +5,7 @@
   margin: 0 .5em;
   display: inline-block;
   position: relative;
+  width: 20%;
 }
 
 .icon-select_input {
@@ -16,14 +17,17 @@
 .icon-select_label {
   display: inline-block;
   cursor: pointer;
-  padding: 1em 1.5em 1em 1em;
-  color: var(--blue-1);
+  padding: 1.5em 1.5em 1em 1em;
+  color: black;
   border-radius: 3px;
-  border: 1px solid var(--gray-7);
+  border: 2px solid var(--gray-7);
   text-decoration: none;
+  width: 100%;
+  height: 100px;
 
   &:hover {
-    color: color(var(--blue-1) blackness(+ 30%));
+    border: 2px solid var(--blue-1);
+    color: var(--blue-1);
   }
 
   @nest .icon-select_input:checked + & {
@@ -32,5 +36,11 @@
 }
 
 .icon-select_label-text {
-  padding-left: .3em;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .icon-select_item{
+    width: 100%;
+  }
 }
