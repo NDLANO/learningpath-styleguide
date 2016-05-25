@@ -50,15 +50,16 @@ block content
                 h2 Klikk for å velge
               p.learning-path_input-information Bildet blir synlig i søk på læringssti.
             .learning-path-duration
-            label.label--medium-bold.label--medium Varighet
-            div
-              ul.duration-menu
-                li.duration-menu-item 1
-                li.duration-menu-item 2
-                li.duration-menu-item 3
-                li.duration-menu-item.duration-menu-item__selected 4
-                li.duration-menu-item 5
-              input.input-duration(value="4")
-              span time(r)
-            label.label--medium-bold.label--medium Tagger
-            include ../molecules/multiselect--closed.jade
+              label.label--medium-bold.label--medium Varighet
+              div
+                ul.duration-menu
+                  li.duration-menu-item 1
+                  li.duration-menu-item 2
+                  li.duration-menu-item 3
+                  li.duration-menu-item.duration-menu-item__selected 4
+                  li.duration-menu-item 5
+                input.input-duration(value="4")
+                span time(r)
+            .learning-path-tags
+              label.label--medium-bold.label--medium Tagger
+              include ../molecules/multiselect--closed.jade
