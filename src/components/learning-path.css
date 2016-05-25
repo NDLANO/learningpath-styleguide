@@ -101,19 +101,6 @@
   }
 }
 
-.editable {
-  position: absolute;
-  display: block;
-  margin-top: .5em;
-  background-color: var(--gray-11);
-  padding: 0 6px 9px 6px;
-  color: var(--gray-6);
-  border-radius: 40px;
-}
-
-.editable svg {
-  max-height: 12px;
-}
 
 .mediatype-dd {
   background-color: var(--gray-12);
