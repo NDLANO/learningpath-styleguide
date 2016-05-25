@@ -1,0 +1,13 @@
+mixin multiselect_selected_item(title)
+  li(role='option')=title
+    span(aria-disabled='false')
+      span(aria-hidden='true').rw-tag-btn ×
+
+.rw-widget.rw-multiselect
+  span.rw-sr
+  .rw-multiselect-wrapper
+    ul(role='listbox').rw-multiselect-taglist
+      +multiselect_selected_item('Andre verdenskrig')
+      +multiselect_selected_item('8. Mai')
+      +multiselect_selected_item('Frigjøringsdagen')
+    input(role='listbox').rw-input
