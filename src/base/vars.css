@@ -24,6 +24,8 @@
   --yellow-1: #efe574;
 
   --green-1: #6fce72;
+
+  @custom-media --small-viewport (max-width: 800px);
 }
 
 /* stylelint-disable */

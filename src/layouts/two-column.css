@@ -29,3 +29,8 @@
 .two-column .two-column_col--center {
   padding: 0 25% 2em;
 }
+@media (--small-viewport) {
+  aside.two-column_col {
+    display: none;
+  }
+}

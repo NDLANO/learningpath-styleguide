@@ -2,14 +2,14 @@
   top: 0;
   z-index: 999;
   width: 100%;
-  border-bottom: 1px solid var(--gray-7);
   background-color: white;
 }
 .masthead-big-screen {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: row;
+  border-bottom: 1px solid var(--gray-7);
 
 }
 
@@ -23,37 +23,60 @@
 .masthead-small-screen{
   display: none;
 }
+.masthead-toc {
+  display: none;
+}
 
-@media (max-width: 800px) {
-  .masthead-small-screen{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row;
-    background-color: white;
+@media (--small-viewport) {
+  .masthead_bottom--margin{
+    height: 65px;
+  }
+  .masthead-toc {
+    overflow: hidden;
+    display: block;
+    transition: width .2s;
+    position: fixed;
+    top: 65px;
+    left: 0;
+    bottom: 0;
 
-    & > .logo {
-      align-self: center;
-      margin-left: auto;
+    &.collapsed {
+      width: 0;
+      white-space: nowrap;
+    }
+    &.in {
+      width: 50%;
+      white-space: nowrap;
+      border-right:  1px solid var(--gray-7);
+      background-color: white;
     }
   }
-
   .masthead-big-screen {
+    overflow: hidden;
+    transition: width .2s;
+    position: fixed;
+    top: 65px;
+    right: 0;
+    bottom: 0;
+
+
+    &.collapsed {
+      width: 0;
+      white-space: nowrap;
+
+    }
+
     &.in {
-      position: absolute;
-      right: 0;
-      height: 100%;
+      z-index: 10;
       border-left:  1px solid var(--gray-7);
-      border-bottom:  1px solid var(--gray-7);
-      width: 40%;
-       & > .masthead_right {
+      background-color: white;
+      width: 50%;
+      white-space: nowrap;
+
+      & > .masthead_right {
         height: inherit;
         width: 100%;
-        margin-top: 10px;
-      }
-      & li {
-        display: block;
-        font-size: 1.5em;
+        flex: 1;
       }
     }
   }
@@ -62,17 +85,30 @@
     padding: 0;
     height: 0;
     width: 0;
-    display: block;
-    overflow: hidden;
+  }
+  .masthead_left {
+    display: none;
+  }
+
+  .masthead-small-screen{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    background-color: white;
+    z-index: 11;
+    width: 100%;
+    border-bottom: 1px solid var(--gray-7);
+
+    & > .logo {
+      align-self: center;
+      margin-left: auto;
+    }
   }
 
   .masthead-button--right, .masthead-button--left {
-    display: inline-block;;
     font-size: 1.5em;
     padding: 0.7em 0.7em;
-    & > span {
-      margin-top: 0.1em;
-    }
+    color: black;
     & > .icon {
       font-size: 1.2em;
       margin-right: 0.2em;

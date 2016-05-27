@@ -3,3 +3,8 @@
   display: flex;
   justify-content: space-between;
 }
+@media (--small-viewport) {
+  .frontpage-masthead{
+    display: none;
+  }
+}

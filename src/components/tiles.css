@@ -13,3 +13,9 @@
     padding: 3em 2em;
   }
 }
+
+@media (--small-viewport) {
+  .tiles{
+    z-index: 1;
+  }
+}
