@@ -19,7 +19,7 @@
 
 .step-nav_item:first-child, .step-nav_item:last-child {
   background: none;
-  &:hover{
+  &:hover {
     background-color: white;
   }
 }
