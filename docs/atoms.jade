@@ -16,3 +16,14 @@ block content
       include ./atoms/logo.jade
     #dropdown
       include ./atoms/dropdown.jade
+    #screen-reader
+      h3 Screen reader
+      p Hide an element to all devices except screen readers with <code>.sr-only</code>.
+        
+      :example
+        <div>
+          <label class="sr-only">
+             Title
+          </label>
+          <input type="text"/>
+        </div>
