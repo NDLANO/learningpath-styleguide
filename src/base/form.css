@@ -82,6 +82,7 @@ input:focus {
 .error_message {
   margin: 0;
 }
+
 .error_message--red {
-  color: red;
+  color: var(--red-1);
 }

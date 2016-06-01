@@ -1,0 +1,102 @@
+.learning-step-form {
+  padding-top: 4em;
+  display: flex;
+  flex-direction: column;
+}
+
+.learning-step-form_group {
+  padding-top: 1em;
+  margin-left: 10%;
+}
+
+.learning-step-form_group-paragraph {
+  padding-top: 0.3em;
+}
+
+.learning-step-form_left {
+  padding-right: 0.5em;
+  width: 10%;
+  float: left;
+  margin-left: -10%;
+}
+
+.learning-step-form_right {
+  width: 90%;
+}
+
+.learning-step-form_input {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.learning-step-form_input:focus {
+  outline-style: none;
+  color: black;
+}
+
+.learning-step-form_title {
+  font-size: 2.5em;
+  margin-top: 0;
+  font-weight: 600;
+  font-family: 'Signika', Helvetica, Arial, sans-serif;
+}
+
+.learning-step-form_paragraph {
+  font-size: 1.2em;
+  margin-top: 0.45em;
+  font-weight: 200;
+  line-height: 1.6em;
+  margin-bottom: 1.5em;
+}
+
+.learning-step-form_mediatype-dd {
+  background-color: var(--gray-12);
+  border: none;
+  height: 44px;
+  border-left: 30px solid var(--gray-12);
+  border-right: 15px solid var(--gray-12);
+}
+
+.learning-step-form_mediatype-icon {
+  position: absolute;
+  display: block;
+  margin-top: .7em;
+  margin-left: 10px;
+  color: var(--gray-4);
+  border-radius: 40px;
+}
+
+.learning-step-form_icon-bg {
+  float: right;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1em 0.5em 0 0;
+  background-color: var(--gray-11);
+  padding: 0 6px 9px 6px;
+  color: var(--gray-6);
+}
+
+.learning-step-form_icon-bg svg {
+  max-height: 12px;
+}
+
+.learning-step-form_show-title {
+  cursor: pointer;
+}
+
+.learning-step-form_show-title:hover {
+  color: color(var(--gray-6) blackness(+ 20%));
+  background-color: color(var(--gray-11) blackness(+ 20%));
+}
+
+.learning-step-form_show-title--active {
+  color: white;
+  background-color: var(--blue-1);
+}
+
+.learning-step-form_show-title--active:hover {
+  background-color: color(var(--blue-1) blackness(+ 20%));
+}
