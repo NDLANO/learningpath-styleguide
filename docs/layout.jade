@@ -13,21 +13,21 @@ html(lang='no_NB')
         | NDLA styleguide
 
   body
-   .masthead
-     .masthead_left
-       h1.logo: a.logo_link(href='/') Nasjonal digital læringsarena
-
-     .masthead_right
-       .site-nav
-         ul.site-nav_list
-           li.site-nav_item: a.site-nav_link(href='/') About
-           li.site-nav_item: a.site-nav_link(href='/typography') Typography
-           li.site-nav_item: a.site-nav_link(href='/colors') Colors
-           li.site-nav_item: a.site-nav_link(href='/icons') Icons
-           li.site-nav_item: a.site-nav_link(href='/atoms') Atoms
-           li.site-nav_item: a.site-nav_link(href='/molecules') Molecules
-           li.site-nav_item Organisms
-           li.site-nav_item: a.site-nav_link(href='/pages') Pages
+    .masthead
+      .masthead--desktop.collapsed
+        .masthead-left--desktop
+          h1.logo: a.logo_link(href='/') Nasjonal digital læringsarena
+        .masthead-left--desktop
+          .site-nav
+             ul.site-nav_list
+               li.site-nav_item: a.site-nav_link(href='/') About
+               li.site-nav_item: a.site-nav_link(href='/typography') Typography
+               li.site-nav_item: a.site-nav_link(href='/colors') Colors
+               li.site-nav_item: a.site-nav_link(href='/icons') Icons
+               li.site-nav_item: a.site-nav_link(href='/atoms') Atoms
+               li.site-nav_item: a.site-nav_link(href='/molecules') Molecules
+               li.site-nav_item Organisms
+               li.site-nav_item: a.site-nav_link(href='/pages') Pages
    .content
      block content
        h2 This page probably unintentionally left blank

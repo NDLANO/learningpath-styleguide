@@ -1,11 +1,11 @@
-extends layout-learningpath
+extends layout-learningpath-open-left
 
 block append title
   | - Læringssteg
 
 block content
   .two-column
-    aside.two-column_col.table-of-content.collapsed
+    aside.two-column_col.table-of-content.in
       include ../molecules/learningpath-general-info.jade
       - var STEP_NAV_ACTIVE_INDEX = 3;
       include ../molecules/step-nav.jade
