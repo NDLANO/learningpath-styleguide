@@ -19,3 +19,14 @@
   max-width: 400px;
   border-radius: 5px;
 }
+
+@media (--medium-viewport) {
+  .lightbox {
+    top: 64px;
+  }
+}
+@media(--xsmall-viewport){
+  .lightbox {
+    top: 43px;
+  }
+}
