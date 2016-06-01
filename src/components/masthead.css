@@ -20,7 +20,7 @@
 .masthead-right--desktop {
   padding: 0 1em 0 0;
 }
-.masthead--mobile{
+.masthead--mobile {
   display: none;
 }
 
@@ -34,22 +34,22 @@
     }
 
   }
-  & .masthead--mobile{
+  & .masthead--mobile {
     background-color: var(--blue-1);
     border-bottom: 0;
     color: white;
-    & > .masthead-button--right{
+    & > .masthead-button--right {
       border: 0;
       color: white;
     }
-    & > .masthead-button--right:hover{
+    & > .masthead-button--right:hover {
       background-color: var(--blue-2);
     }
   }
 }
 
 @media (--medium-viewport) {
-  .masthead--margin-bottom{
+  .masthead--margin-bottom {
     height: 64px;
   }
   .table-of-content, .masthead--desktop {
@@ -83,7 +83,7 @@
   .masthead--desktop {
     right: 0;
     &.sidebar--open {
-      border-left:  1px solid var(--gray-7);
+      border-left: 1px solid var(--gray-7);
       & > .masthead-right--desktop {
         height: inherit;
         width: 100%;
@@ -103,11 +103,11 @@
         color: white;
       }
     }
-    & .masthead--mobile{
+    & .masthead--mobile {
       background-color: var(--blue-1);
       border-bottom: 0;
       color: white;
-      & > .masthead-button--right{
+      & > .masthead-button--right {
         border: 0;
         color: white;
       }
@@ -126,7 +126,7 @@
     display: none;
   }
 
-  .masthead--mobile{
+  .masthead--mobile {
     display: flex;
     position: fixed;
     flex-direction: row;
@@ -149,35 +149,35 @@
       font-size: 1.2em;
       margin-right: 0.2em;
     }
-    &:hover, &.active{
+    &:hover, &.active {
       background-color: color(var(--blue-1) lightness(+ 60%));
     }
   }
-  .masthead-button--right{
+  .masthead-button--right {
     margin-left: auto;
     border-left: 1px solid var(--gray-7);
   }
-  .masthead-button--left{
+  .masthead-button--left {
     align-self: flex-start;
     border-right: 1px solid var(--gray-7);
   }
 }
-@media(--small-viewport){
+@media(--small-viewport) {
   .table-of-content.sidebar--open, .masthead--desktop.sidebar--open {
     width: 70%;
   }
 }
-@media(--xsmall-viewport){
-  .masthead--margin-bottom{
+@media(--xsmall-viewport) {
+  .masthead--margin-bottom {
     height: 43px;
   }
   .table-of-content, .masthead--desktop {
     top: 43px;
-    &.sidebar--open{
+    &.sidebar--open {
       width: 90%;
     }
   }
-  .masthead-button--right, .masthead-button--left{
+  .masthead-button--right, .masthead-button--left {
     font-size: 1em;
     padding-left: 0.2em;
     padding-right: 0.2em;

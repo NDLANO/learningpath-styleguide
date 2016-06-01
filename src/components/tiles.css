@@ -15,7 +15,7 @@
 }
 
 @media (--medium-viewport) {
-  .tiles{
+  .tiles {
     z-index: 1;
   }
 }
