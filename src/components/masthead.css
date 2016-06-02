@@ -24,30 +24,6 @@
   display: none;
 }
 
-.frontpage-masthead {
-  text-align: start;
-  & .masthead--desktop {
-    background-color: var(--blue-1);
-    border: 1px solid var(--blue-1);
-    & .site-nav_link:any-link {
-      color: white;
-    }
-
-  }
-  & .masthead--mobile {
-    background-color: var(--blue-1);
-    border-bottom: 0;
-    color: white;
-    & > .masthead-button--right {
-      border: 0;
-      color: white;
-    }
-    & > .masthead-button--right:hover {
-      background-color: var(--blue-2);
-    }
-  }
-}
-
 @media (--medium-viewport) {
   .masthead--margin-bottom {
     height: 64px;
@@ -60,11 +36,8 @@
     top: 64px;
     bottom: 0;
     background-color: white;
-
-    &.sidebar--collapsed {
-      width: 0;
-      white-space: nowrap;
-    }
+    width: 0;
+    white-space: nowrap;
     &.sidebar--open {
       z-index: 10;
       border-left: 1px solid var(--gray-7);
@@ -84,39 +57,15 @@
     right: 0;
     &.sidebar--open {
       border-left: 1px solid var(--gray-7);
-      & > .masthead-right--desktop {
-        height: inherit;
-        width: 100%;
-        flex: 1;
-      }
-    }
-  }
-  .frontpage-masthead {
-    & .masthead--desktop {
-      background-color: var(--blue-1);
-      border: 1px solid var(--blue-1);
-      &.sidebar--open {
-        background-color: var(--blue-2);
-        border: 1px solid var(--blue-2);
-      }
-      & .site-nav_link:any-link {
-        color: white;
-      }
-    }
-    & .masthead--mobile {
-      background-color: var(--blue-1);
-      border-bottom: 0;
-      color: white;
-      & > .masthead-button--right {
-        border: 0;
-        color: white;
-      }
-      & > .masthead-button--right:hover, & > .masthead-button--right.active {
-        background-color: var(--blue-2);
-      }
     }
 
+    & .masthead-right--desktop {
+      height: inherit;
+      width: 100%;
+      flex: 1;
+    }
   }
+
   .masthead-left--desktop, .masthead-right--desktop {
     padding: 0;
     height: 0;
@@ -173,9 +122,9 @@
   }
   .table-of-content, .masthead--desktop {
     top: 43px;
-    &.sidebar--open {
-      width: 90%;
-    }
+  }
+  .table-of-content.sidebar--open, .masthead--desktop.sidebar--open {
+    width: 90%;
   }
   .masthead-button--right, .masthead-button--left {
     font-size: 1em;
