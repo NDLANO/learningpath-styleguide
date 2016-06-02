@@ -24,6 +24,10 @@
   display: none;
 }
 
+.masthead_page-overlay{
+  display: none;
+}
+
 @media (--medium-viewport) {
   .masthead--margin-bottom {
     height: 64px;
@@ -39,7 +43,7 @@
     width: 0;
     white-space: nowrap;
     &.sidebar--open {
-      z-index: 10;
+      z-index: 21;
       border-left: 1px solid var(--gray-7);
       width: 50%;
       white-space: nowrap;
@@ -51,6 +55,20 @@
     &.sidebar--open {
       border-right: 1px solid var(--gray-7);
     }
+  }
+  .masthead_page-overlay--closed {
+    display: none;
+  }
+  .masthead_page-overlay--open{
+    position: fixed;
+    display: block;
+    z-index: 20;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    background-color: black;
   }
 
   .masthead--desktop {
@@ -80,7 +98,7 @@
     position: fixed;
     flex-direction: row;
     background-color: white;
-    z-index: 11;
+    z-index: 22;
     width: 100%;
     border-bottom: 1px solid var(--gray-7);
 
