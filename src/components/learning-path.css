@@ -101,25 +101,6 @@
   }
 }
 
-
-.mediatype-dd {
-  background-color: var(--gray-12);
-  border: none;
-  height: 44px;
-  border-left: 30px solid var(--gray-12);
-  border-right: 15px solid var(--gray-12);
-  margin-bottom: 1em;
-}
-
-.mediatype-icon {
-  position: absolute;
-  display: block;
-  margin-top: .7em;
-  margin-left: 10px;
-  color: var(--gray-4);
-  border-radius: 40px;
-}
-
 .input-duration {
   display: inline;
   width: 6em;
