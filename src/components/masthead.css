@@ -13,11 +13,11 @@
 
 }
 
-.masthead-left--desktop {
+.masthead_left--desktop {
   padding: 12px 0 0 1em;
 }
 
-.masthead-right--desktop {
+.masthead_right--desktop {
   padding: 0 1em 0 0;
 }
 .masthead--mobile {
@@ -59,19 +59,19 @@
       border-left: 1px solid var(--gray-7);
     }
 
-    & .masthead-right--desktop {
+    & .masthead_right--desktop {
       height: inherit;
       width: 100%;
       flex: 1;
     }
   }
 
-  .masthead-left--desktop, .masthead-right--desktop {
+  .masthead_left--desktop, .masthead_right--desktop {
     padding: 0;
     height: 0;
     width: 0;
   }
-  .masthead-left--desktop {
+  .masthead_left--desktop {
     display: none;
   }
 
@@ -90,7 +90,7 @@
     }
   }
 
-  .masthead-button--right, .masthead-button--left {
+  .masthead_button {
     font-size: 1.5em;
     padding: 0.7em 0.7em;
     color: black;
@@ -102,11 +102,11 @@
       background-color: color(var(--blue-1) lightness(+ 60%));
     }
   }
-  .masthead-button--right {
+  .masthead_button--right {
     margin-left: auto;
     border-left: 1px solid var(--gray-7);
   }
-  .masthead-button--left {
+  .masthead_button--left {
     align-self: flex-start;
     border-right: 1px solid var(--gray-7);
   }
@@ -126,7 +126,7 @@
   .table-of-content.sidebar--open, .masthead--desktop.sidebar--open {
     width: 90%;
   }
-  .masthead-button--right, .masthead-button--left {
+  .masthead_button {
     font-size: 1em;
     padding-left: 0.2em;
     padding-right: 0.2em;
