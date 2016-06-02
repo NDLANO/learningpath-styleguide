@@ -39,11 +39,11 @@
       border-bottom: 0;
       color: white;
     }
-    & .masthead-button--right {
+    & .masthead_button--right {
       border: 0;
       color: white;
     }
-    & .masthead-button--right:hover, & .masthead-button--right.active {
+    & .masthead_button--right:hover, & .masthead_button--right.active {
       background-color: var(--blue-2);
     }
 
