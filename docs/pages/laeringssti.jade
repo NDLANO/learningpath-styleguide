@@ -1,11 +1,11 @@
-extends layout
+extends layout-learningpath
 
 block append title
   | - Læringssti
 
 block content
   .two-column
-    aside.two-column_col
+    aside.two-column_col.table-of-content.sidebar--collapsed
       include ../molecules/learningpath-general-info.jade
       include ../molecules/step-nav.jade
 

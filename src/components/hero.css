@@ -8,6 +8,7 @@
 .hero_title {
   font-weight: normal;
   text-align: center;
+  margin-top: 0;
 }
 
 .hero_link {
