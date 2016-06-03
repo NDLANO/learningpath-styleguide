@@ -41,3 +41,9 @@ input[type=text].search-form_query {
   min-width: 6em;
   height: 3.5em;
 }
+
+@media (--medium-viewport) {
+  .search-form {
+    padding: 2em 1em;
+  }
+}

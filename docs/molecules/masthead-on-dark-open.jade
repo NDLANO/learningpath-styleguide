@@ -1,0 +1,12 @@
+.frontpage-masthead
+  .masthead--mobile
+    h1.logo.logo--on-dark: a.logo_link(href='/pages') Nasjonal digital læringsarena
+    .masthead-button--right.active
+      svg.icon.icon--menu.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-menu")
+      span Meny
+  .masthead--desktop.sidebar--open
+    .masthead-left--desktop
+      h1.logo.logo--on-dark: a.logo_link(href='/pages') Nasjonal digital læringsarena
+    .masthead-right--desktop
+      include ./site-nav--on-dark.jade
+.masthead--margin-bottom

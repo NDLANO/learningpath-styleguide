@@ -33,7 +33,7 @@
   text-align: right;
   color: var(--red-1);
 
-  &:hover{
+  &:hover {
     color: color(var(--red-1) saturation(+ 100%));
   }
 }

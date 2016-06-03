@@ -13,7 +13,6 @@
 .two-column_col:nth-child(1) {
   flex-basis: 330px;
   flex-grow: 0;
-  position: relative;
 }
 
 .two-column_col:nth-child(2) {
