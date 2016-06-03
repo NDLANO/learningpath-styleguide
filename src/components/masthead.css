@@ -56,10 +56,7 @@
       border-right: 1px solid var(--gray-7);
     }
   }
-  .masthead_page-overlay--closed {
-    display: none;
-  }
-  .masthead_page-overlay--open{
+  .masthead_page-overlay{
     position: fixed;
     display: block;
     z-index: 20;
