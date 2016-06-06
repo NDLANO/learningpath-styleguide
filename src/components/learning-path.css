@@ -155,9 +155,9 @@
 }
 
 .copy_learning-path {
-  & .button{
+  & .button {
     width: 48%;
-    outline: none
+    outline: none;
   }
 
   & .button-copy_abort {
