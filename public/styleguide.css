@@ -8,7 +8,7 @@ body{
   padding: 1em;
   color: white;
   margin-top: 0px;
-  margin-bottom: 2em; 
+  margin-bottom: 2em;
 }
 
 .styleguide-main {
@@ -90,4 +90,11 @@ body{
 
 #site-list h2{
   margin-top: 3em;
+}
+
+.tooltip-example .tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 10px 20px;
+  opacity: 1;
 }

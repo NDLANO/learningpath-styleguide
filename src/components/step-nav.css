@@ -9,7 +9,6 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  position: relative;
 }
 
 .step-nav_item {
@@ -77,14 +76,12 @@
 .step-nav_item--active:first-child  .step-nav_link:any-link {
   background: none;
   color: white;
-  position: relative;
   background-color: var(--blue-1);
 }
 
 .step-nav_item--active:last-child  .step-nav_link:any-link {
   background: none;
   color: white;
-  position: relative;
   background-color: var(--blue-1);
 }
 
@@ -109,7 +106,6 @@
 
 .step-nav_item--active .step-nav_link:any-link {
   color: white;
-  position: relative;
   font-weight: 600;
   background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
   background-color: var(--blue-1);

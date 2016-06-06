@@ -41,7 +41,7 @@
 }
 
 
-@media (max-width: 640px) {
+@media (--medium-viewport) {
   .site-nav_item {
     display: list-item;
     padding: 1em;
