@@ -15,13 +15,13 @@
 
 .learning-step-form_left {
   padding-right: 0.5em;
-  width: 10%;
+  width: 15%;
   float: left;
-  margin-left: -10%;
+  margin-left: -15%;
 }
 
 .learning-step-form_right {
-  width: 90%;
+  width: 85%;
 }
 
 .learning-step-form_input {
