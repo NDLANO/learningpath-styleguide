@@ -1,6 +1,7 @@
 footer {
   background-color: var(--gray-10);
   padding: 3.5em;
+  margin-top: 2em;
 }
 
 .footer-list {
