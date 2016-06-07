@@ -34,13 +34,39 @@
 }
 
 .search-result_title {
+  font-size: 1.8em;
   margin-bottom: .2em;
 }
 
 .search-result_meta {
-  font-size: .9em;
+  font-size: 1em;
+  font-weight: 100;
 }
 
 .search-result:hover {
   transition: all 0.25s ease;
+}
+
+
+.search-result_description{
+  font-size: 1.2em;
+  font-weight: 100;
+  margin-top: .5em;
+}
+
+.search-result-tag{
+  display: inline-block;
+  padding: .5em 1em;
+  background-color: var(--gray-10);
+  margin-right: .2em;
+  margin-bottom: .5em;
+  border-radius: 1em;
+}
+
+.ndla-approved{
+  border-radius: 5px;
+  color: var(--blue-1);
+  border: 2px solid var(--blue-1);
+  padding: .4em;
+  border-left: 1em solid var(--blue-1);
 }
