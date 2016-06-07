@@ -4,11 +4,11 @@ footer {
   margin-top: 2em;
 }
 
-.footer-list {
+.footer_list {
   margin-bottom: 2em;
 }
 
-.footer-list-item {
+.footer_item {
   display: inline;
   font-weight: bold;
   text-transform: uppercase;
@@ -17,18 +17,18 @@ footer {
   padding-left: 0;
 }
 
-.footer-list-item-link {
+.footer_link {
   text-decoration: none;
   border-bottom: 1px solid var(--gray-7);
   padding-bottom: 3px;
 }
 
-.footer-list-item-link:hover {
+.footer_link:hover {
   color: var(--blue-2);
   border-bottom: 2px solid var(--blue-2);
 }
 
-.footer-text {
+.footer_text {
   font-size: 0.9em;
   color: var(--gray-3);
   margin-bottom: 0;
@@ -41,7 +41,7 @@ footer {
     padding: 2em;
   }
 
-  .footer-list-item {
+  .footer_item {
     display: block;
     margin-bottom: 2em;
   }
