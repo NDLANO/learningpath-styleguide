@@ -56,15 +56,27 @@
 .search-result_tags {
   padding: 1em 0;
 }
-.search-result_tag{
+.search-result_tag {
   display: inline-block;
-  padding: .5em 1em;
+  padding: .4em 1em;
   background-color: var(--gray-10);
+  color: var(--gray-3);
   margin-right: .2em;
-  margin-bottom: .5em;
+  margin-bottom: .4em;
   border-radius: 1em;
 }
-
+.search-result_tag:hover {
+  background-color: var(--gray-7);
+  color: black;
+}
+.search-result_tag--active{
+  background-color: var(--blue-1);
+  color: white;
+}
+.search-result_tag--active:hover{
+  background-color: var(--blue-1);
+  color: white;
+}
 .ndla-approved{
   border-radius: 5px;
   color: var(--blue-1);
