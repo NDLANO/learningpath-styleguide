@@ -48,7 +48,7 @@
 }
 
 
-.search-result_description{
+.search-result_description {
   font-size: 1.2em;
   font-weight: 100;
   margin-top: .5em;
@@ -69,15 +69,15 @@
   background-color: var(--gray-7);
   color: black;
 }
-.search-result_tag--active{
+.search-result_tag--active {
   background-color: var(--blue-1);
   color: white;
 }
-.search-result_tag--active:hover{
+.search-result_tag--active:hover {
   background-color: var(--blue-1);
   color: white;
 }
-.ndla-approved{
+.ndla-approved {
   border-radius: 5px;
   color: var(--blue-1);
   border: 2px solid var(--blue-1);
