@@ -1,7 +1,6 @@
 .step-nav {
   border-top: 1px solid var(--gray-9);
-  border-bottom: 1px solid var(--gray-9);
-  padding: 0 0 3em;
+  padding: 0;
   margin-bottom: 1em;
 }
 
@@ -122,6 +121,7 @@
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
   border-left: 15px solid var(--blue-1);
+  position: relative;
 }
 
 .step-nav_circle {
@@ -135,4 +135,9 @@
 
 .step-nav_item--active .step-nav_circle {
   padding: 4px 8px 8px;
+}
+@media (--medium-viewport) {
+  .step-nav_item--active:after {
+    display: none;
+  }
 }

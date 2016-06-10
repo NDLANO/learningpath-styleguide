@@ -30,6 +30,16 @@ button, .button, .button:any-link {
   background-color: var(--gray-10);
   color: var(--gray-3);
 }
+.button--primary-outline {
+  background-color: white;
+  border: 2px solid var(--blue-1);
+  color: var(--blue-1);
+}
+.button--primary-outline:hover {
+  color: white;
+  background-color: var(--blue-1);
+  border: 2px solid var(--blue-1);
+}
 
 .button--primary, .button--primary:any-link {
   background-color: var(--blue-1);

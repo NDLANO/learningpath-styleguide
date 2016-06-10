@@ -1,0 +1,17 @@
+div.add-learningpath-step
+  .add-learningpath-step_line
+  a.add-learningpath-step_button.cta-link.cta-link--block.cta-link--secondary.labeled-icon(href="#")
+    .plus-sign--circle +
+    | Legg til læringssteg
+div
+  a.sort-steps_button(href='#') 
+    svg.icon.icon--import_export: use(xlink:href="/assets/symbol-defs.svg#icon-import_export")
+    | Sorter eller slett læringssteg
+
+.learning-path_save-buttons  
+    button.button--primary-outline.labeled-icon
+      svg.icon.icon--save.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-save")
+      span.labeled-icon_text Lagre som utkast
+    button.button--primary-outline.labeled-icon
+      span.labeled-icon_text Lagre og publiser
+      svg.icon.icon--arrow-forward.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-arrow_forward")

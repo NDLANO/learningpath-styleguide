@@ -186,6 +186,66 @@
     margin-right: 1%;
   }
 }
+.sort-steps_button {
+  margin: 1em 0;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.6em 0.8em;
+  background-color: var(--gray-10);
+  color: black;
+  display: block;
+}
+.sort-steps_button:hover {
+  background-color: var(--gray-7);
+}
+.sort-steps_button > .icon {
+  font-size: 1.2em;
+}
+.add-learningpath-step {
+  padding: 0 .5em;
+}
+.add-learningpath-step_button {
+  text-align: left;
+  padding-left: 1.3em;
+}
+.add-learningpath-step_button > .plus-sign--circle {
+  margin-right: .7em;
+  background-color: var(--gray-11);
+  padding: 3px 11px 3px;
+  color: var(--blue-1);
+  border-radius: 40px;
+  display: inline;
+  font-size: 1.4em;
+}
+.add-learningpath-step_button:hover > .plus-sign--circle {
+  background-color: white;
+  color: var(--blue-1);
+}
+.add-learningpath-step_line {
+  border-left: 5px solid  var(--gray-11);
+  height: 25px;
+  margin-top: -40px;
+  margin-left: 36px;
+}
+.learning-path_save-buttons {
+  padding: 0 0.5em;
+}
+.learning-path_save-buttons button {
+  width: 50%;
+  display: inline-block;
+  padding: 1.1em 0.3em;
+}
+.learning-path_save-buttons {
+  & button:first-child {
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  & button:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
 @media(max-width: 800px) {
   .copy_learning-path {
     & .button {
