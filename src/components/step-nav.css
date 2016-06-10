@@ -121,6 +121,7 @@
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
   border-left: 15px solid var(--blue-1);
+  position: relative;
 }
 
 .step-nav_circle {
