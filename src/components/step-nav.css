@@ -136,3 +136,8 @@
 .step-nav_item--active .step-nav_circle {
   padding: 4px 8px 8px;
 }
+@media (--medium-viewport) {
+  .step-nav_item--active:after {
+    display: none;
+  }
+}
