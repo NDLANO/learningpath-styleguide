@@ -53,6 +53,25 @@
   font-weight: 100;
   margin-top: .5em;
 }
+.search-result_introduction {
+  height: 0;
+  overflow: hidden;
+  &.search-result_introduction--open {
+    height: inherit;
+    overflow: inherit;
+  }
+}
+.show-introduction_button {
+  color: var(--blue-1);
+  text-decoration: underline;
+  font-size: 0.9em;
+  padding: 1em 0;
+  font-weight: 600;
+  display: block;
+  & .icon {
+    font-size: 1.2em;
+  }
+}
 .search-result_tags {
   padding: 1em 0;
 }
