@@ -29,6 +29,31 @@
 		{
 			"icon": {
 				"paths": [
+					"M810 896v-598h-468v598h468zM810 214c46 0 86 38 86 84v598c0 46-40 86-86 86h-468c-46 0-86-40-86-86v-598c0-46 40-84 86-84h468zM682 42v86h-512v598h-84v-598c0-46 38-86 84-86h512z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"content_copy"
+				],
+				"defaultCode": 57677,
+				"grid": 24
+			},
+			"attrs": [],
+			"properties": {
+				"order": 86,
+				"ligatures": "content_copy",
+				"id": 179,
+				"prevSize": 24,
+				"name": "content_copy"
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 179
+		},
+		{
+			"icon": {
+				"paths": [
 					"M810 170v86h-596v-86h148l44-42h212l44 42h148zM256 810v-512h512v512c0 46-40 86-86 86h-340c-46 0-86-40-86-86z"
 				],
 				"attrs": [],
