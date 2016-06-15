@@ -2,6 +2,7 @@
   padding-top: 4em;
   display: flex;
   flex-direction: column;
+  max-width: 900px;
 }
 
 .learning-step-form_group {
