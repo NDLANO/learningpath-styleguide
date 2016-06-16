@@ -90,19 +90,10 @@
   margin-top: 0;
 }
 
-.learning-path-image-drop {
-  border: 1px dashed var(--gray-6);
-  border-radius: 5px;
-  min-height: 100px;
-  text-align: center;
-  & > img {
-    height: 70px;
-    margin-top: 10px;
-  }
-  & > h2 {
-    color: var(--gray-7);
-
-  }
+.learning-path-image button {
+  padding: 0.7em 1em;
+  border-radius: 0.2em;
+  margin-bottom: 1em;
 }
 
 .input-duration {
