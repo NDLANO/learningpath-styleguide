@@ -33,7 +33,9 @@ input[type=text].image-search-form_query {
   float: left;
   border-radius: 5px 0 0 5px ;
 }
-
+.lightbox_image-preview .lightbox {
+  overflow-x: scroll;
+}
 .lightbox_image-preview .lightbox .lightbox_content {
   max-width: 870px;
   overflow-x: scroll;
@@ -42,24 +44,99 @@ input[type=text].image-search-form_query {
 .image_list-item {
   max-width: 25%;
   max-height: 200px;
-  display: inline-block;
+  height: 200px;
   vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.image_list-item--active {
+  margin-bottom: 300px;
 }
 .image_list {
   overflow-x: scroll;
+  display: flex;
+  align-items: stretch;
+  flex-flow: row wrap;
+  justify-content: center;
+  position: relative;
 }
 .image_list-item-inner {
   padding: 0.5em;
 }
 
-.image_list-item img {
+.image_list-item-inner > img {
   width:100%;
   min-width:100%;
   min-height:100%;
   border: 2px solid white;
 }
-.image_list-item img:hover {
+.image_list-item-inner > img:hover, .image_list-item--active > .image_list-item-inner > img {
   border: 2px solid var(--blue-1);
+}
+.image_list-item--active > .image_list-item-inner:after {
+  bottom: 0;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #88b7d5;
+	border-width: 0.5em;
+	margin-left: -30px;
+}
+
+.image-preview {
+  position: absolute;
+  left: 8px;
+  width: 100%;
+  overflow-x: scroll;
+  margin-top: 200px;
+  margin-right: 5%;
+  background-color: var(--gray-12);
+  padding: 1em;
+}
+.image-preview_image {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+.image-preview_image img {
+  max-width: 100%;
+  max-height: 300px;
+}
+.image-preview_information {
+  width: 50%;
+  display: inline-block;
+  padding-left: 1em;
+}
+.image-preview_information > *{
+  padding-top: 1em;
+}
+.image-preview_title {
+  padding-top: 0;
+  margin: 0;
+}
+.image-preview_text--left{
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+.image-preview_text--right {
+  width: 80%;
+  display: inline-block;
+}
+.image-preview_tags > b {
+  display: block;
+  margin-bottom: 1em;
+}
+.image-preview_information > .button {
+  padding-top: 1em;
+  border-radius: 0.2em;
 }
 @media(--medium-viewport) {
   .image-search-form_btn {
