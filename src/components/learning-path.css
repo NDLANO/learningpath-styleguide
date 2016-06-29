@@ -105,6 +105,13 @@
 
 .duration-menu {
   display: inline;
+  padding: 0;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
   margin-right: 10px;
 }
 
@@ -240,6 +247,15 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
+}
+#tags_taglist {
+  padding: 0;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
 }
 @media(max-width: 800px) {
   .copy_learning-path {
