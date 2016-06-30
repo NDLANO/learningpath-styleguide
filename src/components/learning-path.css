@@ -248,7 +248,7 @@
     border-bottom-left-radius: 0;
   }
 }
-#tags_taglist {
+.rw-multiselect-taglist {
   padding: 0;
   margin: 0;
   -webkit-margin-before: 0;
