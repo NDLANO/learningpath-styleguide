@@ -142,17 +142,6 @@ input[type=text].image-search_form-query {
 .image-preview_information > .button {
   border-radius: 0.2em;
 }
-.learning-path-image .image-preview_image {
-  padding-left: 0;
-}
-.learning-path-image .image-preview_information {
-  padding-right: 0;
-}
-.learning-path-image .image-preview_information b {
-  display: block;
-  margin-bottom: 0.2em;
-}
-
 
 @media(--large-viewport) {
   .image_list-item:nth-of-type(4n+2) .image-preview {
@@ -187,9 +176,6 @@ input[type=text].image-search_form-query {
   }
   input[type=text].image-search_form-query {
     width: 90%;
-  }
-  .learning-path-image .image-preview_information {
-    padding-left: 0;
   }
 }
 
