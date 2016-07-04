@@ -1,7 +1,7 @@
 .stepper-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-color: white;
   color: var(--blue-1);
   border-top: 1px solid var(--gray-7);
@@ -14,27 +14,31 @@
   width: 100%;
 }
 
-.stepper-nav-btn {
+.stepper-nav_button {
   display: block;
-  border-right: 1px solid var(--gray-7);
-  border-left: 1px solid var(--gray-7);
   padding: 1.7em;
   text-decoration: none;
 }
 
-.stepper-nav-btn:hover {
-  background-color: var(--blue-1);
-  color: white;
+.stepper-nav_button:hover {
+  background-color: var(--gray-11);
+  color: black;
+  text-decoration: underline;
 }
 
-.stepper-nav-btn_disabled {
+.stepper-nav_text-information {
+  padding: 1.7em;
+  color: black;
+}
+
+.stepper-nav_button--disabled {
   pointer-events: none;
-  background-color: var(--gray-7);
+  background-color: var(--gray-8);
   color: var(--gray-3);
 }
 
 @media(--medium-viewport) {
-  .stepper-nav-btn {
+  .stepper-nav_button, .stepper-nav_text-information {
     padding: 0.8em;
   }
 }

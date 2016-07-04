@@ -45,10 +45,16 @@ block content
                   |  Lagre
             .learning-path-image
               label.label--medium-bold.label--medium Illustrerende bilde
-              .learning-path-image-drop
-                img(src="https://d30y9cdsu7xlg0.cloudfront.net/png/49665-200.png")
-                h2 Klikk for å velge
-              p.learning-path_input-information Bildet blir synlig i søk på læringssti.
+              div
+                .image-preview_image
+                  img(src="http://api.test.ndla.no/images/full/64078945_0.jpg")
+                  p.learning-path_input-information Bildet blir synlig i søk på læringssti.
+                .image-preview_information
+                  h2.image-preview_title Ungdommer holder en globus
+                  .image-prieview_copyright-author
+                    b Opphav
+                    span NTB scanpix
+                  button.button.button--primary Bytt bilde
             .learning-path-duration
               label.label--medium-bold.label--medium Varighet
               div
