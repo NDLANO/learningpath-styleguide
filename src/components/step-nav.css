@@ -1,7 +1,6 @@
 .step-nav {
   border-top: 1px solid var(--gray-9);
   padding: 0;
-  margin-bottom: 1em;
 }
 
 .step-nav_list {
@@ -15,7 +14,7 @@
   background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
 }
 
-.step-nav_item:first-child, .step-nav_item:last-child {
+.step-nav_item:first-child {
   background: none;
   &:hover {
     background-color: white;
@@ -79,7 +78,6 @@
 }
 
 .step-nav_item--active:last-child  .step-nav_link:any-link {
-  background: none;
   color: white;
   background-color: var(--blue-1);
 }
