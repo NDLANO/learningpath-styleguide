@@ -14,6 +14,7 @@
 .learning-step iframe {
   padding-top: 1em;
   border: 0 none;
+  max-width: 100%;
 }
 
 .learning-step--without-dimensions iframe {
