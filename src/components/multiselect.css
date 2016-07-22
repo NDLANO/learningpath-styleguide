@@ -166,7 +166,6 @@ ul.rw-list {
   position: absolute;
   top: 100%;
   margin-top: 1px;
-  z-index: 1030;
   left: -11px;
   right: -11px;
   z-index: 2;
