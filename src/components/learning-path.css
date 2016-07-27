@@ -18,7 +18,14 @@
 .learning-path_margin {
   height: 76px;
 }
-
+.learningpath-license {
+  width: 80%;
+  margin: 0 auto;
+}
+.learningpath-contributors {
+  max-width: 100%;
+  overflow: scroll;
+}
 .learning-path_meta {
   font-size: 0.7em;
   line-height: 1.6em;
@@ -33,6 +40,9 @@
   bottom: 30px;
   border-radius: 40px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+.learningPath-copyright .rw-open {
+  margin-bottom: 240px;
 }
 
 .new-learningpath-button:hover {
@@ -265,6 +275,12 @@
   -webkit-margin-start: 0;
   -webkit-margin-end: 0;
   -webkit-padding-start: 0;
+}
+#contributors__listbox {
+  display: none;
+}
+.rw-dropdownlist {
+  padding: 0.6em 1em;
 }
 @media(--medium-viewport) {
   .copy_learning-path .button {
