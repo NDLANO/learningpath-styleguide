@@ -16,9 +16,6 @@
     "devbuild": "webpack --watch  --output-path ../learningpath-frontend/htdocs/assets/",
     "start": "node ./bin/www"
   },
-  "publishConfig": {
-    "registry": "https://nexus.knowit.no/nexus/content/repositories/ndla-npm/"
-  },
   "files": [
     "assets"
   ],
