@@ -5,14 +5,3 @@
  * LICENSE file in the root directory of this source tree.
  *
  */
-
-.one-column {
-  margin: 0 1em;
-  padding-top: 2em;
-}
-
-.one-column--narrow {
-  max-width: 300px;
-  margin: 0 auto;
-}
-

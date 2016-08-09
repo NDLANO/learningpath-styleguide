@@ -1,3 +1,11 @@
+/**
+ * Copyright (c) 2016-present, NDLA.
+ *
+ * This source code is licensed under the GPLv3 license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ */
+
 .button-group {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   display: inline-block;
