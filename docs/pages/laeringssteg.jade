@@ -10,9 +10,8 @@ block content
       - var STEP_NAV_ACTIVE_INDEX = 3;
       include ../molecules/step-nav.jade
 
-    main.two-column_col
-      .learning-step
+    main.two-column_col.two-column_col--white-bg
+      .two-column_content--wide
         iframe.learning-step_embeded(src='http://www.knowit.no/Kundecaser/Oslo-kommune1/Oslo-kommune/')
         
-    include ../molecules/stepper-nav.jade
-    .learning-path_margin
+      include ../molecules/stepper-nav.jade

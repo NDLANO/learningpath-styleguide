@@ -21,8 +21,8 @@ block content
 
       include ../molecules/step-nav_buttons.jade
 
-    main.two-column_col.two-column_col--center
-      div
+    main.two-column_col
+      div.two-column_content
         form
           .learning-path_hd
             h1 Læringstidetaljer
@@ -64,5 +64,4 @@ block content
               input.input-duration(value="-2")
               span time(r)
             span.error_message.error_message--red Varighet må være større en null.
-  include ../molecules/stepper-nav.jade
-  .learning-path_margin
+      include ../molecules/stepper-nav.jade

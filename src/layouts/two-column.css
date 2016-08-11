@@ -15,26 +15,25 @@
 
 .two-column_col {
   flex-direction: column;
-  border-right: 1px solid var(--gray-8);
 }
 
 .two-column_col:nth-child(1) {
-  flex-basis: 330px;
-  flex-grow: 0;
-  max-width: 30%;
+  flex: 0 0 330px;
+  border-right: 1px solid var(--gray-8);
 }
 
 .two-column_col:nth-child(2) {
-  flex-basis: 770px;
-  flex-grow: 2;
-  flex-shrink: 7;
-  padding: 0 10% 2em;
-  max-width: 85%;
+  flex: 2 7 770px;
 }
 
 .two-column_col--white-bg {
   background-color: white;
 }
-.two-column .two-column_col--center {
+
+.two-column_content--wide {
+  padding: 0 10% 2em;
+}
+
+.two-column_content {
   padding: 0 25% 2em;
 }

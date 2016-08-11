@@ -10,10 +10,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   background-color: white;
   color: var(--blue-1);
   border-top: 1px solid var(--gray-7);
   z-index: 10;
+  padding-right: 330px;
 }
 
 .stepper-nav--fixed {
@@ -23,7 +25,6 @@
 }
 
 .stepper-nav_button {
-  display: block;
   padding: 1.7em;
   text-decoration: none;
 }
@@ -46,6 +47,10 @@
 }
 
 @media(--medium-viewport) {
+  .stepper-nav {
+    padding-right: 0;
+  }
+
   .stepper-nav_button, .stepper-nav_text-information {
     padding: 0.8em;
   }
