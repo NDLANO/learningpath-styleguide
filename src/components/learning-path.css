@@ -27,10 +27,11 @@
   width: 80%;
   margin: 0 auto;
 }
+
 .learningpath-contributors {
   max-width: 100%;
-  overflow: scroll;
 }
+
 .learning-path_meta {
   font-size: 0.7em;
   line-height: 1.6em;
