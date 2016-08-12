@@ -15,13 +15,17 @@
   color: var(--blue-1);
   border-top: 1px solid var(--gray-7);
   z-index: 10;
-  padding-right: 330px;
+  padding-right: var(--sidebar-width);
 }
 
 .stepper-nav--fixed {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.lt-ie11 .stepper-nav--fixed {
+  height: 76px;
 }
 
 .stepper-nav_button {

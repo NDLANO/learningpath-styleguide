@@ -8,9 +8,13 @@
 
 .two-column {
   display: flex;
-  min-height: 100vh;
+  flex: 1 0 auto;
   align-items: stretch;
   background-color: var(--gray-12);
+}
+
+.ie .two-column {
+  min-height: 100vh;
 }
 
 .two-column_col {
@@ -18,12 +22,12 @@
 }
 
 .two-column_col:nth-child(1) {
-  flex: 0 0 330px;
+  flex: 0 1 var(--sidebar-width);
   border-right: 1px solid var(--gray-8);
 }
 
 .two-column_col:nth-child(2) {
-  flex: 2 7 770px;
+  flex: 1 1 770px;
 }
 
 .two-column_col--white-bg {
