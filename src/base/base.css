@@ -9,11 +9,15 @@
 * {
   box-sizing: border-box;
 }
+html {
+  height: 100%;
+}
 
 body {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   color: var(--gray-1);
   background-color: var(--gray-12);
+  height: 100%;
 }
 
 a:any-link {
