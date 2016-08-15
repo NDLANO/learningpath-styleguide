@@ -1,29 +1,44 @@
 h2 Form
 
 .note
-	h4 Note: Form validation usage
-	p Browsers that support HTML form validation have one thing in common; if a form is submitted and has errors on multiple fields, the browser will only display the first error to the user. This leads to a non-optimal user experience. Form validation should be done for each field and be validated when criterials are met.
+  h4 Note: Form validation usage
+  p Browsers that support HTML form validation have one thing in common; if a form is submitted and has errors on multiple fields, the browser will only display the first error to the user. This leads to a non-optimal user experience. Form validation should be done for each field and be validated when criterials are met.
 
 :example
-	<form>
-	  <label>Label</label>
-	  <input type="text" name="firstname"><br>
-	  <label>Success</label>
-	  <input class="input--success" type="text" name="lastname">
-	  <label>Alert</label>
-	  <input class="input--alert" type="text" name="lastname">
-	</form>
+  <form>
+    <label>Label</label>
+    <input type="text" name="firstname"><br>
+    <label>Select</label>
+    <select>
+      <option>Strawberry</option>
+      <option>Apples</option>
+      <option>Banana</option>
+      <option>Orange</option>
+    </select>
+    <label>Label</label>
+    <input type="text" name="firstname">
+    <select>
+      <option>Strawberry</option>
+      <option>Apples</option>
+      <option>Banana</option>
+      <option>Orange</option>
+    </select>
+    <label>Success</label>
+    <input class="input--success" type="text" name="lastname">
+    <label>Alert</label>
+    <input class="input--alert" type="text" name="lastname">
+  </form>
 
 h2 Form with validations
 :example
-	<form>
-		<label>Label</label>
-		<input class="input--alert" type="text" name="firstname"><br>
-		<span class="error_message error_message--red">Feltet mangler</span>
-		
-		<label>Label</label>
-		<textarea class="textarea textarea--resize-vertical input--alert" 
-		rows= "4" cols="50" placeholder="Skriv en kort beskrivelse av dette feltet">
-		</textarea>
-		<span class="error_message error_message--red">Feltet mangler</span>
-	</form>
+  <form>
+  	<label>Label</label>
+  	<input class="input--alert" type="text" name="firstname"><br>
+  	<span class="error_message error_message--red">Feltet mangler</span>
+  	
+  	<label>Label</label>
+  	<textarea class="textarea textarea--resize-vertical input--alert" 
+  	rows= "4" cols="50" placeholder="Skriv en kort beskrivelse av dette feltet">
+  	</textarea>
+  	<span class="error_message error_message--red">Feltet mangler</span>
+  </form>
