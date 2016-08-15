@@ -16,8 +16,8 @@ if (app.get('env') === 'development') {
 
 app.locals.STYLESHEET_PATH = (app.get('env') === 'development') ? '/style.css' : '/assets/style.css';
 
-app.locals.iconIds = require('./assets/selection.json')
-  .icons.map(function (icon) { return 'icon-'+icon.properties.name; }).sort();
+app.locals.iconIds = require('./assets/selection.json').iconSets[0].selection
+  .map(function (icon) { return 'icon-'+icon.name; }).sort();
 
 Object.assign(app.locals, require('./docs/localData'));
 
