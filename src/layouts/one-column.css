@@ -7,12 +7,11 @@
  */
 
 .one-column {
-  margin: 0 1em;
-  padding-top: 2em;
+  flex: 1 0 auto;
 }
 
 .one-column--narrow {
+  padding-top: 2em;
   max-width: 300px;
   margin: 0 auto;
 }
-

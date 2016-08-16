@@ -4,32 +4,34 @@ html(lang='no_NB')
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width, initial-scale=1')
     link(rel='stylesheet' href=STYLESHEET_PATH)
-    link(rel='stylesheet' href='/styleguide.css')
     link(rel='stylesheet' href='/highlight/default.css')
     link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300italic,300|Signika:400,600,300,700')
     != LRScript
     title NDLA Læringsstier - Forside
 
   body
-    .hero
-      include ../molecules/masthead-on-dark.jade
-      h1.hero_title Læringsstier
-      h3.hero_title Nasjonal digital læringsarena
+    .app-container
+      .page-container
+        .wrapper
+          .one-column  
+            .hero
+              include ../molecules/masthead-on-dark.jade
+              h1.hero_title Læringsstier
+              h3.hero_title Nasjonal digital læringsarena
 
-      include ../molecules/search-form--dark-wo-sort.jade
+              include ../molecules/search-form--dark-wo-sort.jade
 
-      a(href='#').hero_link.cta-link.cta-link--negative Hva er en læringssti?
-      a(href='#').hero_link.cta-link.cta-link--secondary.cta-link--secondary-negative Lag din egen læringgsti »
+              a(href='#').hero_link.cta-link.cta-link--negative Hva er en læringssti?
+              a(href='#').hero_link.cta-link.cta-link--secondary.cta-link--secondary-negative Lag din egen læringgsti »
 
-    .infoblock
-      .infoblock
-        .infoblock_text
-          h2 Enklere å følge
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
-        img.infoblock_img(src='http://placehold.it/300x200')
-    .infoblock
-      .infoblock
-        .infoblock_text.infoblock_text--left
-          h2 Enklere å følge
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
-        img.infoblock_img.infoblock_img--left(src='http://placehold.it/300x200')
+            .infoblock
+              .infoblock_text
+                h2 Enklere å følge
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
+              img.infoblock_img(src='http://placehold.it/300x200')
+            .infoblock
+              .infoblock_text.infoblock_text--left
+                h2 Enklere å følge
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
+              img.infoblock_img.infoblock_img--left(src='http://placehold.it/300x200')
+          include ../molecules/footer.jade

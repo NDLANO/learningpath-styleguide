@@ -4,8 +4,12 @@ block append title
   | - Finn læringssti
 
 block content
-  .page-header
-    include ../molecules/search-form.jade
-  .search-results
-      include ../molecules/search-result.jade
-    include ../molecules/search-stepper.jade
+  .wrapper
+    .one-column  
+      .page-header
+        include ../molecules/search-form.jade
+      .search-results
+          include ../molecules/search-result.jade
+        include ../molecules/search-stepper.jade
+
+    include ../molecules/footer.jade

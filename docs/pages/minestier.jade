@@ -18,40 +18,44 @@ block append title
   | - Mine Læringsstier
 
 block content
-  .page-header
-    h2.page-header_name Mine læringsstier
+  .wrapper
+    .one-column  
+      .page-header
+        h2.page-header_name Mine læringsstier
 
-    .page-header_ctrls
-        a.sorting-button(href="#")
-          svg.icon.icon--sort-by-alpha: use(xlink:href="/assets/symbol-defs.svg#icon-sort_by_alpha")
-        a.sorting-button(href="#")
-          svg.icon.icon--list: use(xlink:href="/assets/symbol-defs.svg#icon-list")
-        select
-          each s, i in ['Alfabetisk', 'Nyeste', 'Eldste', 'Publisert']
-            option(value=i)= s
-  .tiles
-    each path in learningPaths
-      .tile
-        .tile_hd
-          .tile_date= path.updated_at
-          .tile_context-menu
-            +dropdown-menu
-        a.tile_bd(href="/pages/laeringssti")
-          h3.tile_title= path.title
-          p= path.description
+        .page-header_ctrls
+            a.sorting-button(href="#")
+              svg.icon.icon--sort-by-alpha: use(xlink:href="/assets/symbol-defs.svg#icon-sort_by_alpha")
+            a.sorting-button(href="#")
+              svg.icon.icon--list: use(xlink:href="/assets/symbol-defs.svg#icon-list")
+            select
+              each s, i in ['Alfabetisk', 'Nyeste', 'Eldste', 'Publisert']
+                option(value=i)= s
+      .tiles
+        each path in learningPaths
+          .tile
+            .tile_hd
+              .tile_date= path.updated_at
+              .tile_context-menu
+                +dropdown-menu
+            a.tile_bd(href="/pages/laeringssti")
+              h3.tile_title= path.title
+              p= path.description
 
-        .tile_ft
-          .tile_property
-            .tile_property-icon
-              svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
-            p.tile_property-description Varighet
-            p= path.duration
-          .tile_property
-            .tile_property-icon
-              svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-remove_red_eye")
-            p.tile_property-description Synlighet
-            p= path.status
+            .tile_ft
+              .tile_property
+                .tile_property-icon
+                  svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-query_builder")
+                p.tile_property-description Varighet
+                p= path.duration
+              .tile_property
+                .tile_property-icon
+                  svg.icon: use(xlink:href="/assets/symbol-defs.svg#icon-remove_red_eye")
+                p.tile_property-description Synlighet
+                p= path.status
 
-  a.cta-link.labeled-icon.new-learningpath-button(href="/pages/pre-opprett-laeringssti")
-    svg.icon.icon--with-label.icon--add-circle-outline: use(xlink:href="/assets/symbol-defs.svg#icon-add_circle_outline")
-    span.labeled-icon_text Opprett ny læringssti
+      a.cta-link.labeled-icon.new-learningpath-button(href="/pages/pre-opprett-laeringssti")
+        svg.icon.icon--with-label.icon--add-circle-outline: use(xlink:href="/assets/symbol-defs.svg#icon-add_circle_outline")
+        span.labeled-icon_text Opprett ny læringssti
+
+    include ../molecules/footer.jade
