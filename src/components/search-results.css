@@ -29,6 +29,11 @@
 .search-result_img {
   max-width: 100%;
 }
+
+.ie .search-result_img {
+  max-height: 250px;
+}
+
 .search-result_img_container {
   margin: 1em;
   padding-top: 0.82em;
