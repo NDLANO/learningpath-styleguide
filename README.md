@@ -28,6 +28,14 @@ Start node server with hot reloading middleware listening on port 8081.
 $ npm start
 ```
 
+### Run stylelint
+
+Check for errors with stylelint.
+
+```
+$ npm run lint
+```
+
 ### Publish a new release
 
 ```

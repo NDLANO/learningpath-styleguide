@@ -22,6 +22,7 @@
     "no-invalid-double-slash-comments": true,
     "no-missing-end-of-source-newline": true,
     "length-zero-no-unit": true,
+    "max-nesting-depth": 2,
     "selector-list-comma-space-after": "always-single-line",
     "selector-list-comma-space-before": "never",
     "selector-no-id": true

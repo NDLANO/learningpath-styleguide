@@ -3,7 +3,6 @@ var postcss = require('postcss');
 var postcssImport = require('postcss-easy-import');
 var cssNext = require('postcss-cssnext');
 var postcssReporter = require('postcss-reporter');
-var stylelint = require('stylelint');
 var pkginfo = require('pkginfo');
 
 
@@ -45,13 +44,9 @@ module.exports = {
 
   postcss: function () {
     return [
-      stylelint,
       postcssImport({
         glob: true,
-        addDependencyTo: this,
-        plugins: [
-          stylelint
-        ]
+        addDependencyTo: this
       }),
       cssNext,
       pkgInfoPlugin,

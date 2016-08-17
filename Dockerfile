@@ -1,4 +1,4 @@
-FROM node:4.2
+FROM node:6.2.2
 
 #ENV PORT 8081
 
@@ -10,7 +10,6 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 COPY package.json /usr/src/app/
-COPY .npmrc /usr/src/app/
 RUN npm install
 COPY . /usr/src/app
 
