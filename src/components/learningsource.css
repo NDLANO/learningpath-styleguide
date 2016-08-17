@@ -52,12 +52,6 @@
   padding: 1em;
 }
 
-.learningsource-form--save-button {
-  margin-left: -4.4em !important;
-  padding: 1em 1em 1.1em 1em !important;
-  margin-top: -0.1em;
-}
-
 .learningsource__frame--hidden {
   height: 250px;
   overflow: hidden;
