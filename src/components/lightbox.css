@@ -16,7 +16,7 @@
   z-index: 20;
 }
 
-.lightbox input {
+.lightbox input, .lightbox select {
   width: 100%;
 }
 
