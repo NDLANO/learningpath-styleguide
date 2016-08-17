@@ -1,5 +1,10 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
 script:
-  - npm run lint
+- npm run lint
+notifications:
+  slack:
+    secure: ZAcy2Ng+noBNnB4H/vPeOw1kW/PKAmJ99ibs5s3vVG/MZTV2TzciUKfja4KHgPtzGeETe4eR2cZyo+s1smPs7o+K8y9R9HkS2L+focsrqtwpMlPLVEQe3S3h1TPDvOQYtqXGP/iCr96ejenBx+kW6Ze9rA5covp9XxJ6XMNKtstERrjBP8/ScDOYcGyZdWK26b61O7srZz6wHcYYZ2YYKK4k0LtJtNROhUO47uG0zfoIVLr9nxRmdfS5iFWXtNsZY2kX1TyxtvMe3/Ud0HTFAkzTJJuhmekUHjYq3DqaFplZwUfwpe58oxjdlHkWAOLbNesZ4lrVlcxw9+P/2ULj5IgZ8qEo2OwPrd8PLeMH7XG6fHizi5GLhvLzhDRyoJNQJTIZa24xfEImSptBjtXA9QwkpUWZaTGYvQNzvMh1Pb1IuWcWsKnpW5NRX8o3R7jtGD9CcCLBMu51ZOSKKG51Ut/OJjc0Hw+Gy7loH1pUBlYi/7sUHwyJmSbcPkOFLQkf8KnuJZqu+iqI175RjLLFNpbRNI5gjTWz6jvrlZKHk77nDTVTRDL3T9G2P76UUlWV3osdJ0927y7Ot5cS5V/7Vl8a8LheJQq1twZB6CZI7jLWPCK4UwuwRUczmTF8Ungz4h1oEKKIo0oRC4BJ5UpEM9XL/fGiHaEkXh/E1x0vinQ=
+    on_success: change
+    on_failure: always
