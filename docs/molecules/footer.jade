@@ -1,16 +1,24 @@
-footer
-  ul.footer-list
-    li.footer-list-item
-      a.footer-list-item-link(href="#") Om NDLA
-    li.footer-list-item
-      a.footer-list-item-link(href="#") Om Læringsstier
-    li.footer-list-item
-      a.footer-list-item-link(href="#") Tilbakemelding
-    li.footer-list-item
-      a.footer-list-item-link(href="#") Personvern
+footer.footer
+  form.footer_language-form  
+    label.footer_language-label.footer--bold Velg språk
+    select.footer_language-select
+      option Bokmål
+      option Nynorsk
+      option Engelsk
+  ul.footer_list.footer--bold
+    li.footer_item
+      a.footer_link(href="#") Om NDLA
+    li.footer_item
+      a.footer_link(href="#") Om Læringsstier
+    li.footer_item
+      a.footer_link(href="#") Tilbakemelding
+    li.footer_item
+      a.footer_link(href="#") Personvern
 
-  p.footer-text Nettstedet er utarbeidet av NDLA som åpen kildekode. 
-  p.footer-text Ansvarlig redaktør: 
-    strong Øivind Høines 
-    | Utgaveansvarlig: 
-    strong Pål Frønsdal
+  .footer_ruler
+  p.footer_text 
+    span.footer_editor Ansvarlig redaktør: 
+      strong Øivind Høines 
+    span.footer_editor Utgaveansvarlig: 
+      strong Pål Frønsdal
+  p.footer_text Nettstedet er utarbeidet av NDLA som åpen kildekode. 
