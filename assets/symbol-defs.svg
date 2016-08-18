@@ -244,5 +244,13 @@
 <title>select-arrow</title>
 <path class="path1" fill="#555" d="M15.7 10.9l-3.6-6.5-3.7 6.5zM8.3 13.8l3.7 6.5 3.6-6.5z"></path>
 </symbol>
+<symbol id="icon-undo2" viewBox="0 0 24 24">
+<title>undo2</title>
+<path class="path1" d="M17.856 24c2.665-4.829 3.115-12.195-7.356-11.949v5.949l-9-9 9-9v5.821c12.538-0.327 13.935 11.068 7.356 18.179z"></path>
+</symbol>
+<symbol id="icon-redo2" viewBox="0 0 24 24">
+<title>redo2</title>
+<path class="path1" d="M13.5 5.821v-5.821l9 9-9 9v-5.949c-10.471-0.246-10.022 7.12-7.356 11.949-6.579-7.111-5.182-18.506 7.356-18.179z"></path>
+</symbol>
 </defs>
 </svg>
