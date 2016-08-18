@@ -4,12 +4,14 @@ block append title
   | - Logg inn
 
 block content
- .one-column.one-column--narrow
-   h3 Logg inn i NDLA med
-   ul.vertical-menu
-     li.vertical-menu_item
-       a.cta-link.cta-link--block.cta-link--gl(href='/pages/minestier') Google
-     li.vertical-menu_item
-       a.cta-link.cta-link--block.cta-link--fb(href='/pages/minestier') Facebook
-     li.vertical-menu_item
-       a.cta-link.cta-link--block.cta-link--tw(href='/pages/minestier') Twitter
+  .wrapper
+    .one-column.one-column--narrow
+      h3 Logg inn i NDLA med
+      ul.vertical-menu
+        li.vertical-menu_item
+          a.cta-link.cta-link--block.cta-link--gl(href='/pages/minestier') Google
+        li.vertical-menu_item
+          a.cta-link.cta-link--block.cta-link--fb(href='/pages/minestier') Facebook
+        li.vertical-menu_item
+          a.cta-link.cta-link--block.cta-link--tw(href='/pages/minestier') Twitter
+    include ../molecules/footer.jade
