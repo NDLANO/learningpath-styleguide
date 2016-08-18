@@ -15,9 +15,16 @@ block content
 
 block append body
   #overlay.alert-overlay
-    .alert.alert--success
+    .alert.alert--info
       button#closeOverlay.un-button.alert_dismiss
-        svg.icon.icon--clear: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
+        svg.icon.icon--m.icon--clear: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
+      .alert_msg Oh my god! You killed kenny.
+      button.un-button.alert_action
+        svg.icon.icon--undo2: use(xlink:href="/assets/symbol-defs.svg#icon-undo2")
+        span.alert_action-text undo
+    .alert.alert--warning
+      button#closeOverlay.un-button.alert_dismiss
+        svg.icon.icon--m.icon--clear: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
       .alert_msg Well done! You successfully read this important alert message.
 
   script.
@@ -35,4 +42,3 @@ block append body
         console.log(overlay);
       }, false);
     }());
-

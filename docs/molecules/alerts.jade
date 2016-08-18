@@ -1,8 +1,8 @@
-.alert.alert--success
-  .alert_msg Well done! You successfully read this important alert message.
-
 .alert.alert--info
   .alert_msg Heads up! This alert needs your attention, but it's not super important.
+  
+.alert.alert--success
+  .alert_msg Well done! You successfully read this important alert message.
 
 .alert.alert--warning
   .alert_msg Warning! Better check yourself, you're not looking too good.
@@ -11,17 +11,25 @@
   .alert_msg Oh snap! Change a few things up and try submitting again.
 
 .alert.alert--warning
-  button.un-button.alert_dismiss
-    svg.icon.icon--clear: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
   .alert_msg Warning! Better check yourself, you're not looking too good.
-
-.alert.alert--warning
   button.un-button.alert_dismiss
-    svg.icon.icon--clear: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
+    svg.icon.icon--m.icon--clear: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
+  
+.alert.alert--info
+  .alert_msg Oh my god! You killed kenny.
+  button.un-button.alert_action
+    svg.icon.icon--undo2: use(xlink:href="/assets/symbol-defs.svg#icon-undo2")
+    span.alert_action-text undo
+  button.un-button.alert_dismiss
+    svg.icon.icon--m.icon--clear: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
+  
+
+.alert.alert--info
+  button.un-button.alert_dismiss
+    svg.icon.icon--m.icon--clear: use(xlink:href="/assets/symbol-defs.svg#icon-clear")
   .alert_msg
     strong  Warning! Better check yourself, you're not looking too good.
     ol
       li  You might want to comb your hair.
       li  There's a spot on your shirt.
       li  Tie your shoe laces.
-

@@ -7,45 +7,67 @@
  */
 
 .alert {
-  padding: 1.2em 1em 1em 1.5em;
-  border: 1px solid;
+  background-color: #fff;
+  border: 1px solid var(--gray-10);
   border-radius: 5px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .1);
   margin: 1em;
   font-family: 'Signika', Helvetica, Arial, sans-serif;
   font-weight: 300;
+  display: flex;
+  flex-direction: row;
 }
 
 .alert--success {
-  background-color: color(var(--green-1) lightness(+ 30%));
   border-color: color(var(--green-1) lightness(+ 20%));
-  color: color(var(--gray-1) blend(var(--green-1) 40%));
+  color: color(var(--gray-1) blend(var(--green-1) 35%));
 }
 
 .alert--info {
-  background-color: color(var(--blue-1) lightness(+ 60%));
-  border-color: color(var(--blue-1) lightness(+ 55%));
-  color: color(var(--gray-1) blend(var(--blue-1) 40%));
+  color: var(--gray-3);
 }
 
 .alert--warning {
-  background-color: color(var(--yellow-1) lightness(+ 20%));
   border-color: color(var(--yellow-1) lightness(+ 0%));
-  color: color(var(--gray-1) blend(var(--yellow-1) 40%));
+  color: color(var(--gray-1) blend(var(--yellow-1) 35%));
 }
 
 .alert--danger {
-  background-color: color(var(--red-1) lightness(+ 22%));
-  border-color: color(var(--red-1) lightness(+ 5%));
-  color: color(var(--gray-1) blend(var(--red-1) 40%));
+  border-color: color(var(--red-1) lightness(+ 15%));
+  color: color(var(--gray-1) blend(var(--red-1) 35%));
 }
 
 .alert_msg {
+  padding: 1.2em 1em 1em 1.5em;
   line-height: 1.625em;
   font-size: 16px;
+  flex: 15;
+  order: 1;
 }
 
 .alert_dismiss {
-  float: right;
-  margin-top: -.2em;
-  font-size: .9em;
+  flex: 1 1 auto;
+  order: 3;
+}
+
+.alert_action {
+  flex: 1 1 auto;
+  text-align: center;
+  order: 2;
+}
+
+.alert_action:hover {
+  color: var(--blue-1);
+}
+
+.alert_action .icon {
+  vertical-align: text-top;
+}
+
+.alert_action-text {
+  padding-left: .3em;
+  font-size: 1.1em;
+  font-weight: 400;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
