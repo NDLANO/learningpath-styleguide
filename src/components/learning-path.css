@@ -47,6 +47,9 @@
   border-radius: 40px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
+.learningPath-copyright {
+  margin-bottom: 2em;
+}
 .learningPath-copyright .rw-open {
   margin-bottom: 240px;
 }
@@ -104,6 +107,10 @@
   color: var(--gray-6);
   font-weight: 100;
   margin-top: 0;
+}
+
+.learning-path-image {
+  overflow: hidden;
 }
 
 .learning-path-image button {
@@ -295,5 +302,8 @@
   }
   .learning-path-image .image-preview_information {
     padding-left: 0;
+  }
+  .learningPath-copyright > * {
+    max-width: 100%;
   }
 }

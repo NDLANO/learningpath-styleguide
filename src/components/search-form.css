@@ -55,3 +55,13 @@ input[type=text].search-form_query {
     padding: 2em 1em;
   }
 }
+@media (--small-viewport) {
+  .search-form {
+    flex-flow: row wrap;
+  }
+  .search-form_sort-order {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1em;
+  }
+}

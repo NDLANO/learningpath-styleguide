@@ -41,3 +41,12 @@
 .two-column_content {
   padding: 0 25% 2em;
 }
+
+@media(--medium-viewport) {
+  .two-column_content {
+    padding: 0 5% 2em;
+  }
+  .two-column_col {
+    max-width: 100%;
+  }
+}
