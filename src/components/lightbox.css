@@ -32,6 +32,9 @@
 @media (--medium-viewport) {
   .lightbox {
     top: 64px;
+    overflow-y: auto;
+    white-space: normal;
+    z-index: 26;
   }
 }
 @media(--xsmall-viewport) {

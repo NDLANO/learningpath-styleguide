@@ -92,3 +92,16 @@
   padding: .4em;
   border-left: 1em solid var(--blue-1);
 }
+@media(--medium-viewport) {
+  .search-result {
+    flex-flow: row wrap;
+    padding: 2em 1em;
+  }
+  .search-result_img_container {
+    margin: 0;
+  }
+  .search-result_bd, .search-result_img_container {
+    padding-left: 1em;
+    flex: 1 100%;
+  }
+}

@@ -34,6 +34,11 @@
 .infoblock_text--left {
   margin-right: 0;
 }
+@media (--medium-viewport) {
+  .infoblock {
+    justify-content: flex-start;
+  }
+}
 
 @media (--small-viewport) {
   .infoblock_img {

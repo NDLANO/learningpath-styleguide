@@ -35,3 +35,10 @@
   background-color: var(--gray-7);
   border-color: var(--gray-7);
 }
+
+@media(--medium-viewport) {
+  .search-stepper {
+    max-width: 100%;
+    flex-flow: row wrap;
+  }
+}

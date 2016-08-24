@@ -55,7 +55,7 @@
       border-left: 1px solid var(--gray-7);
       width: 50%;
       white-space: nowrap;
-      overflow-x: auto;
+      overflow-y: auto;
     }
 
   }
@@ -82,7 +82,9 @@
     &.sidebar--open {
       border-left: 1px solid var(--gray-7);
     }
-
+    &.sidebar--collapsed {
+      border: none;
+    }
     & .masthead_right--desktop {
       height: inherit;
       width: 100%;
@@ -142,10 +144,10 @@
 }
 @media(--xsmall-viewport) {
   .masthead--margin-bottom {
-    height: 43px;
+    height: 42px;
   }
   .table-of-content, .masthead--desktop {
-    top: 43px;
+    top: 42px;
   }
   .table-of-content.sidebar--open, .masthead--desktop.sidebar--open {
     width: 90%;
