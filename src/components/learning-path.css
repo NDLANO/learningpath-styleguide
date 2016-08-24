@@ -299,6 +299,7 @@
     width: 100%;
     margin: 0;
     margin-top: 1em;
+    display: block;
   }
   .learning-path-image .image-preview_information {
     padding-left: 0;

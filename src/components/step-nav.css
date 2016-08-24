@@ -146,4 +146,7 @@
   .step-nav_item--active:after {
     display: none;
   }
+  .step-nav_title {
+    white-space: normal;
+  }
 }

@@ -34,3 +34,9 @@
     background-color: var(--blue-1);
   }
 }
+
+@media (--medium-viewport) {
+  .learningpath-contributors {
+    white-space: normal;
+  }
+}

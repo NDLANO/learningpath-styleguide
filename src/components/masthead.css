@@ -55,8 +55,7 @@
       border-left: 1px solid var(--gray-7);
       width: 50%;
       white-space: nowrap;
-      overflow-x: auto;
-      overflow-y: scroll;
+      overflow-y: auto;
     }
 
   }
