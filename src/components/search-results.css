@@ -100,7 +100,7 @@
   .search-result_img_container {
     margin: 0;
   }
-   .search-result_bd, .search-result_img_container {
+  .search-result_bd, .search-result_img_container {
     padding-left: 1em;
     flex: 1 100%;
   }

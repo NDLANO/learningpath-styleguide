@@ -56,7 +56,8 @@ input[type=text].search-form_query {
   }
 }
 @media (--small-viewport) {
-  .search-form {    flex-flow: row wrap;
+  .search-form {
+    flex-flow: row wrap;
   }
   .search-form_sort-order {
     width: 100%;
