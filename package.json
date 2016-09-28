@@ -1,7 +1,7 @@
 {
-  "name": "ndla-styleguide",
-  "version": "0.1.26",
-  "description": "CSS and stuff",
+  "name": "ndla-learningpath-styleguide",
+  "version": "0.1.27",
+  "description": "CSS for learningpath frontend",
   "files": [
     "assets"
   ],
@@ -9,7 +9,7 @@
     "build": "webpack -p && cp ./dist/style.css ./assets/",
     "prepublish": "webpack -p && cp ./dist/style.css ./assets/",
     "postpublish": "rm ./assets/style.css",
-    "devbuild": "webpack --watch  --output-path ../learningpath-frontend/node_modules/ndla-styleguide/assets/",
+    "devbuild": "webpack --watch  --output-path ../learningpath-frontend/node_modules/ndla-learningpath-styleguide/assets/",
     "start": "node ./bin/www",
     "lint": "stylelint src/**/*.css"
   },
@@ -42,12 +42,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NDLANO/ndla-styleguide.git"
+    "url": "https://github.com/NDLANO/learningpath-styleguide.git"
   },
   "bugs": {
-    "url": "https://github.com/NDLANO/ndla-styleguide/issues"
+    "url": "https://github.com/NDLANO/learningpath-styleguide/issues"
   },
-  "homepage": "https://github.com/NDLANO/ndla-styleguide",
+  "homepage": "https://github.com/NDLANO/learningpath-styleguide",
   "author": "ndla@knowit.no",
   "license": "GPL-3.0"
 }

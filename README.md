@@ -1,11 +1,11 @@
-# Styleguide
+# Learningpath Styleguide
 
-css and stuff
+CSS for NDLA Learningpath
 
 ## Installation
 
 ```
-npm install --save ndla-styleguide
+npm install --save ndla-learningpath-styleguide
 ```
 
 ## Development scripts
