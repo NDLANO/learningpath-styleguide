@@ -21,7 +21,9 @@
   border-bottom: 1px solid var(--gray-8);
   transition: all 0.1s;
 }
-
+.search-result_title, .search-result_description, .search-result_img_container {
+  cursor: pointer;
+}
 .search-result:hover {
   background: color(var(--blue-1) a(5%));
 }
@@ -81,6 +83,7 @@
   padding: 1em 0;
   font-weight: 600;
   display: block;
+  cursor: pointer;
   & .icon {
     font-size: 1.2em;
   }
