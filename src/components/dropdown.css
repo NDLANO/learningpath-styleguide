@@ -46,6 +46,17 @@
   visibility: hidden;
 }
 
+.dropdown-menu_item.active {
+  background-color: var(--blue-1);
+  color: white;
+}
+.dropdown-menu_item.active > .dropdown-menu_link:any-link {
+  color: white;
+}
+.dropdown-menu_item.active:hover {
+  background-color: color(var(--blue-1) blackness(+ 20%));
+}
+
 .dropdown-menu_items:after {
   position: absolute;
   left: 55%;
