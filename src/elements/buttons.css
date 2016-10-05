@@ -75,6 +75,10 @@ button, .button, .button:any-link {
   font-size: 1em;
   color: inherit;
   background-color: transparent;
+  outline: none;
+}
+.un-button:focus {
+  outline: none;
 }
 
 .button--secondary, .button--secondary:any-link {
