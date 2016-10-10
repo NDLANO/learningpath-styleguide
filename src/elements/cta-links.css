@@ -131,3 +131,12 @@
 .cta-link-seconday-action:any-link:hover {
   background-color: color(var(--blue-1) blackness(+ 20%));
 }
+.cta-link--underline, .cta-link--underline:any-link {
+  text-decoration: underline;
+}
+.cta-link--primary, .cta-link--primary:any-link {
+  color: var(--blue-1);
+}
+.cta-link--primary:hover, .cta-link--primary:any-link:hover {
+  color: color(var(--blue-1) blackness(+ 20%));
+}
