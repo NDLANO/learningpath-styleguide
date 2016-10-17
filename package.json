@@ -14,8 +14,8 @@
     "lint": "stylelint src/**/*.css"
   },
   "engines": {
-    "node": "~6.2.2",
-    "npm": "~3.9.5"
+    "node": ">=6.2.2",
+    "npm": ">=3.9.5"
   },
   "devDependencies": {
     "autoprefixer": "6.4.0",
