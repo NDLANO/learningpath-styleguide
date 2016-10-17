@@ -43,6 +43,26 @@ input[type=text].search-form_query {
     border: 2px solid white;
   }
 }
+.search-form_btn--gray {
+  background-color: var(--gray-3);
+  width: 7%;
+  height: 3em;
+  display: inline-block;
+  margin-left: -2px;
+  border: 2px solid var(--gray-3);
+  border-radius: 0 5px 5px 0;
+  padding: 0.4em;
+}
+
+input[type=text].search-form_query--gray {
+  width: 93%;
+  height: 3em;
+  box-shadow: none;
+  display: inline-block;
+  border-width: 2px;
+  float: left;
+  border-radius: 5px 0 0 5px ;
+}
 
 .search-form_sort-order {
   margin-left: 1em;
