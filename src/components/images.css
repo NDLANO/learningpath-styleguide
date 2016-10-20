@@ -18,40 +18,12 @@
   padding-right: 0;
   margin-bottom: 1em;
 }
-.image-search_form-button {
-  background-color: var(--gray-3);
-  width: 7%;
-  height: 3em;
-  display: inline-block;
-  margin-left: -2px;
-  border: 2px solid var(--gray-3);
-  border-radius: 0 5px 5px 0;
-  padding: 0.4em;
-
-}
-.image-search_form-button .icon {
-  font-size: 1.5em;
-}
-input[type=text].image-search_form-query {
-  width: 93%;
-  height: 3em;
-  box-shadow: none;
-  display: inline-block;
-  border-width: 2px;
-  float: left;
-  border-radius: 5px 0 0 5px ;
-}
 .image-search_text {
   text-align: center;
 }
-.lightbox_image-preview .lightbox {
-  overflow-x: scroll;
+.image-search_form .search-form_btn--gray .icon {
+  font-size: 1.5em;
 }
-.lightbox_image-preview .lightbox .lightbox_content {
-  max-width: 870px;
-  overflow-x: scroll;
-}
-
 .image_list-item {
   max-width: 25%;
   position: relative;
