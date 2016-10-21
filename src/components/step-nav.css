@@ -28,7 +28,7 @@
     background-color: white;
   }
 }
-.step-nav_item:not(.step-nav_item--bottom_border):last-child .step-nav_line{
+.step-nav_item:not(.step-nav_item--bottom_border):last-child .step-nav_line {
   border-left: 5px solid var(--gray-10);
   margin-left: 13px;
   padding-left: 20px;
@@ -112,7 +112,7 @@
   background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
   background-color: var(--blue-1);
 }
-.step-nav_item--active:not(.step-nav_item--bottom_border):last-child .step-nav_link:any-link  {
+.step-nav_item--active:not(.step-nav_item--bottom_border):last-child .step-nav_link:any-link {
   background: none;
   background-color: var(--blue-1);
 }
