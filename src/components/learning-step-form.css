@@ -120,4 +120,23 @@
   .learning-step-form_select {
     max-width: 100%;
   }
+  .learning-step-form_group {
+    margin-left: 0;
+  }
+  .learning-step-form_group select {
+    max-width: 100%;
+  }
+  .learning-step-form_right, .learning-step-form_left {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  .learning-step-form_icon-bg {
+    float: none;
+  }
+}
+@media(--small-viewport) {
+  .learning-step-form_title .DraftEditor-root {
+    min-height: 3em;
+  }
 }

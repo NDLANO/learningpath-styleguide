@@ -56,3 +56,9 @@
   height: 250px;
   overflow: hidden;
 }
+
+@media (--medium-viewport) {
+  .learningsource-form {
+    padding: 1.5em 1em 2em 1em;
+  }
+}
