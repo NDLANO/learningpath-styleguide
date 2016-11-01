@@ -308,3 +308,11 @@
     max-width: 100%;
   }
 }
+
+@media(--xsmall-viewport) {
+  .duration-menu {
+    width: 100%;
+    height: 2.5em;
+    display: block;
+  }
+}

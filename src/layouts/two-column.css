@@ -43,7 +43,7 @@
 }
 
 @media(--medium-viewport) {
-  .two-column_content {
+  .two-column_content, .two-column_content--wide {
     padding: 0 5% 2em;
   }
   .two-column_col {

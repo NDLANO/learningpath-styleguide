@@ -22,3 +22,9 @@
 .hero_link {
   margin: 0 .5em;
 }
+
+@media (--medium-viewport) {
+  .hero {
+    height: 400px;
+  }
+}

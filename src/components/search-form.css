@@ -74,6 +74,12 @@ input[type=text].search-form_query--gray {
   .search-form {
     padding: 2em 1em;
   }
+  .search-form_btn--gray {
+    width: 10%;
+  }
+  input[type=text].search-form_query--gray {
+    width: 90%;
+  }
 }
 @media (--small-viewport) {
   .search-form {
@@ -83,5 +89,12 @@ input[type=text].search-form_query--gray {
     width: 100%;
     margin-left: 0;
     margin-top: 1em;
+  }
+
+  .search-form_btn--gray {
+    width: 20%;
+  }
+  input[type=text].search-form_query--gray {
+    width: 80%;
   }
 }

@@ -75,6 +75,7 @@
     right: 0;
     opacity: 0.4;
     background-color: black;
+    width: 100%;
   }
 
   .masthead--desktop {

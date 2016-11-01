@@ -14,7 +14,6 @@
 }
 
 .infoblock_text {
-  flex: 1;
   margin-right: 10%;
   max-width: 600px;
   min-width: 300px;
@@ -37,6 +36,13 @@
 @media (--medium-viewport) {
   .infoblock {
     justify-content: flex-start;
+  }
+  .infoblock_img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .infoblock_img--left {
+    margin-right: 0;
   }
 }
 
