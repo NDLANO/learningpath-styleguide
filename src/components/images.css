@@ -46,12 +46,12 @@
   height: 210px;
 }
 
-.image_list-item-inner > img {
-  max-height: 200px;
+.image_list-item-inner img {
+  max-height: 190px;
   max-width: 100%;
   border: 2px solid white;
 }
-.image_list-item-inner > img:hover, .image_list-item--active > .image_list-item-inner > img {
+.image_list-item-inner img:hover, .image_list-item--active > .image_list-item-inner img {
   border: 2px solid var(--blue-1);
 }
 .image_list-item--active > .image_list-item-inner:after {
