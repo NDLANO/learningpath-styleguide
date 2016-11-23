@@ -7,13 +7,12 @@
  */
 
 select {
-  border: 1px solid var(--gray-9);
-  border-radius: .313em;
+  border: 1px solid #000;
+  border-radius: 0;
   background: white;
   min-height: 1.5em;
-  font-size: 1em;
   color: var(--gray-2);
-  padding: .6em 1.4em .6em 1em;
+  padding: .5em 1.4em .5em 1em;
 
   /* Enable custom select styling */
   appearance: none;
@@ -33,6 +32,10 @@ select:focus {
 .select--white-border {
   border-color: white;
 }
+.select--gray-border {
+  border-color: var(--gray-9);
+}
+
 
 label {
   display: block;
@@ -74,7 +77,6 @@ input {
   padding: .6em 1em;
   box-shadow: inset 1px 1px color(black alpha(3%));
   border: 1px solid var(--gray-9);
-  border-radius: 0.331em;
   background: white;
   min-height: 1.5em;
   font-size: 1em;
