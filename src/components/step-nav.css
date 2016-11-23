@@ -96,7 +96,7 @@
 
 .step-nav_link:any-link {
   text-decoration: none;
-  color: var(--gray-5);
+  color: black;
   transition: background-color 0s;
 }
 
@@ -134,7 +134,7 @@
   margin-right: 0.7em;
   background-color: var(--gray-11);
   padding: 4px 7px 7px;
-  color: var(--gray-6);
+  color: black;
   border-radius: 40px;
   display: inline;
 }

@@ -10,9 +10,9 @@
   transition: background-color 0.3s ease;
   display: inline-block;
   padding: 1em;
-  border-radius: 5px;
   border: 2px solid var(--blue-1);
   background-color: var(--blue-1);
+  border-radius: 1px;
 }
 
 .cta-link:any-link {
@@ -23,8 +23,8 @@
 }
 
 .cta-link:hover, .cta-link:active {
-  background-color: color(var(--blue-1) blackness(+ 20%));
-  border: 2px solid color(var(--blue-1) blackness(+ 20%));
+  background-color: color(var(--blue-1) lightness(+ 20%));
+  border: 2px solid color(var(--blue-1) lightness(+ 20%));
 }
 
 .cta-link--secondary:any-link {

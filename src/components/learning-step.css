@@ -7,16 +7,17 @@
  */
 
 .learning-step {
-  padding-bottom: 5em;
   max-width: 900px;
   margin: 0 auto;
+  min-height: 5em;
 }
 
-.learning-step_embeded {
-  padding-top: 1em;
-  width: 100%;
-  height: 100%;
-  border: 0 none;
+.learning-step_embed {
+  background-color: white;
+  padding: 5em 0;
+  border: 2px solid var(--gray-10);
+  border-radius: 2px;
+  text-align: center;
 }
 
 .learning-step iframe {
