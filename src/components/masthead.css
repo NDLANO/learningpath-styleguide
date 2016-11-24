@@ -18,7 +18,9 @@
   align-items: flex-start;
   flex-direction: row;
   border-bottom: 1px solid var(--gray-7);
-
+  z-index: 5;
+  background-color: white;
+  position: relative;
 }
 
 .masthead_left--desktop {
@@ -35,8 +37,27 @@
 .masthead_page-overlay {
   display: none;
 }
+.step-nav_wrapper {
 
+}
+.table-of-content {
+  position: fixed;
+  width: 330px;
+  height: 100%;
+  top: 0;
+  padding-top: 43px;
+  display: flex;
+}
+.table-of-content + .two-column_col {
+  margin-left: 330px;
+}
+.step-nav_wrapper {
+  overflow-y: scroll;
+}
 @media (--medium-viewport) {
+  .table-of-content + .two-column_col {
+    margin-left: 0;
+  }
   .masthead--margin-bottom {
     height: 64px;
   }
