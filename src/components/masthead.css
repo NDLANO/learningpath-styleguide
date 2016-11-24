@@ -37,9 +37,7 @@
 .masthead_page-overlay {
   display: none;
 }
-.step-nav_wrapper {
 
-}
 .table-of-content {
   position: fixed;
   width: 330px;
@@ -51,9 +49,7 @@
 .table-of-content + .two-column_col {
   margin-left: 330px;
 }
-.step-nav_wrapper {
-  overflow-y: scroll;
-}
+
 @media (--medium-viewport) {
   .table-of-content + .two-column_col {
     margin-left: 0;
