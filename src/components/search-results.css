@@ -39,13 +39,13 @@
 .search-result_img_container {
   margin: 1em;
   padding-top: 0.82em;
-  width: 30%;
+  width: 20%;
 }
 
 .search-result_bd {
-  padding: .5em 2em;
+  padding: .5em .3em .5em 2em;
   flex: 1;
-  width: 70%;
+  width: 60%;
 }
 
 .search-result_title {
@@ -62,6 +62,10 @@
   transition: all 0.25s ease;
 }
 
+.search-result .border-box_wrapper {
+  width: 20%;
+  text-align: center;
+}
 
 .search-result_description {
   font-size: 1.2em;
