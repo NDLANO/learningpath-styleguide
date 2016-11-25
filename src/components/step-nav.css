@@ -72,17 +72,17 @@
   background: none;
 }
 
-.step-nav_item:last-child .step-nav_link {
+.step-nav_item:last-child .step-nav_link:not(span) {
   background: none;
 }
 
-.step-nav_item--active:first-child  .step-nav_link:any-link {
+.step-nav_item--active:first-child  .step-nav_link:any-link, .step-nav_item--active:first-child  .step-nav_link {
   background: none;
   color: white;
   background-color: var(--blue-1);
 }
 
-.step-nav_item--active:last-child  .step-nav_link:any-link {
+.step-nav_item--active:last-child  .step-nav_link:any-link, .step-nav_item--active:last-child  .step-nav_link {
   color: white;
   background-color: var(--blue-1);
 }
@@ -93,26 +93,22 @@
   padding: 1.5em 2em 1.7em 2em;
   border-right: solid 4px transparent;
 }
-
+span.step-nav_link {
+  cursor: default;
+}
 .step-nav_link:any-link {
   text-decoration: none;
   color: var(--gray-5);
   transition: background-color 0s;
 }
 
-.step-nav_item--active .step-nav_link:hover {
-  color: var(--blue-1);
-  background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
-  background-color: white;
-}
-
-.step-nav_item--active .step-nav_link:any-link {
+.step-nav_item--active .step-nav_link:any-link, .step-nav_item--active .step-nav_link {
   color: white;
   font-weight: 600;
   background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
   background-color: var(--blue-1);
 }
-.step-nav_item--active:not(.step-nav_item--bottom_border):last-child .step-nav_link:any-link {
+.step-nav_item--active:not(.step-nav_item--bottom_border):last-child .step-nav_link:any-link, .step-nav_item--active:not(.step-nav_item--bottom_border):last-child .step-nav_link {
   background: none;
   background-color: var(--blue-1);
 }
@@ -137,6 +133,21 @@
   color: var(--gray-6);
   border-radius: 40px;
   display: inline;
+}
+.step-nav_title > span {
+  width: 84%;
+  display: inline-block;
+  float: left;
+}
+.step-nav_title > a:any-link {
+  display: inline-block;
+  width: 16%;
+  padding-left: 10px;
+  font-size: 1.5em;
+  color: white;
+}
+.step-nav_title > a > svg {
+  border: 1px solid white;
 }
 
 .step-nav_item--active .step-nav_circle {
