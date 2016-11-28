@@ -8,7 +8,7 @@
 
 .border-box {
   border: 1px solid var(--gray-8);
-  padding: 0.6em 1.5em
+  padding: 0.6em 1.5em;
 }
 
 .search-result .border-box_wrapper {
@@ -23,7 +23,7 @@
   display: block;
 }
 
-.border-box--block + .border-box--block{
+.border-box--block + .border-box--block {
   border-top: 0;
 }
 
