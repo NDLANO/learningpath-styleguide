@@ -138,7 +138,7 @@
   display: inline-block;
   float: left;
 }
-.step-nav_title > a:any-link {
+.step-nav_title > svg {
   display: inline-block;
   width: 16%;
   padding-left: 10px;
