@@ -9,14 +9,11 @@
 .border-box {
   border: 1px solid var(--gray-8);
   padding: 0.6em 1.5em;
+  display: inline-block;
 }
 
 .search-result .border-box_wrapper {
   margin-top: 1.83em;
-}
-
-.border-box--inline_block {
-  display: inline-block;
 }
 
 .border-box--block {
@@ -27,6 +24,6 @@
   border-top: 0;
 }
 
-.border-box--inline_block + .border-box--inline_block {
+.border-box:not(.border-box--block) + .border-box:not(.border-box--block) {
   border-left: 0;
 }
