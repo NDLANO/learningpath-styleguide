@@ -7,10 +7,17 @@
  */
 
 .step-nav {
-  border-top: 1px solid var(--gray-9);
   padding: 0;
 }
 
+.step-nav_wrapper {
+  border-top: 1px solid var(--gray-9);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.step-nav_wrapper > div:last-child {
+  margin-bottom: 76px;
+}
 .step-nav_list {
   list-style-type: none;
   padding: 0;
@@ -109,20 +116,6 @@
 .step-nav_item--active:not(.step-nav_item--bottom_border):last-child .step-nav_link:any-link {
   background: none;
   background-color: var(--blue-1);
-}
-
-.step-nav_item--active:after {
-  content: "";
-  float: right;
-  display: block;
-  margin-top: -55px;
-  margin-right: -10px;
-  width: 0;
-  height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-left: 15px solid var(--blue-1);
-  position: relative;
 }
 
 .step-nav_circle {
