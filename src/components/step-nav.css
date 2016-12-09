@@ -7,10 +7,17 @@
  */
 
 .step-nav {
-  border-top: 1px solid var(--gray-9);
   padding: 0;
 }
 
+.step-nav_wrapper {
+  border-top: 1px solid var(--gray-9);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.step-nav_wrapper > div:last-child {
+  margin-bottom: 76px;
+}
 .step-nav_list {
   list-style-type: none;
   padding: 0;
@@ -43,7 +50,6 @@
   margin-bottom: -30px;
   padding-bottom: 30px;
 }
-
 
 .step-nav_title {
   margin-left: 40px;
@@ -100,34 +106,16 @@
   transition: background-color 0s;
 }
 
-.step-nav_item--active .step-nav_link:hover {
-  color: var(--blue-1);
-  background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
-  background-color: white;
-}
-
 .step-nav_item--active .step-nav_link:any-link {
   color: white;
   font-weight: 600;
   background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
   background-color: var(--blue-1);
 }
+
 .step-nav_item--active:not(.step-nav_item--bottom_border):last-child .step-nav_link:any-link {
   background: none;
   background-color: var(--blue-1);
-}
-.step-nav_item--active:after {
-  content: "";
-  float: right;
-  display: block;
-  margin-top: -55px;
-  margin-right: -10px;
-  width: 0;
-  height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-left: 15px solid var(--blue-1);
-  position: relative;
 }
 
 .step-nav_circle {
@@ -139,13 +127,29 @@
   display: inline;
 }
 
+.step-nav_title > span {
+  width: 84%;
+  display: inline-block;
+  float: left;
+}
+
+.step-nav_title > svg {
+  display: inline-block;
+  width: 16%;
+  padding-left: 10px;
+  font-size: 1.5em;
+  color: white;
+}
+
 .step-nav_item--active .step-nav_circle {
   padding: 4px 8px 8px;
 }
+
 @media (--medium-viewport) {
   .step-nav_item--active:after {
     display: none;
   }
+
   .step-nav_title {
     white-space: normal;
   }

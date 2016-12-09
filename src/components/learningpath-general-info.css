@@ -25,7 +25,15 @@
   padding: .6em 1.5em;
   border: none;
 }
-
+.learningpath-general-info .border-box_wrapper {
+  width: 100%;
+  padding: 0 1.5em;
+  margin: 1em 0;
+}
+.learningpath-general-info .border-box {
+  padding: 0.6em 0;
+  width: 50%;
+}
 @media (--medium-viewport) {
   .learningpath-contributors {
     white-space: normal;
