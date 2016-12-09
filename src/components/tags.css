@@ -9,24 +9,24 @@
 .tags_list {
   padding: 1em 0;
 }
+
 .tag_item {
   display: inline-block;
-  padding: .4em 1em;
-  background-color: var(--gray-10);
   color: var(--gray-3);
   margin-right: .2em;
   margin-bottom: .4em;
-  border-radius: 1em;
 }
+
+.tag_item + .tag_item {
+  margin-left: 0.5em;
+}
+
 .tag_item:hover {
-  background-color: var(--gray-7);
   color: black;
+  text-decoration: underline;
 }
-.tag_item--active {
-  background-color: var(--blue-1);
-  color: white;
-}
-.tag_item--active:hover {
-  background-color: var(--blue-1);
-  color: white;
+
+.tag_item--active, .tag_item--active:hover  {
+  color: var(--blue-2);
+  text-decoration: underline;
 }
