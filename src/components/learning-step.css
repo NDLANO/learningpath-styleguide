@@ -14,7 +14,7 @@
 
 .learning-step_embed {
   background-color: white;
-  padding: 5em 0;
+  padding: 2em;
   border: 2px solid var(--gray-10);
   border-radius: 2px;
   text-align: center;
@@ -24,6 +24,9 @@
   padding-top: 1em;
   border: 0 none;
   max-width: 100%;
+}
+.learningsource__frame > .learning-step_embed {
+  border: none;
 }
 
 .learning-step--without-dimensions iframe {

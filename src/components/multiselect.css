@@ -21,7 +21,6 @@
   background: white;
   position: relative;
   border: 1px solid var(--gray-9);
-  border-radius: 0.331em;
   outline: 0;
   background-clip: border-box;
 
@@ -52,7 +51,6 @@
 }
 
 .rw-multiselect-wrapper {
-  border-radius: 0.331em;
   position: relative;
   cursor: text;
   padding: 0.6em;
