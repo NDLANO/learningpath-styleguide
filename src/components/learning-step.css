@@ -9,7 +9,13 @@
 .learning-step {
   max-width: 900px;
   margin: 0 auto;
-  min-height: 5em;
+  min-height: 1em;
+}
+.learning-step--padding-bottom {
+  padding-bottom: 5em;
+}
+.learning-step--padding-top {
+  padding-top: 5em;
 }
 
 .learning-step_embed {
@@ -36,4 +42,12 @@
   font-size: 0.9em;
   margin-top: -0.67em;
   color: var(--gray-3);
+}
+
+.learning-step_stepper:any-link {
+  color: var(--blue-1);
+}
+
+.learning-step_stepper--right {
+  float: right;
 }
