@@ -17,26 +17,17 @@
 }
 
 .learningpath-general-info_b {
-  color: var(--gray-6);
   font-size: 0.9em;
   margin-bottom: .5em;
 }
 
 .learningpath-general-info > .edit_learningpath--button:any-link, .learningpath-general-info > .edit_learningpath--button {
-  font-size: 1em;
-  font-weight: 600;
-  padding: .6em 2.5em;
-  background-color: var(--gray-8);
+  padding: .6em 1.5em;
   border: none;
-  color: var(--gray-2);
-  &:hover {
-    color: white;
-    background-color: var(--blue-1);
-  }
 }
 .learningpath-general-info .border-box_wrapper {
   width: 100%;
-  padding: 0 1.5em;
+  padding: 0;
   margin: 1em 0;
 }
 .learningpath-general-info .border-box {

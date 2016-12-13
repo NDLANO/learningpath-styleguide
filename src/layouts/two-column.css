@@ -34,6 +34,10 @@
   background-color: white;
 }
 
+.two-column_content--white-bg {
+  background-color: white;
+}
+
 .two-column_content--wide {
   padding: 0 10% 2em;
 }
