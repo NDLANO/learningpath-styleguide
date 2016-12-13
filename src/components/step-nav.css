@@ -59,6 +59,10 @@
   overflow: hidden;
 }
 
+.step-nav_title .icon {
+  float: right
+}
+
 .step-nav_item:only-child .step-nav_line {
   border-left: 0;
 }

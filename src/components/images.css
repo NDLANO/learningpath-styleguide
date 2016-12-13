@@ -140,10 +140,6 @@
   text-decoration: none;
 }
 
-.image-preview_information > .button {
-  border-radius: 0.2em;
-}
-
 @media(--large-viewport) {
   .image_list-item:nth-of-type(4n+2) .image-preview {
     margin-left: -100%;
