@@ -7,7 +7,7 @@
  */
 
 .page-header {
-  color: white;
+  color: black;
   background-color: var(--gray-12);
   padding: 2em 1em 2em 3em;
   display: flex;
@@ -18,4 +18,9 @@
 .page-header_name {
   font-weight: normal;
   font-size: 1.6em;
+}
+
+.page-header--primary {
+  background-color: var(--blue-1);
+  color: white;
 }
