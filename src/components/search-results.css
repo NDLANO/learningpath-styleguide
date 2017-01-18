@@ -17,6 +17,11 @@
   text-decoration: none;
 }
 
+.search-results .search-results_active-tag {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--gray-8);
+}
+
 .search-result {
   display: flex;
   margin: 0 1em 0 0;
