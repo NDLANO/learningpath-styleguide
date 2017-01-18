@@ -238,6 +238,7 @@
 }
 .add-learningpath-step {
   padding: 0 .5em;
+  margin-bottom: 1em;
 }
 .add-learningpath-step_button {
   text-align: left;
