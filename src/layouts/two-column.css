@@ -32,10 +32,12 @@
 
 .two-column_col--white-bg {
   background-color: white;
+  min-height: 100%;
 }
 
 .two-column_content--white-bg {
   background-color: white;
+  min-height: 100%;
 }
 
 .two-column_content--wide {
