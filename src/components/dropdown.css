@@ -85,8 +85,9 @@
 .dropdown-menu_item:hover {
 }
 
-.dropdown-menu_link:any-link {
+.dropdown-menu_link, .dropdown-menu_link:any-link {
   display: block;
   color: var(--gray-6);
   text-decoration: none;
+  text-align: left;
 }
