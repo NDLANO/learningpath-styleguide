@@ -1,6 +1,6 @@
 {
   "name": "ndla-learningpath-styleguide",
-  "version": "0.1.38",
+  "version": "0.1.39",
   "description": "CSS for learningpath frontend",
   "files": [
     "assets"
