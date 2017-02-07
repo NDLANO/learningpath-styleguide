@@ -7,32 +7,81 @@
  */
 
 .learningpath-general-info {
-  padding: 2em 1em 3em 0.5em;
-  text-align: center;
+  padding: 1em 1em 0.3em 1em;
   background-color: white;
 }
 
-.learningpath-general-info_h {
-  margin-bottom: .5em;
+.learningpath-general-info_h h3 {
+  margin: 0;
+  margin-right: .3em;
+  display: inline;
+}
+
+.add-learningpath-step_button {
+  text-align: center;
+  padding: 0.6em 0;
+}
+
+.add-learningpath-step_button > .plus-sign--circle {
+  background-color: var(--gray-11);
+  padding: 3px 9px 3px;
+  color: var(--blue-1);
+  border-radius: 40px;
+  display: inline;
+  margin-right: 0.3em;
+  font-size: 1em;
+}
+
+.add-learningpath-step_button:hover > .plus-sign--circle {
+  background-color: white;
+  color: var(--blue-1);
 }
 
 .learningpath-general-info_b {
   font-size: 0.9em;
-  margin-bottom: .5em;
+  display: flex;
+  margin: 1em 0;
 }
 
-.learningpath-general-info > .edit_learningpath--button:any-link, .learningpath-general-info > .edit_learningpath--button {
-  padding: .6em 1.5em;
-  border: none;
+.learningpath-general-info .learningpath-license {
+  margin: 0;
+  font-size: 0.8em;
+  height: 1.8em;
 }
-.learningpath-general-info .border-box_wrapper {
+
+.learningpath-general-actions {
+  width: 50%;
+  display: inline-block;
+  padding-left: 0.5em;
+}
+
+.learningpath-general-actions a:any-link, .learningpath-general-actions button.copy-learningpath_button {
   width: 100%;
+  padding: 1.9em 0;
+  border-radius: 0;
+}
+
+.learningpath-general-actions button, .learningpath-general-actions a.learningpath-action-type_button a:any-link, .learningpath-general-actions a.learningpath-action-type_button {
+  width: 100%;
+  padding: 0.6em 0;
+  border-radius: 0;
+}
+
+.learningpath-general-actions a.learningpath-action-type_button {
+  border-top: 0;
+}
+
+.learningpath-general-info .border-box_wrapper {
+  width: 50%;
   padding: 0;
-  margin: 1em 0;
+  display: inline-block;
+  text-align: center;
+  padding-right: 0.5em;
 }
 .learningpath-general-info .border-box {
   padding: 0.6em 0;
-  width: 50%;
+  width: 100%;
+  border-width: 2px;
 }
 .c-license-icons__list {
   list-style: none;
