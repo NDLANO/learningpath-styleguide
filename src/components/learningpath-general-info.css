@@ -22,6 +22,10 @@
   padding: 0.6em 0;
 }
 
+.learningpath-general-info .learningpath-contributors {
+  margin-top: 0.2em;
+}
+
 .add-learningpath-step_button > .plus-sign--circle {
   background-color: var(--gray-11);
   padding: 3px 9px 3px;
