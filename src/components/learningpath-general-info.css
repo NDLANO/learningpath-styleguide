@@ -82,6 +82,10 @@
   text-align: center;
   padding-right: 0.5em;
 }
+.learningpath-general-info .border-box_wrapper.border-box_wrapper--full-width {
+  width: 100%;
+  padding: 0;
+}
 .learningpath-general-info .border-box {
   padding: 0.6em 0;
   width: 100%;

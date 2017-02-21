@@ -6,6 +6,10 @@
  *
  */
 
+.frontpage-intro_img {
+  border: 1px solid var(--blue-1);
+}
+
 .image-search_border {
   margin: 1em -2em;
   height: 1px;

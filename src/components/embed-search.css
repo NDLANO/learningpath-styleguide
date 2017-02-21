@@ -57,6 +57,7 @@
 .embed-search_container a, .google-custom-search_add-button {
   color: var(--blue-1);
   text-decoration: underline;
+  word-break: all;
 }
 .embed-search_preview-button {
   text-decoration: underline;
