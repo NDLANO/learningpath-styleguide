@@ -115,6 +115,9 @@
 .learning-step-form_show-title--active:hover {
   background-color: color(var(--blue-1) blackness(+ 20%));
 }
+.learning-step-embed_group {
+  margin-bottom: 2em;
+}
 
 @media(--medium-viewport) {
   .learning-step-form_select {

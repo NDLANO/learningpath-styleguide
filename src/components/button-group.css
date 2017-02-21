@@ -25,3 +25,29 @@
 .button-group > *:last-child {
   border-radius: 0 10em 10em 0;
 }
+
+.button-group--square {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.button-group--square > *:first-child {
+  border-radius: 0;
+}
+
+.button-group--square > *:last-child {
+  border-radius: 0;
+}
+
+.button-group--block {
+  width: 100%;
+}
+
+.button-group--block > *:first-child {
+  width: 50%;
+  border-right: 0;
+}
+
+.button-group--block > *:last-child {
+  width: 50%;
+}
