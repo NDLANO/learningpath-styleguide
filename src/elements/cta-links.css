@@ -140,3 +140,15 @@
 .cta-link--primary:hover, .cta-link--primary:any-link:hover {
   color: color(var(--blue-1) blackness(+ 20%));
 }
+
+.cta-link--primary-outline, .cta-link--primary-outline:any-link {
+  background-color: white;
+  border-color: var(--blue-1);
+  color: var(--blue-1);
+}
+
+.cta-link--primary-outline:hover, .cta-link--primary-outline:any-link:hover {
+  background-color: var(--blue-1);
+  border-color: var(--blue-1);
+  color: white;
+}
