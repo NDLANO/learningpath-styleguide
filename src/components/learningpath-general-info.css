@@ -107,6 +107,51 @@
   width: 1.5em;
   height: 1.5em;
 }
+
+.learningpath-general-info_title h3 {
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+
+.learningpath-general-info_title--open h3 {
+  max-width: 100%;
+  white-space: initial;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline;
+}
+
+.learningpath-general-info_title--open {
+  display: inline;
+}
+
+.learningpath-general-info_is-basedon {
+  display: none;
+}
+
+.learningpath-general-info_is-basedon--open {
+  display: block;
+  white-space: initial;
+}
+
+.learningpath-general-info_is-basedon-button {
+  color: var(--blue-1);
+  text-decoration: underline;
+}
+
+.learningpath-general-info_is-basedon-button:hover, .learningpath-general-info_is-basedon-button:focus {
+  color: color(var(--blue-1) blackness(+ 20%));
+}
+
+.learningpath-general-info_title button {
+  max-width: 100%;
+  text-align: left;
+}
+
+
 @media (--medium-viewport) {
   .learningpath-contributors {
     white-space: normal;
