@@ -68,9 +68,10 @@
   transform: scale(1.03);
 }
 
-.cta-link--gl:any-link {
+.cta-link--gl {
   background-color: #f44336;
   border: none;
+  color: white;
 }
 
 .cta-link--gl:hover, .cta-link--gl:active {
@@ -78,9 +79,10 @@
   border: none;
 }
 
-.cta-link--fb:any-link {
+.cta-link--fb {
   background-color: #3b5998 ;
   border: none;
+  color: white;
 }
 
 .cta-link--fb:hover, .cta-link--fb:active {
@@ -88,9 +90,10 @@
   border: none;
 }
 
-.cta-link--tw:any-link {
+.cta-link--tw {
   background-color: #0084b4;
   border: none;
+  color: white;
 }
 
 .cta-link--tw:hover, .cta-link--tw:active {
