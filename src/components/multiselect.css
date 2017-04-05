@@ -175,6 +175,7 @@ ul.rw-list {
   left: -11px;
   right: -11px;
   z-index: 2;
+  margin-bottom: 60px;
 
   .rw-widget.rw-state-focus & {
     z-index: 1040;
