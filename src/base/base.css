@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
   color: var(--gray-1);
   background-color: var(--gray-12);
   height: 100%;
@@ -36,9 +36,9 @@ p {
   max-width: 700px;
 }
 
-h1, h2, h3 {
-  font-family: 'Source Sans Pro,Helvetica,Arial,sans-serif';
-  font-weight: 900;
+h1, h2, h3, h4, h5 {
+  font-family: Source Sans Pro,Helvetica,Arial,sans-serif;
+  font-weight: 700;
 }
 
 li {
