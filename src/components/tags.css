@@ -13,12 +13,8 @@
 .tag_item {
   display: inline-block;
   color: var(--gray-3);
-  margin-right: .2em;
+  margin-right: .5em;
   margin-bottom: .4em;
-}
-
-.tag_item + .tag_item {
-  margin-left: 0.5em;
 }
 
 .tag_item:hover {
