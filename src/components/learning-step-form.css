@@ -63,8 +63,8 @@
 }
 
 .learning-step-form_select {
-  background-color: var(--gray-12);
   border: none;
+  margin-top: 0.9em;
 }
 
 .learning-step-form_mediatype-dd {
