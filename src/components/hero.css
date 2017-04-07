@@ -7,14 +7,13 @@
  */
 
 .hero {
-  height: 600px;
+  height: 500px;
   text-align: center;
   color: white;
   background-color: var(--blue-1);
 }
 
 .hero_title {
-  font-weight: normal;
   text-align: center;
   margin-top: 0;
 }
