@@ -68,6 +68,8 @@
 .search-result_meta {
   font-size: 1em;
   font-weight: 100;
+  padding-top: 0.3em;
+  padding-bottom: 0.8em;
 }
 
 .search-result:hover {
