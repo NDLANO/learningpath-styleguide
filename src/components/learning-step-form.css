@@ -98,6 +98,24 @@
   max-height: 12px;
 }
 
+.learning-step-form_show_license_info {
+  cursor: pointer;
+}
+
+.learning-step-form_show_license_info:hover {
+  color: color(var(--gray-6) blackness(+ 20%));
+  background-color: color(var(--gray-11) blackness(+ 20%));
+}
+
+.learning-step-form_show_license_info--active {
+  color: white;
+  background-color: var(--blue-1);
+}
+
+.learning-step-form_show_license_info--active:hover {
+  background-color: color(var(--blue-1) blackness(+ 20%));
+}
+
 .learning-step-form_show-title {
   cursor: pointer;
 }
