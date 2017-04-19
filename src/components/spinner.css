@@ -1,0 +1,24 @@
+.spinner {
+  position: relative;
+  border: 0.4em solid var(--gray-10);
+  border-bottom-color: var(--blue-1);
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 3em;
+  height: 3em;
+  animation: spinner-spin 0.7s linear infinite;
+}
+
+.spinner--margins {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+@keyframes spinner-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
