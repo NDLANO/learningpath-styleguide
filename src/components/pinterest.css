@@ -1,6 +1,7 @@
 .pinterest-search-form {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .pinterest-search-form input, .pinterest-search-form button {
