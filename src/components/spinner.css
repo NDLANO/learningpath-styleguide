@@ -1,5 +1,4 @@
 .spinner {
-  position: relative;
   border: 0.4em solid var(--gray-10);
   border-bottom-color: var(--blue-1);
   border-radius: 50%;
