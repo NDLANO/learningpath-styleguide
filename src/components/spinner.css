@@ -1,5 +1,4 @@
 .spinner {
-  position: relative;
   border: 0.4em solid var(--gray-10);
   border-bottom-color: var(--blue-1);
   border-radius: 50%;
@@ -7,6 +6,10 @@
   width: 3em;
   height: 3em;
   animation: spinner-spin 0.7s linear infinite;
+
+  position: fixed;
+  left: var(--sidebar-width);
+  right: 0;
 }
 
 .spinner--margins {
@@ -20,5 +23,11 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media(--medium-viewport) {
+  .spinner {
+    left: 0;
   }
 }
