@@ -73,9 +73,15 @@ label {
   color: var(--gray-2);
   width: 100%;
 }
+
 .textarea--resize-vertical {
   resize: vertical;
 }
+
+.textarea--resize-horizontal {
+  resize: horizontal;
+}
+
 .textarea:focus {
   outline: none;
   border-color: var(--blue-5);
