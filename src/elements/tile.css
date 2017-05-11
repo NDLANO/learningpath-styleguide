@@ -90,9 +90,6 @@ a.tile_bd:any-link {
     margin: 2%;
     margin-bottom: 1em;
   }
-  .tile:last-child {
-    margin-right: 5%;
-  }
 }
 
 @media (max-width: 650px) {
@@ -100,8 +97,5 @@ a.tile_bd:any-link {
     width: 98%;
     margin: 2%;
     margin-bottom: 1em;
-  }
-  .tile:last-child {
-    margin-right: 5%;
   }
 }
