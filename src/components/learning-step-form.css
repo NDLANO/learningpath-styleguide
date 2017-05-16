@@ -13,6 +13,12 @@
   max-width: 900px;
 }
 
+.learning-step-form_box {
+  padding: 0 2em 2em 0;
+  border: 2px solid var(--blue-1);
+  margin: 2em 0;
+}
+
 .learning-step-form_group {
   padding-top: 1em;
   margin-left: 10%;
@@ -20,6 +26,11 @@
 
 .learning-step-form_group-paragraph {
   padding-top: 0.3em;
+}
+
+.learning-step-form_group.license-learning-step-form_group {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .learning-step-form_left {
@@ -88,7 +99,7 @@
   float: right;
   border-radius: 50%;
   display: inline-block;
-  margin: 1em 0.5em 0 0;
+  margin: 0.7rem 0.5rem 0 0;
   background-color: var(--gray-11);
   padding: 0 6px 9px 6px;
   color: var(--gray-6);
