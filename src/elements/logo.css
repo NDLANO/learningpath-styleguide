@@ -14,6 +14,11 @@
   width: 48px;
 }
 
+.logo--beta {
+  height: 20px;
+  width: 80px;
+}
+
 .logo_link {
   display: inline-block;
   height: 100%;
@@ -29,6 +34,11 @@
   }
 }
 
+.logo_link-beta {
+  background: url('/assets/logo-beta.png') no-repeat;
+  background-size: contain;
+}
+
 .logo--on-dark {
   height: 23px;
   width: 60px;
@@ -38,5 +48,14 @@
   }
   & .logo_link:any-link {
     color: white;
+  }
+}
+
+.logo--on-dark--beta {
+  height: 30px;
+  width: 90px;
+
+  & .logo_link-beta {
+    background-image: url('/assets/ndla-logo-white-beta.png');
   }
 }
