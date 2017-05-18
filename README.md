@@ -51,9 +51,3 @@ $ npm publish
 # Build a new release:
 $ npm run build
 ```
-
-```
-# Docker stuff
-$ ./build.sh
-$ ./release.sh
-```
