@@ -14,7 +14,7 @@
 }
 
 .learning-step-form_box {
-  padding: 0 2em 2em 0;
+  padding: 0 2em 2em 1em;
   border: 2px solid var(--blue-1);
   margin: 2em 0;
 }
