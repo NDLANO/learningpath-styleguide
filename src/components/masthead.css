@@ -75,12 +75,12 @@ div:not(.frontpage-masthead) > .masthead_wrapper {
     bottom: 0;
     background-color: white;
     width: 0;
-    white-space: nowrap;
+    white-space: pre-wrap;
     &.sidebar--open {
       z-index: 21;
       border-left: 1px solid var(--gray-7);
       width: 50%;
-      white-space: nowrap;
+      white-space: pre-wrap;
       overflow-y: auto;
     }
 
