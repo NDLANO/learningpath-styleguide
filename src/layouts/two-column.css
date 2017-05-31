@@ -37,7 +37,7 @@
 
 .two-column_content--white-bg {
   background-color: white;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 .two-column_content--wide {

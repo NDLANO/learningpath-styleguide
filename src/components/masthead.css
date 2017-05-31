@@ -60,6 +60,10 @@ div:not(.frontpage-masthead) > .masthead_wrapper {
 }
 
 @media (--medium-viewport) {
+  div:not(.frontpage-masthead) > .masthead_wrapper {
+    margin-bottom: 0;
+  }
+
   .table-of-content + .two-column_col {
     margin-left: 0;
   }
