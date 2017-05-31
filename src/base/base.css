@@ -62,3 +62,7 @@ aside {
 .clear {
   clear: both;
 }
+
+.ie {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
