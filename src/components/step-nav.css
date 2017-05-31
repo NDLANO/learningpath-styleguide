@@ -57,10 +57,17 @@
   margin-top: -17px;
   max-height: 115px;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.step-nav_title_can_edit {
+  max-width: 90%;
 }
 
 .step-nav_title .icon {
-  float: right;
+  width: 16px;
+  height: 16px;
 }
 
 .step-nav_item:only-child .step-nav_line {
