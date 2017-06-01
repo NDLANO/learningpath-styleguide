@@ -9,12 +9,18 @@
 .one-column {
   flex: 1 0 auto;
 }
+
 .one-colum--white-bg {
   background-color: white;
   margin-bottom: -3em;
 }
+
 .one-column--narrow {
   padding-top: 2em;
   width: 300px;
   margin: 0 auto;
+}
+
+.one-column--text-centered {
+  text-align: center;
 }
