@@ -32,6 +32,7 @@
   --yellow-1: #efe574;
 
   --green-1: #6fce72;
+  @custom-media --xxlarge-viewport-max (max-width: 1400px);
   @custom-media --xlarge-viewport (min-width: 1200px);
   @custom-media --large-viewport (min-width: 800px);
   @custom-media --medium-viewport (max-width: 800px);

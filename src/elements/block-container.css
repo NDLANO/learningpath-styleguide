@@ -8,6 +8,7 @@
 
 .block-container_fixed {
   position: fixed;
+  margin-top: 2em;
 }
 
 .block-container_fixed--bottom--right {
@@ -19,7 +20,7 @@
   bottom: 90px;
 }
 
-@media(--medium-viewport) {
+@media(--xxlarge-viewport-max) {
   .block-container_fixed {
     position: relative;
     margin-bottom: 2em;
