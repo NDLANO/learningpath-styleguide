@@ -1,44 +1,44 @@
 {
   "name": "ndla-learningpath-styleguide",
-  "version": "0.1.56",
+  "version": "0.1.6",
   "description": "CSS for learningpath frontend",
   "files": [
     "assets"
   ],
   "scripts": {
     "build": "webpack -p && cp ./dist/style.css ./assets/",
-    "prepublish": "webpack -p && cp ./dist/style.css ./assets/",
+    "prepublishOnly": "webpack -p && cp ./dist/style.css ./assets/",
     "postpublish": "rm ./assets/style.css",
     "devbuild": "webpack --watch  --output-path ../learningpath-frontend/node_modules/ndla-learningpath-styleguide/assets/",
     "start": "node ./bin/www",
     "lint": "stylelint src/**/*.css"
   },
   "engines": {
-    "node": ">=6.2.2",
-    "npm": ">=3.9.5"
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
   },
   "devDependencies": {
-    "autoprefixer": "6.4.0",
-    "css-loader": "0.23.1",
-    "debug": "2.2.0",
-    "express": "4.14.0",
-    "extract-text-webpack-plugin": "1.0.1",
-    "jade": "1.11.0",
+    "autoprefixer": "^7.1.1",
+    "css-loader": "^0.28.4",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "extract-text-webpack-plugin": "^2.1.2",
     "jstransformer-example": "kwltrs/jstransformer-example.git#0.0.1",
-    "livereload": "0.5.0",
-    "morgan": "1.7.0",
+    "livereload": "^0.6.2",
+    "morgan": "^1.8.2",
     "pkginfo": "0.4.0",
-    "postcss": "5.1.2",
-    "postcss-cssnext": "2.7.0",
-    "postcss-easy-import": "1.0.1",
-    "postcss-loader": "0.10.1",
-    "postcss-reporter": "1.4.1",
-    "serve-favicon": "2.3.0",
-    "stylelint": "7.1.0",
-    "style-loader": "0.13.1",
-    "webpack": "1.13.2",
-    "webpack-dev-middleware": "1.6.1",
-    "webpack-sources": "0.1.2"
+    "postcss": "^6.0.2",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-easy-import": "^2.1.0",
+    "postcss-loader": "^2.0.5",
+    "postcss-reporter": "^4.0.0",
+    "pug": "^2.0.0-rc.2",
+    "serve-favicon": "^2.4.3",
+    "style-loader": "^0.18.2",
+    "stylelint": "^7.11.0",
+    "webpack": "^2.6.1",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-sources": "^1.0.1"
   },
   "repository": {
     "type": "git",
