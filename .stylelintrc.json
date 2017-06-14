@@ -2,7 +2,6 @@
   "rules": {
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always",
-    "block-no-single-line": true,
     "block-opening-brace-newline-after": "always",
     "block-opening-brace-space-before": "always",
     "declaration-block-no-duplicate-properties": true,
