@@ -13,8 +13,10 @@
   margin-left: 1%;
 }
 .pinterest-lightbox_button, .pinterest-lightbox_button:hover {
-  padding: 0.6em 0;
-  border-top: 0;
+  font-size: 18px;
+  border: none;
+  text-align: left;
+  padding: 0.6em 1.8em;
 }
 
 .pin-container {
@@ -47,6 +49,25 @@
   text-decoration: none;
 }
 
+.pinterest-lightbox_button > .pinterest-sign--circle {
+  border: 1px solid var(--blue-1);
+  padding: 3px 9px 3px;
+  color: var(--blue-1);
+  border-radius: 40px;
+  display: inline;
+  margin-right: 0.6em;
+  font-size: 0.9em;
+}
+
+.pinterest-lightbox_button:hover {
+  border-radius: 0;
+}
+
+
+.pinterest-lightbox_button:hover > .pinterest-sign--circle {
+  background-color: white;
+  color: var(--blue-1);
+}
 
 .pinterest_button + .pinterest_button {
   border-left: 0;

@@ -32,11 +32,14 @@
 }
 
 .button-group--square > *:first-child {
-  border-radius: 0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 .button-group--square > *:last-child {
   border-radius: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .button-group--block {

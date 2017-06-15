@@ -7,7 +7,8 @@
  */
 
 .border-box {
-  border: 1px solid var(--gray-8);
+  border: 1px solid var(--gray-10);
+  border-radius: 0;
   padding: 0.6em 1.5em;
   display: inline-block;
 }
@@ -25,5 +26,5 @@
 }
 
 .border-box:not(.border-box--block) + .border-box:not(.border-box--block) {
-  border-left: 0;
+  margin-top: 0.7em;
 }
