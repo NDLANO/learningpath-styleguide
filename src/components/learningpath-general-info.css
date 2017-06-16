@@ -47,8 +47,9 @@
 }
 
 .add-learningpath-step_button:hover > .plus-sign--circle {
-  background-color: white;
-  color: var(--blue-1);
+  background-color: var(--blue-1);
+  color: white;
+  border: 1px solid white;
 }
 
 .learningpath-general-info_b {

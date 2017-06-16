@@ -65,8 +65,9 @@
 
 
 .pinterest-lightbox_button:hover > .pinterest-sign--circle {
-  background-color: white;
-  color: var(--blue-1);
+  background-color: var(--blue-1);
+  color: white;
+  border: 1px solid white;
 }
 
 .pinterest_button + .pinterest_button {
