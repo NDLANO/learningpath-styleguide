@@ -7,21 +7,43 @@
  */
 
 .learning-step {
-  max-width: 900px;
   margin: 0 auto;
   min-height: 1em;
+
 }
 .learning-step--padding-bottom {
-  padding-bottom: 5em;
+  margin-top: -4em;
 }
+
 .learning-step--padding-top {
-  padding-top: 5em;
+  padding-top: 6em;
+}
+
+.learning-step--header {
+  height: 20em;
+  margin-bottom: -14em;
+  background-color: var(--blue-6);
+}
+
+.learning-step--footer {
+  padding: 3em 14% 6em;
+  border-top: 1px solid var(--gray-10);
+}
+
+.learning-step--footer-fixed {
+  position: fixed;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  background-color: white;
 }
 
 .learning-step_embed {
   background-color: white;
   padding: 2em;
-  border: 2px solid var(--gray-10);
+  border: 1px solid var(--gray-10);
   border-radius: 0;
   text-align: center;
 }
@@ -53,8 +75,22 @@
 
 .learning-step_stepper:any-link {
   color: var(--blue-1);
+  font-size: 1.125em;
+  font-weight: 600;
 }
 
 .learning-step_stepper--right {
   float: right;
+}
+
+@media(--large-viewport) {
+  .learning-step--footer-fixed {
+    position: fixed;
+    height: 0;
+    bottom: 0;
+    left: 330px;
+    right: 0;
+    margin-bottom: 0;
+    background-color: white;
+  }
 }

@@ -41,7 +41,7 @@
 }
 
 .two-column_content--wide {
-  padding: 0 10% 2em;
+  padding: 0 14% 9em;
 }
 
 .two-column_content {
@@ -50,7 +50,7 @@
 
 @media(--medium-viewport) {
   .two-column_content, .two-column_content--wide {
-    padding: 0 5% 2em;
+    padding: 0 5% 9em;
   }
   .two-column_col {
     max-width: 100%;
