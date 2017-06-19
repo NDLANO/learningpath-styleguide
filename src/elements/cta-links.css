@@ -7,7 +7,6 @@
  */
 
 .cta-link {
-  /*transition: background-color 0.3s ease;*/
   display: inline-block;
   padding: 1em;
   border: 1px solid var(--blue-1);
