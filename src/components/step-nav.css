@@ -26,31 +26,37 @@
 
 .step-nav_item {
   margin: 0;
-  background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
+  background: linear-gradient(to right, transparent 0, transparent 44px, gray(186) 0, gray(186) 51px, transparent 10px, transparent 100%);
 }
 
-.step-nav_item:first-child, .step-nav_item:not(.step-nav_item--bottom_border):last-child {
-  background: none;
-  &:hover {
-    background-color: white;
-  }
+.step-nav_item:first-child .step-nav_item--active {
+  margin: 0;
+  background: linear-gradient(to right, transparent 0, transparent 44px, gray(186) 0, gray(186) 51px, transparent 10px, transparent 100%);
 }
+
+.step-nav_item:not(.step-nav_item--bottom_border):last-child {
+  background: none;
+}
+
 .step-nav_item:not(.step-nav_item--bottom_border):last-child .step-nav_line {
-  border-left: 5px solid var(--gray-10);
-  margin-left: 13px;
-  padding-left: 20px;
+  border-left: 6px solid gray(186);
+  margin-left: 12px;
+  padding-left: 31px;
   margin-top: -25px;
   height: 20px;
 }
 
-.step-nav_item--bottom_border .step-nav_title {
-  border-left: 5px solid var(--gray-10);
-  margin-left: 13px;
-  padding-left: 20px;
-  margin-bottom: -30px;
-  padding-bottom: 30px;
+.step-nav_item--active:not(.step-nav_item--bottom_border):last-child .step-nav_line {
+  border-left: 6px solid var(--blue-1);
 }
 
+.step-nav_item--bottom_border .step-nav_title {
+  margin-left: 12px;
+  padding-left: 31px;
+  margin-bottom: -30px;
+  padding-bottom: 30px;
+  margin-top: -18px;
+}
 
 .step-nav_title {
   margin-left: 40px;
@@ -75,7 +81,7 @@
 }
 
 .step-nav_item:first-child .step-nav_link::before {
-  border-left: 5px solid var(--gray-5);
+  border-left: 6px solid var(--gray-5);
   padding-left: 0;
   margin-left: 3em;
 }
@@ -95,9 +101,7 @@
 }
 
 .step-nav_item--active:first-child  .step-nav_link:any-link {
-  background: none;
-  color: white;
-  background-color: var(--blue-1);
+  color: var(--blue-1);
 }
 
 .step-nav_item--active:last-child  .step-nav_link:any-link {
@@ -120,33 +124,43 @@
 
 .step-nav_item--active .step-nav_link:hover {
   color: var(--blue-1);
-  background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
+  background: linear-gradient(to right, transparent 0, transparent 45px, var(--blue-1) 0, var(--blue-1) 50px, transparent 10px, transparent 100%);
   background-color: white;
 }
 
 .step-nav_item--active .step-nav_link:any-link {
-  color: white;
-  font-weight: 600;
-  background: linear-gradient(to right, transparent 0, transparent 45px, var(--gray-10) 0, var(--gray-10) 50px, transparent 10px, transparent 100%);
-  background-color: var(--blue-1);
+  color: var(--blue-1);
+  font-weight: 500;
+  background: linear-gradient(to right, transparent 0, transparent 45px, var(--blue-1) 0, var(--blue-1) 50px, transparent 10px, transparent 100%);
+  background-color: white;
+  border-top: 1px solid var(--gray-7);
+  border-bottom: 1px solid var(--gray-7);
 }
+
 .step-nav_item--active:not(.step-nav_item--bottom_border):last-child .step-nav_link:any-link {
   background: none;
-  background-color: var(--blue-1);
+  color: var(--blue-1);
+  background-color: white;
 }
 
 
 .step-nav_circle {
   margin-right: 0.7em;
-  background-color: var(--gray-11);
-  padding: 4px 7px 7px;
+  background-color: white;
+  border: 1px solid var(--gray-7);
+  padding: 4px 8px 7px 8px;
+  margin-left: -1px;
   color: var(--gray-6);
   border-radius: 40px;
   display: inline;
 }
 
 .step-nav_item--active .step-nav_circle {
-  padding: 4px 8px 8px;
+  padding: 4px 8px 7px 8px;
+  margin-left: -1px;
+  color: var(--blue-1);
+  background-color: white;
+  border: 1px solid;
 }
 @media (--medium-viewport) {
   .step-nav_item--active:after {

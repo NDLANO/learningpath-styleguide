@@ -77,7 +77,7 @@
 
 .learning-path-input:focus {
   outline-style: none;
-  color: black;
+  color: var(--gray-1);
 }
 
 .learning-path-input__title {
@@ -221,20 +221,28 @@
     margin-right: 1%;
   }
 }
-.sort-steps_button {
-  margin: 1em 0;
-  text-align: center;
+.sort-steps_button, .sort-steps_button_save {
+  margin-top: 1em;
+  text-align: left;
   text-decoration: none;
   padding: 0.6em 0.8em;
-  background-color: var(--gray-10);
-  color: black;
+  background-color: var(--blue-1);
+  border-top: 1px solid var(--blue-1);
+  color: white;
   display: block;
 }
-.sort-steps_button:hover {
-  background-color: var(--gray-7);
+.sort-steps_button:any-link, .sort-steps_button_save:any-link {
+  color: white;
 }
-.sort-steps_button > .icon {
+.sort-steps_button:any-link:hover, .sort-steps_button_save:any-link:hover {
+  background-color: white;
+  color: var(--blue-1);
+  border-top: 1px solid var(--gray-9);
+}
+.sort-steps_button > .icon, .sort-steps_button_save > .icon {
   font-size: 1.2em;
+  margin-right: 0.7em;
+  margin-left: 1.4em;
 }
 .add-learningpath-step_line {
   border-left: 6px solid  var(--gray-11);

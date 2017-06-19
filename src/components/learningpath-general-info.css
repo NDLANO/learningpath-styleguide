@@ -7,7 +7,7 @@
  */
 
 .learningpath-general-info {
-  padding: 1em 1em 0.3em 1em;
+  padding: 1.3em 1.2em 0.3em 1.3em;
   background-color: white;
 }
 
@@ -21,24 +21,35 @@
   text-align: center;
   padding: 0.6em 0;
 }
+.add-learningpath-step_button:any-link {
+  font-size: 18px;
+  border: none;
+  text-align: left;
+  padding: 0.6em 1.8em;
+}
 
 .learningpath-general-info .learningpath-contributors {
   margin-top: 0.2em;
 }
 
 .add-learningpath-step_button > .plus-sign--circle {
-  background-color: var(--gray-11);
-  padding: 3px 9px 3px;
+  border: 1px solid var(--blue-1);
+  padding: 0 9px 3px;
   color: var(--blue-1);
   border-radius: 40px;
   display: inline;
-  margin-right: 0.3em;
+  margin-right: 0.6em;
   font-size: 1em;
 }
 
+.add-learningpath-step_button:hover {
+  border-radius: 0;
+}
+
 .add-learningpath-step_button:hover > .plus-sign--circle {
-  background-color: white;
-  color: var(--blue-1);
+  background-color: var(--blue-1);
+  color: white;
+  border: 1px solid white;
 }
 
 .learningpath-general-info_b {
@@ -61,19 +72,24 @@
 
 .learningpath-general-actions a:any-link, .learningpath-general-actions button.copy-learningpath_button {
   width: 100%;
-  padding: 1.9em 0;
-  border-radius: 0;
+  padding: 2.4em 0.5em 0.5em 1.2em;
+  border-radius: 3px;
+  text-align: left;
+  font-size: 16px;
 }
 
 .learningpath-general-actions button, .learningpath-general-actions a.learningpath-action-type_button a:any-link, .learningpath-general-actions a.learningpath-action-type_button {
   width: 100%;
-  padding: 0.6em 0;
-  border-radius: 0;
+  padding: 0.6em 0.5em 0.5em 1.2em;
+  border-radius: 3px;
+  text-align: left;
+  font-size: 16px;
+
 }
 
 .learningpath-general-actions a.learningpath-action-type_button {
-  margin-top: 1px;
-  border-top: 0;
+  margin-top: 0.6em;
+
 }
 
 .learningpath-general-info .border-box_wrapper {
@@ -90,7 +106,8 @@
 .learningpath-general-info .border-box {
   padding: 0.6em 0;
   width: 100%;
-  border-width: 2px;
+  border-width: 1px;
+  border-radius: 0;
 }
 .c-license-icons__list {
   list-style: none;
@@ -139,7 +156,8 @@
 
 .learningpath-general-info_is-basedon-button {
   color: var(--blue-1);
-  text-decoration: underline;
+  text-decoration: none;
+  margin-top: 0.3em;
 }
 
 .learningpath-general-info_is-basedon-button:hover, .learningpath-general-info_is-basedon-button:focus {

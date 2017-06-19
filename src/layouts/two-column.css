@@ -23,7 +23,7 @@
 
 .two-column_col:nth-child(1) {
   flex: 0 1 var(--sidebar-width);
-  border-right: 1px solid var(--gray-8);
+  border-right: 1px solid var(--gray-7);
 }
 
 .two-column_col:nth-child(2) {

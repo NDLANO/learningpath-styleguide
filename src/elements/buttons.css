@@ -8,7 +8,6 @@
 
 button, .button, .button:any-link {
   display: inline-block;
-  transition: background-color 0.3s ease;
   padding: 1.1em;
   border: none;
   font-size: 1em;
@@ -29,7 +28,7 @@ button, .button, .button:any-link {
 
 .button--outline, .button--outline:any-link {
   background-color: white;
-  border: 3px solid var(--gray-3);
+  border: 1px solid var(--gray-3);
   color: var(--gray-3);
 }
 
@@ -40,20 +39,23 @@ button, .button, .button:any-link {
 
 .button--primary-outline {
   background-color: white;
-  border: 2px solid var(--blue-1);
+  border: 1px solid var(--blue-1);
+  border-radius: 3px;
   color: var(--blue-1);
 }
 
 .button--primary-outline:hover {
   color: white;
   background-color: var(--blue-1);
-  border: 2px solid var(--blue-1);
+  border: 1px solid var(--blue-1);
+  border-radius: 3px;
 }
 
 .button--primary-white-hover {
   color: white;
   background-color: var(--blue-1);
-  border: 2px solid var(--blue-1);
+  border: 1px solid var(--blue-1);
+  border-radius: 3px;
 }
 
 .button--primary-white-hover:hover {
