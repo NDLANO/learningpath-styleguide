@@ -26,12 +26,12 @@
 
 .step-nav_item {
   margin: 0;
-  background: linear-gradient(to right, transparent 0, transparent 44px, var(--gray-6-5) 0, var(--gray-6-5) 51px, transparent 10px, transparent 100%);
+  background: linear-gradient(to right, transparent 0, transparent 44px, gray(186) 0, gray(186) 51px, transparent 10px, transparent 100%);
 }
 
 .step-nav_item:first-child .step-nav_item--active {
   margin: 0;
-  background: linear-gradient(to right, transparent 0, transparent 44px, var(--gray-6-5) 0, var(--gray-6-5) 51px, transparent 10px, transparent 100%);
+  background: linear-gradient(to right, transparent 0, transparent 44px, gray(186) 0, gray(186) 51px, transparent 10px, transparent 100%);
 }
 
 .step-nav_item:not(.step-nav_item--bottom_border):last-child {
@@ -39,7 +39,7 @@
 }
 
 .step-nav_item:not(.step-nav_item--bottom_border):last-child .step-nav_line {
-  border-left: 6px solid var(--gray-6-5);
+  border-left: 6px solid gray(186);
   margin-left: 12px;
   padding-left: 31px;
   margin-top: -25px;
