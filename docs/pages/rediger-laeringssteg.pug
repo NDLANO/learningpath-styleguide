@@ -6,11 +6,11 @@ block append title
 block content
   .two-column
     aside.two-column_col.table-of-content.sidebar--collapsed
-      include ../molecules/learningpath-general-info.jade
+      include ../molecules/learningpath-general-info.pug
 
-      include ../molecules/step-nav--new-step.jade
+      include ../molecules/step-nav--new-step.pug
 
-      include ../molecules/step-nav_buttons.jade
+      include ../molecules/step-nav_buttons.pug
 
     main.two-column_col.two-column_col--white-bg
       .two-column_content--wide
@@ -68,4 +68,4 @@ block content
                   button.button.button--primary
                     svg.icon.icon--save.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-save")
                     |  Lagre
-      include ../molecules/stepper-nav.jade
+      include ../molecules/stepper-nav.pug

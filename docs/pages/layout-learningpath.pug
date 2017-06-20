@@ -12,8 +12,9 @@ html(lang='no_NB')
 
   body
    block body
-     include ../molecules/masthead.jade
-     .app-container
-       .page-container
-         block content
-           h2 This page probably unintentionally left blank
+
+      include ../molecules/masthead-both-sidebars.pug
+
+      .content
+       block content
+         h2 This page probably unintentionally left blank

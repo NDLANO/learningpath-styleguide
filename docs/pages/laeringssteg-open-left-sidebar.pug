@@ -1,18 +1,18 @@
-extends layout-learningpath-open-right
+extends layout-learningpath-open-left
 
 block append title
   | - Læringssteg
 
 block content
   .two-column
-    aside.two-column_col.table-of-content.sidebar--collapsed
-      include ../molecules/learningpath-general-info.jade
+    aside.two-column_col.table-of-content.sidebar--open
+      include ../molecules/learningpath-general-info.pug
       - var STEP_NAV_ACTIVE_INDEX = 3;
-      include ../molecules/step-nav.jade
+      include ../molecules/step-nav.pug
 
     main.two-column_col
-      .two-column_content
+      .two-column_content--wide
         .learning-step
           iframe.learning-step_embeded(src='http://www.knowit.no/Kundecaser/Oslo-kommune1/Oslo-kommune/')
         
-      include ../molecules/stepper-nav.jade
+      include ../molecules/stepper-nav.pug

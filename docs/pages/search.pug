@@ -1,0 +1,15 @@
+extends layout
+
+block append title
+  | - Finn læringssti
+
+block content
+  .wrapper
+    .one-column  
+      .page-header
+        include ../molecules/search-form.pug
+      .search-results
+        include ../molecules/search-result.pug
+        include ../molecules/search-stepper.pug
+
+    include ../molecules/footer.pug

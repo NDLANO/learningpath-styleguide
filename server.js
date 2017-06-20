@@ -8,7 +8,7 @@ var app = express();
 if (app.get('env') === 'development') {
   var livereload = require('livereload');
   app.locals.LRScript = "<script>document.write('<script src=\"http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js\"></' + 'script>')</script>"; // eslint-disable-line
-  var lrServer = livereload.createServer({ exts: ['css', 'jade'] });
+  var lrServer = livereload.createServer({ exts: ['css', 'pug'] });
   lrServer.watch(['docs', 'src'].map(function (d) { return path.join(__dirname, d); }));
 } else {
   app.locals.LRScript = '';
@@ -22,7 +22,7 @@ app.locals.iconIds = require('./assets/selection.json').iconSets[0].selection
 Object.assign(app.locals, require('./docs/localData'));
 
 app.set('views', path.join(__dirname, 'docs'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 var router = express.Router();
 router.get('/', function (req, res) { res.render('index'); });

@@ -17,9 +17,9 @@ block content
           | 4 timer
         a.cta-link.cta-link--round.edit_learningpath--button(href="/pages/rediger-laeringssti") Endre detaljer
         
-      include ../molecules/step-nav_no_active.jade
+      include ../molecules/step-nav_no_active.pug
 
-      include ../molecules/step-nav_buttons.jade
+      include ../molecules/step-nav_buttons.pug
 
     main.two-column_col
       div.two-column_content
@@ -28,12 +28,15 @@ block content
             h1 Læringstidetaljer
             label.label--medium-bold.label--medium Tittel på læringssti
             .learning-path-input.learning-path-input__title
-              input(type='text' value="Learning path title")
+              input(type='text' value="").input--alert
+              span.error_message.error_message--red Tittel mangler.
+
 
           .learning-path_bd
             label.label--medium-bold.label--medium Beskrivelse
             .learning-path-input.learning-path-input__paragraph
-              textarea.textarea.textarea--resize-vertical(rows= "4" cols="50" placeholder="Skriv en kort beskrivelse av læringsstien.")
+              textarea.textarea.textarea--resize-vertical.input--alert(rows= "4" cols="50" placeholder="Skriv en kort beskrivelse av læringsstien.")
+              span.error_message.error_message--red Beskrivelse mangler.
               p.learning-path_input-information Maks 150 tegn og du har 150 igen. Beskrivelsen blir synlig i søk.
             .block-container_fixed.block-container_fixed--bottom--right
               .button-group
@@ -45,28 +48,20 @@ block content
                   |  Lagre
             .learning-path-image
               label.label--medium-bold.label--medium Illustrerende bilde
-              div
-                .image-preview_image
-                  img(src="http://api.test.ndla.no/images/full/64078945_0.jpg")
-                  p.learning-path_input-information Bildet blir synlig i søk på læringssti.
-                .image-preview_information
-                  h2.image-preview_title Ungdommer holder en globus
-                  .image-prieview_copyright-author
-                    b Opphav
-                    span NTB scanpix
-                  button.button.button--primary Bytt bilde
+              .learning-path-image-drop
+                img(src="https://d30y9cdsu7xlg0.cloudfront.net/png/49665-200.png")
+                h2 Klikk for å velge
+              p.learning-path_input-information Bildet blir synlig i søk på læringssti.
             .learning-path-duration
-              label.label--medium-bold.label--medium Varighet
-              div
-                ul.duration-menu
-                  li.duration-menu-item 1
-                  li.duration-menu-item 2
-                  li.duration-menu-item 3
-                  li.duration-menu-item.duration-menu-item__selected 4
-                  li.duration-menu-item 5
-                input.input-duration(value="4")
-                span time(r)
-            .learning-path-tags
-              label.label--medium-bold.label--medium Tagger
-              include ../molecules/multiselect--closed.jade
-      include ../molecules/stepper-nav.jade
+            label.label--medium-bold.label--medium Varighet
+            div
+              ul.duration-menu
+                li.duration-menu-item 1
+                li.duration-menu-item 2
+                li.duration-menu-item 3
+                li.duration-menu-item 4
+                li.duration-menu-item 5
+              input.input-duration(value="-2")
+              span time(r)
+            span.error_message.error_message--red Varighet må være større en null.
+      include ../molecules/stepper-nav.pug

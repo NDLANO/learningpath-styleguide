@@ -1,15 +1,15 @@
 .masthead
   .masthead--mobile
-    .masthead-button--left
+    .masthead-button--left.active
       svg.icon.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-more_vert")
       span Læringssti
     h1.logo: a.logo_link(href='/pages') Nasjonal digital læringsarena
-    .masthead-button--right.active
+    .masthead-button--right
       svg.icon.icon--menu.icon--with-label: use(xlink:href="/assets/symbol-defs.svg#icon-menu")
       span Meny
-  .masthead--desktop.sidebar--open
+  .masthead--desktop.sidebar--collapsed
     .masthead_left--desktop
       h1.logo: a.logo_link(href='/pages') Nasjonal digital læringsarena
     .masthead_right--desktop
-      include ./site-nav.jade
+      include ./site-nav.pug
 .masthead--margin-bottom

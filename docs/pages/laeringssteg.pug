@@ -6,12 +6,12 @@ block append title
 block content
   .two-column
     aside.two-column_col.table-of-content.sidebar--collapsed
-      include ../molecules/learningpath-general-info.jade
+      include ../molecules/learningpath-general-info.pug
       - var STEP_NAV_ACTIVE_INDEX = 3;
-      include ../molecules/step-nav.jade
+      include ../molecules/step-nav.pug
 
     main.two-column_col.two-column_col--white-bg
       .two-column_content--wide
         iframe.learning-step_embeded(src='http://www.knowit.no/Kundecaser/Oslo-kommune1/Oslo-kommune/')
         
-      include ../molecules/stepper-nav.jade
+      include ../molecules/stepper-nav.pug
