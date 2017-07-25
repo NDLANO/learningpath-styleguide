@@ -78,6 +78,7 @@ div:not(.frontpage-masthead) > .masthead_wrapper {
     transition: width .2s;
     position: fixed;
     top: 64px;
+    height: 100%;
     bottom: 0;
     background-color: white;
     width: 0;
