@@ -26,13 +26,20 @@
 }
 
 .learning-step--footer {
-  padding: 3em 14% 6em;
+  padding: 1em 14% 1em;
   border-top: 1px solid var(--gray-10);
+}
+
+.learning-step--footer a {
+  max-width: 50%;
+  display: inline-block;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .learning-step--footer-fixed {
   position: fixed;
-  height: 0;
+  height: inherit;
   bottom: 0;
   left: 0;
   right: 0;
@@ -86,11 +93,15 @@
 @media(--large-viewport) {
   .learning-step--footer-fixed {
     position: fixed;
-    height: 0;
     bottom: 0;
     left: 330px;
     right: 0;
     margin-bottom: 0;
     background-color: white;
+  }
+}
+@media(--medium-viewport) {
+  .learning-step--footer {
+    padding: 1em 1% 2em;
   }
 }
