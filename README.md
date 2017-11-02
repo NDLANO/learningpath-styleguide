@@ -1,6 +1,9 @@
 # Learningpath Styleguide
-
 CSS for NDLA Learningpath
+
+## This repository is deprecated
+If you are looking for learningpath style, see [here](https://github.com/NDLANO/learningpath-frontend/tree/master/style).
+
 
 ## Installation
 
