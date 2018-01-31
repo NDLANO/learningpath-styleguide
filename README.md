@@ -1,3 +1,5 @@
+**_DEPRECATED_**
+
 # Learningpath Styleguide
 CSS for NDLA Learningpath
 
